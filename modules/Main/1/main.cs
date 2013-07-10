@@ -7,11 +7,12 @@ function Main::create( %this )
    exec("./global.cs"); // Global Values
    exec("./console.cs");   // Console
    exec("./behaviours/loadList.cs");   // Load Behaviours
-   exec("./sprites/characters/loadList.cs");   // Load Characters
+   exec("./sprites/loadList.cs");   // Load Sprites
 
    //exec("./scenewindow.cs");
    exec("./activity.cs");
    exec("./scene.cs");
+   exec("./inventory.cs");
    
    //  Load GUI Profiles
    exec("./gui/guiProfiles.cs");   //  Need this to create GUI controls
@@ -39,7 +40,7 @@ function Main::create( %this )
 
    //  Debug
    //  Enable visualization for "collision", "position", and "aabb"
-   GameScene.setDebugOn("collision", "position", "aabb");
+   //GameScene.setDebugOn("collision", "position", "aabb");
    
    // Initialize the "cannot render" proxy.
    new RenderProxy(CannotRenderProxy)

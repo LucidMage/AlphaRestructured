@@ -35,7 +35,7 @@ function PlayerControlsBehaviour::onBehaviorRemove(%this)
    if (!isObject(GlobalActionMap))
       return;
 
-   %this.owner.disableUpdateCallback();
+   //%this.owner.disableUpdateCallback();
 
    GlobalActionMap.unbindObj(getWord(%this.upKey, 0), getWord(%this.upKey, 1), %this);
    GlobalActionMap.unbindObj(getWord(%this.downKey, 0), getWord(%this.downKey, 1), %this);
