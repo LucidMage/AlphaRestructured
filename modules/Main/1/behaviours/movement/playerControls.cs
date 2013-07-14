@@ -73,7 +73,7 @@ function PlayerControlsBehaviour::updateMovement(%this)
    //for (%i = 0; %i < %count; %i++)
       //%this.owner.selectSpriteId(%i).animation = %this.owner.imageName @ %this.owner.direction;
    //%this.owner.setSpriteAnimation(%this.owner.getSpriteImage() @ %this.owner.state @ %this.owner.direction);
-   %this.owner.setSpriteAnimation(%this.owner.imageName @ "_" @ %this.owner.state @ %this.owner.direction);
+   %this.owner.setSpriteAnimation(%this.owner.imageName @ %this.owner.state @ %this.owner.direction);
    
    // Flip image if moving right
    if (%this.right > 0)

@@ -2,7 +2,7 @@
 	ModuleId="Year8"
 	VersionId="1"
 	Description="Activities for Year 8"
-    Type="activity"
+    Type="YearGroup"
 	ScriptFile="main.cs"
 	CreateFunction="create"
 	DestroyFunction="destroy">

@@ -6,12 +6,11 @@ function Main::create( %this )
    // Load Main Scripts
    exec("./global.cs"); // Global Values
    exec("./console.cs");   // Console
+   exec("./activity/loadList.cs");  // Load Activity Scripts
    exec("./behaviours/loadList.cs");   // Load Behaviours
    exec("./sprites/loadList.cs");   // Load Sprites
 
    //exec("./scenewindow.cs");
-   exec("./activity.cs");
-   exec("./scene.cs");
    exec("./inventory.cs");
    
    //  Load GUI Profiles
@@ -26,21 +25,13 @@ function Main::create( %this )
     // Load and configure the toolbox.
     //Main.add( TamlRead("./gui/ToolboxDialog.gui.taml") );
     
-    ScanForActivities();
+    ScanForYearGroups();
     //LoadActivity("Year8");
-	
-   //CreateScene();
-   
-   //createNPC("-4 -2");
-   //createPlayer("0 -2");
-   
-   //createSceneWindow(Player);
-   // Start sticking camera to player
-   //centreOnSprite(Player);
 
    //  Debug
    //  Enable visualization for "collision", "position", and "aabb"
-   //GameScene.setDebugOn("collision", "position", "aabb");
+   %scene = GameWindow.getScene();
+   %scene.setDebugOn("collision", "position", "aabb");
    
    // Initialize the "cannot render" proxy.
    new RenderProxy(CannotRenderProxy)

@@ -1,5 +1,5 @@
 <AnimationAsset
-    AssetName="TD_Knight_MoveNorth"
+    AssetName="TD_Knight_WalkNorth"
     Image="@asset=Assets:TD_Knight_CompSprite"
     animationFrames="32 33 34 35 40 41 42 43 48 49 50 51 56 57 58 59"
     animationTime="1"

@@ -6,15 +6,14 @@
 <Breakpoints/>
 <Bookmarks/>
 <OpenFiles>
-<File ScrollX="0" ScrollY="27">modules\Main\1\main.cs</File>
-<File ScrollX="0" ScrollY="22">modules\Main\1\scene.cs</File>
-<File ScrollX="0" ScrollY="0">modules\Main\1\activity.cs</File>
+<File ScrollX="0" ScrollY="0">modules\Year8\1\lesson1\scenes\testtown.cs</File>
+<File ScrollX="0" ScrollY="0">modules\Year8\1\lesson1\main.cs</File>
+<File ScrollX="0" ScrollY="22">modules\Main\1\activity\scene.cs</File>
 <File ScrollX="0" ScrollY="0">modules\Year8\1\main.cs</File>
-<File ScrollX="0" ScrollY="22">modules\Year8\1\lesson1\main.cs</File>
-<File ScrollX="0" ScrollY="0">modules\Main\1\sprites\items\loadList.cs</File>
-<File ScrollX="0" ScrollY="0">modules\Main\1\sprites\items\item.cs</File>
-<File ScrollX="0" ScrollY="0">modules\Main\1\sprites\characters\character.cs</File>
-<File ScrollX="0" ScrollY="36">modules\Main\1\sprites\characters\player.cs</File>
-<File ScrollX="0" ScrollY="0" Active="true">modules\Main\1\inventory.cs</File>
+<File ScrollX="0" ScrollY="0" Active="true">modules\Main\1\global.cs</File>
+<File ScrollX="0" ScrollY="18">modules\Main\1\main.cs</File>
+<File ScrollX="0" ScrollY="70">modules\Main\1\activity\activity.cs</File>
+<File ScrollX="0" ScrollY="0">modules\Main\1\sprites\characters\player.cs</File>
+<File ScrollX="0" ScrollY="0">modules\Main\1\inventory.cs</File>
 </OpenFiles>
 </TorsionProjectOptions>
