@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="town" tilewidth="32" tileheight="32">
+  <image source="../../../../Assets/images/tiles/town.png" trans="ff00ff" width="628" height="370"/>
+  <tile id="20">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+  <tile id="23">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+  <tile id="25">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+  <tile id="26">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+  <tile id="39">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+  <tile id="40">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+  <tile id="42">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+  <tile id="44">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+  <tile id="45">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+  <tile id="96">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+  <tile id="98">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+  <tile id="101">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+  <tile id="103">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+  <tile id="105">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+  <tile id="107">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+  <tile id="115">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+  <tile id="117">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+  <tile id="129">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+  <tile id="139">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+  <tile id="141">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+  <tile id="143">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+  <tile id="145">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+  <tile id="167">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="210" name="Woodland_x3" tilewidth="32" tileheight="32">
+  <image source="../../../../Assets/images/tiles/Woodland_x3.png" trans="ff00ff" width="512" height="192"/>
+  <tile id="16">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+  <tile id="23">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+  <tile id="24">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+  <tile id="25">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+  <tile id="26">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+  <tile id="27">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+  <tile id="28">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+  <tile id="29">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+  <tile id="32">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+  <tile id="33">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+  <tile id="34">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+  <tile id="35">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+  <tile id="36">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+  <tile id="37">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+  <tile id="38">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+  <tile id="39">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+  <tile id="40">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+  <tile id="41">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+  <tile id="42">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+  <tile id="43">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+  <tile id="44">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+  <tile id="45">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+  <tile id="46">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+  <tile id="47">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+  <tile id="80">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+  <tile id="81">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+  <tile id="82">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+  <tile id="83">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+  <tile id="84">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+  <tile id="85">
+   <properties>
+    <property name="Tag" value="TileCollision"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Ground" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJw7x8DAcG4Uj+JRPIpH8SgmEQMAoRBB8A==
+  </data>
+ </layer>
+ <layer name="Road" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFQw3MAuLZVDRrLRDPpYKZs6DmIGNKzEQ3C4TXDXLzDlJg3gYoPgA1C8anFMDcRi0wat7wNo+UdAcA5j4gwQ==
+  </data>
+ </layer>
+ <layer name="WallsBack" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJy7wcDAcJNK+BYQvwDil1TCr4D4BxD/pBL+xTAKRsEoGAWjgFoAAHLpNp0=
+  </data>
+ </layer>
+ <layer name="TreesBack" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzlkzkOAjEMRTMwXACGC0C4/11Ye9aeteWVXxkrIuN0POkVcTbZskOozxo3st7jAdsmhEnTPz8iNpb4Fneyf8STrK94w447c+O9KbGZxM94kf07PmT9xg9G7qyM9xbElhJ/4qt/zEVr/Ouhy9RzCDFTTy/eetbIT8nll/b2L+TyS3vbS9rbQ7BmtBTtZ2tGS9F+tma0lFh53v6VL/lsIc0=
+  </data>
+ </layer>
+ <layer name="Fence" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFQwFkAXEOEPcgifVBxSaQYd4mPHJbRs0b8uZlMOBOL2lkmDcKRgE2AACpmA4R
+  </data>
+ </layer>
+ <layer name="TreesFront" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzlkzkOAjEMRTOsLTstOy0cljPAeWCAlp2WnZZXWiNnEmlGCAkrX3Js/x/LkY35P1uBdQL+HCzE/QTOCfR2YC/uL/BW6iaesRu4O96cgplHTLMN2HrU+doFXFPUMwEnSFNQt7j/yIv3S/hlRz9x/5GDWxf8Fn7bodcg37TU1Ij3RW6EP3boDcgPLTW9L8xaWgiWSjxDH1nRSwG/qPQW3f8DOCp6FbhVwbfNNLr/D/BU9Dpwu4Jvm6lt/3/RPpzJI3g=
+  </data>
+ </layer>
+ <layer name="WallsFront" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAuuE9ls0bNGzVv1LxR84aKebeB+CYefBdJ/T0Cau8A8WsgfokHv0Uy7x0BtW+A+DcQ/8SD/yKZ94+A2j9ADADihk0x
+  </data>
+ </layer>
+ <objectgroup name="collision" width="20" height="20">
+  <object x="192" y="192" height="192"/>
+  <object x="448" y="192" height="192"/>
+  <object x="0" y="32" width="32" height="576"/>
+  <object x="608" y="32" width="32" height="576"/>
+  <object x="0" y="0" width="640" height="32"/>
+  <object x="0" y="608" width="640" height="32"/>
+ </objectgroup>
+</map>
