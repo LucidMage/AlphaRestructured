@@ -1,5 +1,8 @@
-// Treat this as like a class constructor for the lesson
 function testtown::onAdd(%this)
+{
+}
+
+function testtown::setup(%this)
 {
    %this.setName("testtown");
 
@@ -26,17 +29,18 @@ function testtown::setupCharacters(%this, %layer)
    //  Barbarian
    %barbarian = new CompositeSprite(Barbarian)
    {
-      name = "Barbarian";
+      displayName = "Barbarian";
       class = "Character";
       imageName = "Assets:TD_Barbarian_";  // temporary
       Position = "-2 -2";
       SceneLayer = %layer;
    };
+   //Character.setup(%barbarian);
    
    //  Dwarf
    %dwarf = new CompositeSprite(Dwarf)
    {
-      name = "Dwarf";
+      displayName = "Dwarf";
       class = "Character";
       imageName = "Assets:TD_Dwarf";  // temporary
       Position = "-4 -2";
@@ -46,7 +50,7 @@ function testtown::setupCharacters(%this, %layer)
    //  Knight
    %knight = new CompositeSprite(Knight)
    {
-      name = "Knight";
+      displayName = "Knight";
       class = "Character";
       imageName = "Assets:TD_Knight_";  // temporary
       Position = "0 -4";
@@ -65,7 +69,7 @@ function testtown::setupItems(%this, %layer)
    //  Red Gem
    %gemRed = new Sprite(RedGem)
    {
-      name = "Red Gem";
+      displayName = "Red Gem";
       class = "Item";
       Position = "2 -2";
       SceneLayer = %layer;
@@ -75,7 +79,7 @@ function testtown::setupItems(%this, %layer)
    // Blue Gem
    %gemBlue = new Sprite(BlueGem)
    {
-      name = "Blue Gem";
+      displayName = "Blue Gem";
       class = "Item";
       Position = "2 -1";
       SceneLayer = %layer;
@@ -85,7 +89,7 @@ function testtown::setupItems(%this, %layer)
    // Green Gem
    %gemGreen = new Sprite(GreenGem)
    {
-      name = "Green Gem";
+      displayName = "Green Gem";
       class = "Item";
       Position = "2 -3";
       SceneLayer = %layer;
@@ -100,8 +104,9 @@ function testtown::setupItems(%this, %layer)
 
 function testtown::setupTransitions(%this)
 {
-   %toGarden = new SceneObject(Transition)
+   new SceneObject(ToGarden)
    {
+      class = "Transition";
       height = 1;
       width = 4;
       
@@ -110,5 +115,5 @@ function testtown::setupTransitions(%this)
    };
 
    //  Add to Scene
-   %this.add(%toGarden);
+   %this.add(ToGarden);
 }

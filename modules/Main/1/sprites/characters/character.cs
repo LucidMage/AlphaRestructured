@@ -8,9 +8,15 @@ function Character::onAdd(%this)
    
    %this.setBodyType(dynamic);
    
+   // This effects how characters collide
+   %this.setDefaultDensity(1000000);   // Made ridiculously high so characters will not budge
+   %this.setDefaultRestitution(0);
+   %this.setDefaultFriction(0);
+   
    // Collision Circle, if size not set = size of image
    // (radius, [relative xPos, relative yPos])
-   %this.createCircleCollisionShape(0.25, 0, -0.25);
+   //%this.createCircleCollisionShape(0.25, 0, -0.25);
+   %this.createPolygonBoxCollisionShape(0.5, 0.5, 0, -0.25);
    
    %this.setCollisionCallback(true);   // So onCollision will be called
    %this.setFixedAngle(true); // Stop from rotating on collision
@@ -23,9 +29,13 @@ function Character::onAdd(%this)
    %image = %this.imageName;
    %this.setSpriteAnimation(%image @ %this.state @ %this.direction);
 }
-
+/*
 function Character::onCollision(%this, %sceneobject, %collisiondetails)
 {
-   %this.setLinearVelocity("0 0");
-   %this.setAngularVelocity("0");
-}
+   // Stop character, as a dynamic body type, from floating away
+   echo(%this.getLinearVelocity());
+   echo(%sceneobject.getClassName());
+   
+   //%this.setLinearVelocity("0 0");
+   //%this.setAngularVelocity("0");
+}*/

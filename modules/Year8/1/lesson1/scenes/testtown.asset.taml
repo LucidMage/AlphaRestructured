@@ -24,19 +24,6 @@
 				</SceneObject.CollisionShapes>
 			</SceneObject>
 		</Tile>
-	
-		<Tile Tag="SpritePlayer" >
-			<CompositeSprite
-				SceneLayer="10">
-				<CompositeSprite.Sprites>
-					<Sprite
-					Name="Player"
-					Class="Player"
-					Animation="Assets:TD_Wizard_WalkSouth"
-					Position="0 0" />
-				</CompositeSprite.Sprites>
-			</CompositeSprite>
-		</Tile>
 	</TmxMapAsset.Tiles>
 	
 	

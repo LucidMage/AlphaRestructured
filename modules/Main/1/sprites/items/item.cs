@@ -5,7 +5,8 @@ function Item::onAdd(%this)
    
    %this.setBodyType(static);
    
-   %this.createCircleCollisionShape(0.25);
+   //%this.createCircleCollisionShape(0.25);
+   %this.createPolygonBoxCollisionShape(0.5, 0.5);
    
    %this.setCollisionCallback(true);
    //%this.setFixedAngle(true);

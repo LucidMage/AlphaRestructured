@@ -6,6 +6,7 @@ function CreateScene(%sceneName)
       
    //  Create Scene
    new Scene(%sceneName);
+   %sceneName.setup();  // Run setup
    
    // Sanity!
    if ( !isObject(GameWindow) )
@@ -25,6 +26,21 @@ function DestroyScene(%scene)
 
     //  Delete Scene
     %scene.delete();
+}
+
+// Load scene from file
+function LoadScene(%scene)
+{
+   // File Path: Data/ProfileName.Lesson#.SceneName.taml
+   %path = $DataSavePath @ Player.displayName @ "." @ Main.ActiveActivity @ "." @ %scene.getName() @ $DataSaveExtension;
+   echo(%path);
+   //%savedScene = TamlRead(%path);
+   
+   // Check saved scene isn't null
+   if (%savedScene $= "")
+      CreateScene(%scene);
+   else
+      SetScene(%savedScene);
 }
 
 // Save scene to file, persistent scene
@@ -57,11 +73,9 @@ function SetScene(%scene)
         return;
     }
    
-    // Destroy the existing scene.  
-    DestroyScene();
-
-    // Needs the scene to be named this.
-    //%scene.setName( "GameScene" );
+    // Destroy the existing scene.
+    %toDelete = GameWindow.getScene();
+    DestroyScene(%toDelete);
     
     // Set the scene to the window.
     SetSceneToWindow(%scene);

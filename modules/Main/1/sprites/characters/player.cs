@@ -3,7 +3,7 @@ function createPlayer(%scene, %position, %layer)
    //  Create Player
    %player = new CompositeSprite(Player)
    {
-      name = "TestPlayer";
+      displayName = "Test Player";
       class = "Character";
       imageName = "Assets:TD_Wizard_";  // temporary
       
@@ -13,6 +13,9 @@ function createPlayer(%scene, %position, %layer)
       //Animation = "Assets:TD_Wizard_WalkSouth";
       //Image = "Assets:TD_Wizard_CompSprite";
    };
+   
+   // Must be different than other characters to stop the player from pushing other characters
+   %player.setDefaultDensity(0);
 
    // Set Behaviours
    %controls = PlayerControlsBehaviour.createInstance();
