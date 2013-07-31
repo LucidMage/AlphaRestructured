@@ -191,10 +191,10 @@ if (!isObject(GuiTextProfile)) new GuiControlProfile (GuiTextProfile)
     fontType = $platformFontType;
     fontSize = $platformFontSize;
 
-    fontColor = "white";
+    fontColor = "yellow";
 
     modal = true;
-    justify = "left";
+    justify = "center";
     autoSizeWidth = false;
     autoSizeHeight = false;
     returnTab = false;
@@ -314,8 +314,9 @@ if(!isObject(ConsoleScrollProfile)) new GuiControlProfile( ConsoleScrollProfile 
 
 if(!isObject(GuiToolboxProfile)) new GuiControlProfile( GuiToolboxProfile : GuiScrollProfile )
 {
+   //Red, Green, Blue, Alpha(Opaque)
     opaque = true;
-    fillColor = "255 255 255 220";
+    fillColor = "255 255 255 240";
     border = 3;
     borderThickness = 0;
     borderColor = "0 0 0";

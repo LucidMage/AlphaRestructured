@@ -14,7 +14,7 @@ function Main::create( %this )
    exec("./inventory.cs");
    
    //  Load GUI Profiles
-   exec("./gui/guiProfiles.cs");   //  Need this to create GUI controls
+   exec("./gui/loadList.cs");   //  Load GUI Scripts
 
    CreateSceneWindow();
 	

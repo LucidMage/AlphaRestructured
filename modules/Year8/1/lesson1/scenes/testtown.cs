@@ -19,6 +19,26 @@ function testtown::setup(%this)
    %this.setupCharacters(%layer);
    %this.setupItems(%layer);
    %this.setupTransitions();
+   
+   //	Create GUI stuff here for now
+   $label = createCustomLabel("Now it has changed");
+   
+	GlobalActionMap.bind( keyboard, "space",  createDialogueBox);   // Press '`' to open console
+}
+
+function createDialogueBox()
+{
+   
+    // Is the console awake?
+    if ( DialogueBox.isAwake() )
+    {
+        Canvas.popDialog(DialogueBox);    
+        Canvas.popDialog($label);   
+        return;
+    }
+    
+    Canvas.pushDialog(DialogueBox);
+    Canvas.pushDialog($label);
 }
 
 function testtown::setupCharacters(%this, %layer)
