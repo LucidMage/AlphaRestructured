@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="Ground" tilewidth="64" tileheight="64">
+  <image source="../../../../Assets/images/tiles/ground.png" width="1216" height="448"/>
+ </tileset>
+ <tileset firstgid="134" name="House" tilewidth="64" tileheight="64">
+  <image source="../../../../Assets/images/tiles/house.png" width="384" height="385"/>
+ </tileset>
+ <layer name="Sea" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1LENADEIA0AmpPkJUv3+G6T6BhG9icAoUgrXJ2GLISLj5iaYp8nVJlubbCXbn/GSbW2yrcGyPYNhK2hXuyub4Xo2y7U202XtmWkjLrvf012vJ/sfKtzVRhA746Y7dlaXUTtzQxE7e7uone2idoWL2FXunz0B465GpA==
+  </data>
+ </layer>
+ <layer name="Ground" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1TEKACAIRuH/Fo4dy4sEXb/2QAuy6Qlv/hAHTZIRXearEVTldsWD++au7bOb7YmLi4uLW++69n+e/YMX7uluuLi4Ne4ETG5HcQ==
+  </data>
+ </layer>
+ <layer name="Dirt" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztzcENQEAARNFtAC1QCFpAC+hhCWo3EpKJM7OX+ck7/xCcc8592QY7OUTfDHKooIRC9OW/4llDQ1rB86qDnkTR//19DAm+C8w/f0dYxU9+TzfV0znnUncCo24O/Q==
+  </data>
+ </layer>
+ <layer name="Road" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAd1ANxAxA3kqGXEjBq76i9o/YSB6KA2A0Hboba24Qm7k4Fe0F+8gXiSBwYXQ7Ep4b/YWGZD8Q5BHABA/XCnZQ4pGZ8j9o7au9ItTePAZKPc+lsLzXBqL3UB7A6D7kew2YvNnWUAJgdyPUptjoWJkatMMBV1+ISo5a9sPxHLKZGPh0F9AEAjl1MyQ==
+  </data>
+ </layer>
+ <layer name="RoadOver" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztlesJwzAMhD1CskJbz9CO0McIbbJE94cqPwRH8ONkufRHfXAQnFgfKOIUwu90Eh8NjpV7MXCaxXfxgfBDPBXu4XuG2/Jt6l5rrcHluDpjq4Nbmm+su91b4Fxn7NLIrc231j1nzlmluGyvPCpxmUxhc8LCrfXckhNWbqmu558M7uD+MxezxLIHvNx9llhzGevoXokkt0d+z/A8Zbi9eovSfbZl7RLSOxb3q6e3qOeOn9uxevbqwEQuq17cq/ht8K0Td+j7+gAweCU9
+  </data>
+ </layer>
+ <layer name="GroundOver" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJwLZ2BgKCcByzOgAjkS9YNwBBCXMNAflI7aSxcgN0D2MozaO2rvqL2j9tLYXqsBshcdUOKOoRDOMGA9QPZSA4zaO2rvqL3UsZea5S4p9g4EyALiMjIxDwX2AgC9iiGe
+  </data>
+ </layer>
+ <layer name="House" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4B+oBOI+7Hgbhrb2wbE7VhwBxHuo8RtS4B4KRa8jAh16GpGwSgYBaNgFAwvQO06B91cXGZhqxPR60NyAKwuw1V/jdZ1wwPgasvRuj2Hqy1HrfSLC+Bqyw2n9AsAEcgu+g==
+  </data>
+ </layer>
+ <layer name="HouseOver" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1TsKADAIREHvfwL1tCGQSpQE8inCm2YtFixXBPifj7SQnnRP0/BTi54lXQAAbrDi3tE3VWW+ras9AG80ZroKxA==
+  </data>
+ </layer>
+</map>
