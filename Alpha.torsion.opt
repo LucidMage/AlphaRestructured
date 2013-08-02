@@ -6,13 +6,9 @@
 <Breakpoints/>
 <Bookmarks/>
 <OpenFiles>
-<File ScrollX="0" ScrollY="0">modules\Main\1\gui\inGameMenu.cs</File>
-<File ScrollX="0" ScrollY="11" Active="true">modules\Year8\1\lesson1\scenes\testtown.cs</File>
-<File ScrollX="237" ScrollY="0">modules\Main\1\main.cs</File>
+<File ScrollX="0" ScrollY="5" Active="true">modules\Year8\1\lesson1\scenes\testtown.cs</File>
+<File ScrollX="4" ScrollY="0">modules\Main\1\main.cs</File>
 <File ScrollX="0" ScrollY="0">modules\Main\1\gui\loadList.cs</File>
-<File ScrollX="0" ScrollY="42">modules\Main\1\gui\guiControls.cs</File>
-<File ScrollX="0" ScrollY="0">modules\Main\1\activity\scene.cs</File>
-<File ScrollX="0" ScrollY="296">modules\Main\1\gui\guiprofiles.cs</File>
-<File ScrollX="0" ScrollY="26">modules\Main\1\console.cs</File>
+<File ScrollX="0" ScrollY="0">modules\Main\1\gui\guiControls.cs</File>
 </OpenFiles>
 </TorsionProjectOptions>

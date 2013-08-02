@@ -21,24 +21,24 @@ function testtown::setup(%this)
    %this.setupTransitions();
    
    //	Create GUI stuff here for now
-   $label = createCustomLabel("Now it has changed");
+   %label = createCustomLabel("ADD CHARACTER DIALOG");
+   DialogueBox.addGuiControl(%label);
    
-	GlobalActionMap.bind( keyboard, "space",  createDialogueBox);   // Press '`' to open console
+	GlobalActionMap.bind( keyboard, "space",  createDialogueBox);   // Press 'spacebar' to open dialogBox
 }
 
 function createDialogueBox()
 {
-   
     // Is the console awake?
     if ( DialogueBox.isAwake() )
     {
         Canvas.popDialog(DialogueBox);    
-        Canvas.popDialog($label);   
+        //Canvas.popDialog($label);   
         return;
     }
     
     Canvas.pushDialog(DialogueBox);
-    Canvas.pushDialog($label);
+    //Canvas.pushDialog($label);
 }
 
 function testtown::setupCharacters(%this, %layer)

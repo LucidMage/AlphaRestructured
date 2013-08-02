@@ -185,18 +185,19 @@ if (!isObject(GuiPopUpMenuProfile)) new GuiControlProfile (GuiPopUpMenuProfile :
 
 if (!isObject(GuiTextProfile)) new GuiControlProfile (GuiTextProfile)
 {
-    border=false;
+    border=true;
+    borderColor = "red";
+    borderThickness = 50;
 
     // font
-    fontType = $platformFontType;
-    fontSize = $platformFontSize;
-
-    fontColor = "yellow";
+    fontType = "Arial";
+    fontSize = 20;
+    fontColor = "Yellow";
 
     modal = true;
-    justify = "center";
-    autoSizeWidth = false;
-    autoSizeHeight = false;
+    justify = "left";
+    autoSizeWidth = true;
+    autoSizeHeight = true;
     returnTab = false;
     numbersOnly = false;
     cursorColor = "0 0 0 255";
