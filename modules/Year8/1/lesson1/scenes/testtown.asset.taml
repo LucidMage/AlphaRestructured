@@ -9,6 +9,8 @@
 		<Layer Name = "Over" Layer = "13" Render="true" useObjects="true"></Layer>
 		<Layer Name = "Hip roof" Layer = "12" Render="true" useObjects="true"></Layer>
 		<Layer Name = "Collision" Layer = "15" Render = "false" useObjects="true"></Layer>
+		<Layer Name = "Trigger" Layer = "15" Render = "false" useObjects="true"></Layer>
+		<Layer Name = "Sprite" Layer = "14" Render = "false" useObjects="true"></Layer>
 	</TmxMapAsset.Layers>
 		
 	<TmxMapAsset.Tiles>
@@ -24,7 +26,16 @@
 				</SceneObject.CollisionShapes>
 			</SceneObject>
 		</Tile>
+		<!-- Sprite Positions -->
+		<Tile Tag="PlayerPosition" ><SceneObject TamlId="1" BodyType="Static"/></Tile>
+		
+		<Tile Tag="BarbarianPosition" ><SceneObject TamlId="1" BodyType="Static"/></Tile>
+		<Tile Tag="DwarfPosition" ><SceneObject TamlId="1" BodyType="Static"/></Tile>
+		<Tile Tag="KnightPosition" ><SceneObject TamlId="1" BodyType="Static"/></Tile>
+		
+		<Tile Tag="RedGemPosition" ><SceneObject TamlId="1" BodyType="Static"/></Tile>
+		<Tile Tag="GreenGemPosition" ><SceneObject TamlId="1" BodyType="Static"/></Tile>
+		<Tile Tag="BlueGemPosition" ><SceneObject TamlId="1" BodyType="Static"/></Tile>
 	</TmxMapAsset.Tiles>
-	
 	
 </TmxMapAsset>

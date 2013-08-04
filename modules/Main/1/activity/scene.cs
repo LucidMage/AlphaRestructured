@@ -47,7 +47,7 @@ function LoadScene(%scene)
 function SaveScene(%scene)
 {
    // File Path: Data/ProfileName.Lesson#.SceneName.taml
-   %path = $DataSavePath @ Player.name @ "." @ Main.ActiveActivity @ "." @ %scene.getName() @ $DataSaveExtension;
+   %path = $DataSavePath @ Player.displayName @ "." @ Main.ActiveActivity @ "." @ %scene.getName() @ $DataSaveExtension;
    TamlWrite(%scene, %path, $DataSaveFormat);
 }
 
@@ -66,6 +66,8 @@ function SetSceneToWindow(%scene)
 
 function SetScene(%scene)
 {
+	echo("Setting Scene");
+
     // Sanity!
     if (!isObject(%scene))
     {

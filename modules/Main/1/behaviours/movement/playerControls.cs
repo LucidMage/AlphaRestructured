@@ -50,11 +50,17 @@ function PlayerControlsBehaviour::onBehaviorRemove(%this)
 
 function PlayerControlsBehaviour::updateMovement(%this)
 {
-   // Set animation group
-   /*if (%this.up > 0 || %this.down > 0 || %this.left > 0 || %this.right > 0)
-      %this.owner.state = $SpriteStateWalk;
-   else
-      %this.owner.state = $SpriteStateIdle;*/
+	// Set animation group
+	if (%this.up > 0 || %this.down > 0 || %this.left > 0 || %this.right > 0)
+	{
+		//%this.owner.state = $SpriteStateWalk;
+		%this.owner.setLinearDamping(0);	//	So character will continue moving without slowing down
+	}
+	else
+	{
+		//%this.owner.state = $SpriteStateIdle;
+		%this.owner.setLinearDamping(%this.owner.damping);	//	Slows down
+	}
    %this.owner.state = $SpriteStateWalk;
    
    // Set direction
@@ -81,9 +87,12 @@ function PlayerControlsBehaviour::updateMovement(%this)
    // Must check all other directions else flipping will reset
    else if (%this.up > 0 || %this.down > 0 || %this.left > 0)
       %this.owner.setSpriteFlipX(false);
-   
-   %this.owner.setLinearVelocityX((%this.right - %this.left) * %this.owner.speed);
-   %this.owner.setLinearVelocityY((%this.up - %this.down) * %this.owner.speed);
+	
+	if (%this.up > 0 || %this.down > 0 || %this.left > 0 || %this.right > 0)
+	{
+		%this.owner.setLinearVelocityX((%this.right - %this.left) * %this.owner.speed);
+		%this.owner.setLinearVelocityY((%this.up - %this.down) * %this.owner.speed);
+	}
 }
 
 function PlayerControlsBehaviour::moveUp(%this, %val)

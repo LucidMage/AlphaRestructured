@@ -264,9 +264,62 @@
    </properties>
   </tile>
  </tileset>
+ <tileset firstgid="348" name="SpritePosition" tilewidth="32" tileheight="32">
+  <image source="../../../../Assets/images/tiles/Blocks.png" trans="ff00ff" width="512" height="512"/>
+  <tile id="0">
+   <properties>
+    <property name="Tag" value="PlayerPosition"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="Tag" value="DwarfPosition"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="Tag" value="BarbarianPosition"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="Tag" value="RedGemPosition"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="Tag" value="GreenGemPosition"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="Tag" value="KnightPosition"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="Tag" value="BlueGemPosition"/>
+   </properties>
+  </tile>
+  <tile id="32">
+   <properties>
+    <property name="Tag" value="ToGardenNorthPosition"/>
+   </properties>
+  </tile>
+  <tile id="33">
+   <properties>
+    <property name="Tag" value="ToGardenSouthPosition"/>
+   </properties>
+  </tile>
+ </tileset>
  <layer name="Floor" width="40" height="40">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAC+3VYQ7CIAwFYK5qdgXjbTwCR2FnUhNIXl7aDQwFsvXHCxGRfessSyGE/Zu0wKhltst97lthHOV7Q+7u2xv29/q5b5TvKOg7W4v/7zv5ap+vZpHOBUvfUf14zQgf5gFhn/Q7bc7KxzVYwYd7R5qTfBuMKY8bzFvWL9L3K9SPfVp/YE35mtjfPX2RDPxZOl+kXub69vSVaC4+X7h+ODfaV+PmWPmK5R8T3k/v/jgbpetKZ2UU1vXytTw3rvlMn1S/Wb7y3q3xlffFKN9v32cO9ojme+XMfr4x1PWltU8bW2Jx/rnPfVfx1cR91/V9AG2DHMUAGQAA
+  </data>
+ </layer>
+ <layer name="Sprite" width="40" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3U0Q2AIAxAQdzTgC5AGAB2128jfxpNejdBQ8tLCQD+oy9fTwDwju3s235pXNO8sOrN7rN7mFq9DfCAoiUQ1vD/wzoA7fNrywAZAAA=
   </data>
  </layer>
  <layer name="Fringe" width="40" height="40">
@@ -284,6 +337,13 @@
    H4sIAAAAAAAAC+3VOwrCUBRF0TgBKwekg3QMOhlHoI0f8ItfFEwhbgtBkRfBKOcazoJdpAjvdDfLzMysjIt6wBv1mnqBRdCngXpEwpBGNKbJD99pfPDPlGY0pwUtafXNUSWtaUNb2tGeDtJFz450evg+Uy7aYmbV49v26n6vblL3KsptS92rCLet6F5FuW1NagneNbP/0FYPKNChrnpEMD31gIq7Ah5xH08AGQAA
   </data>
  </layer>
+ <objectgroup name="trigger" width="40" height="40">
+  <object name="ToGardenNorthWarn" x="672" y="352" width="96" height="96"/>
+  <object name="RandomCircle" x="352" y="672" width="96" height="96">
+   <ellipse/>
+  </object>
+  <object name="ToGardenSouthWarn" x="1024" y="800" width="64" height="352"/>
+ </objectgroup>
  <objectgroup name="collision" width="40" height="40">
   <object name="Rectangle1" x="412" y="1145" width="162" height="42"/>
   <object name="Circle1" x="735" y="1149" width="128" height="39">

@@ -1,3 +1,4 @@
+// Should run after profile login
 function Year8::create( %this )
 {
    exec("./lesson1/main.cs");
@@ -12,8 +13,12 @@ function Year8::destroy( %this )
 {
 }
 
+// Load Lesson
 function Year8::reset( %this )
 {
+   // Inventory
+   new ScriptObject(Inventory);
+   
    new ScriptObject(Main.ActiveActivity);
    
    SaveScene(GameWindow.getScene());

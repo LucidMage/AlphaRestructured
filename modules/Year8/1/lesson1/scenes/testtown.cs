@@ -18,21 +18,33 @@ function testtown::setup(%this)
    
    %this.setupCharacters(%layer);
    %this.setupItems(%layer);
-   %this.setupTransitions();
+   
+	%pushable = new Sprite()
+	{
+		class = Pushable;
+		Image = "Assets:Tiles";
+		Position = "-1 -2";
+		SceneLayer = %layer;
+	};
+	%this.add(%pushable);
+   
+   %this.setupTriggers();
 }
 
 function testtown::setupCharacters(%this, %layer)
 {
    //  Create Player
-   createPlayer(%this, "0 -2", %layer);
+   %position = PlayerPosition.Position;
+   SetupPlayer(%this, %position, %layer);
    
    //  Barbarian
+   //%this.add(BarbarianPosition);
    %barbarian = new CompositeSprite(Barbarian)
    {
       displayName = "Barbarian";
       class = "Character";
       imageName = "Assets:TD_Barbarian_";  // temporary
-      Position = "-2 -2";
+      Position = BarbarianPosition.Position;
       SceneLayer = %layer;
    };
    //Character.setup(%barbarian);
@@ -43,7 +55,7 @@ function testtown::setupCharacters(%this, %layer)
       displayName = "Dwarf";
       class = "Character";
       imageName = "Assets:TD_Dwarf";  // temporary
-      Position = "-4 -2";
+      Position = DwarfPosition.Position;
       SceneLayer = %layer;
    };
    
@@ -53,7 +65,7 @@ function testtown::setupCharacters(%this, %layer)
       displayName = "Knight";
       class = "Character";
       imageName = "Assets:TD_Knight_";  // temporary
-      Position = "0 -4";
+      Position = KnightPosition.Position;
       SceneLayer = %layer;
    };
 
@@ -71,7 +83,7 @@ function testtown::setupItems(%this, %layer)
    {
       displayName = "Red Gem";
       class = "Item";
-      Position = "2 -2";
+      Position = RedGemPosition.Position;
       SceneLayer = %layer;
    };
    %gemRed.setImage("Assets:Gems", 32);
@@ -81,7 +93,7 @@ function testtown::setupItems(%this, %layer)
    {
       displayName = "Blue Gem";
       class = "Item";
-      Position = "2 -1";
+      Position = BlueGemPosition.Position;
       SceneLayer = %layer;
    };
    %gemBlue.setImage("Assets:Gems", 37);
@@ -91,7 +103,7 @@ function testtown::setupItems(%this, %layer)
    {
       displayName = "Green Gem";
       class = "Item";
-      Position = "2 -3";
+      Position = GreenGemPosition.Position;
       SceneLayer = %layer;
    };
    %gemGreen.setImage("Assets:Gems", 35);
@@ -102,18 +114,36 @@ function testtown::setupItems(%this, %layer)
    %this.add(%gemGreen);
 }
 
-function testtown::setupTransitions(%this)
+function testtown::setupTriggers(%this)
 {
-   new SceneObject(ToGarden)
+   %toGardenNorth = new Trigger()
    {
       class = "Transition";
       height = 1;
       width = 4;
       
       Position = "2.5 9";
+      //Position = ToGardenNorthPosition.Position;
       toScene = "garden";
    };
 
    //  Add to Scene
-   %this.add(ToGarden);
+   %this.add(%toGardenNorth);
 }
+/*
+//	Triggers
+function ToGardenNorthWarn::onAddToScene(%this)
+{
+	echo("ToGardenNorthWarn");
+	%this.setClass("TriggerBox");
+}
+function ToGardenSouthWarn::onAddToScene(%this)
+{
+	echo("ToGardenSouthWarn");
+	%this.setClass("TriggerBox");
+}
+function RandomCircle::onAddToScene(%this)
+{
+	echo("RandomCircle");
+	%this.setClass("TriggerCircle");
+}*/

@@ -5,8 +5,8 @@ function Lesson1::onAdd( %this )
    exec("./scenes/testtown.cs");
    exec("./scenes/garden.cs");
    
-   CreateScene(testtown);
-   CreateScene(garden);
+   //CreateScene(testtown);
+   //CreateScene(garden);
    
    %startScene = testtown;
    

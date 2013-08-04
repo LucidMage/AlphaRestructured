@@ -103,7 +103,7 @@ function garden::setupItems(%this, %layer)
 
 function garden::setupTransitions(%this)
 {
-   %toTestTown = new SceneObject()
+   %toTestTown = new Trigger()
    {
       class = "Transition";
       height = 1;

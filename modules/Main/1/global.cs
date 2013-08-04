@@ -1,7 +1,5 @@
 // Activity
 $ModuleTypeActivity = "YearGroup";
-//$ActivityName = "Lesson1";
-//$ActivityScene = "";
 
 // Data
 $DataSavePath = "Data/";

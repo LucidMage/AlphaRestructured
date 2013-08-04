@@ -11,6 +11,7 @@ function Main::create( %this )
    exec("./sprites/loadList.cs");   // Load Sprites
 
    //exec("./scenewindow.cs");
+   exec("./profile.cs");
    exec("./inventory.cs");
    
    //  Load GUI Profiles
@@ -24,9 +25,12 @@ function Main::create( %this )
     
     // Load and configure the toolbox.
     //Main.add( TamlRead("./gui/ToolboxDialog.gui.taml") );
-    
+	
+	CreateProfile();
     ScanForYearGroups();
-    //LoadActivity("Year8");
+	/*%year = YearGroups.findObjectByInternalName("Year8");
+	echo(%year);
+	LoadYearGroup(%year);*/
 
    //  Debug
    //  Enable visualization for "collision", "position", and "aabb"

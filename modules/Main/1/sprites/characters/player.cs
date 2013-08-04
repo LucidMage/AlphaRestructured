@@ -1,6 +1,6 @@
-function createPlayer(%scene, %position, %layer)
+function SetupPlayer(%scene, %position, %layer)
 {
-   //  Create Player
+   /*
    %player = new CompositeSprite(Player)
    {
       displayName = "Test Player";
@@ -16,13 +16,17 @@ function createPlayer(%scene, %position, %layer)
    
    // Must be different than other characters to stop the player from pushing other characters
    %player.setDefaultDensity(0);
+   */
+   %player = Profile.character;
+   %player.setPosition(%position);
+   %player.setSceneLayer(%layer);
 
    // Set Behaviours
    %controls = PlayerControlsBehaviour.createInstance();
    %player.addBehavior(%controls);
    
    // Inventory
-   %inventory = new ScriptObject(Inventory);
+   //%inventory = new ScriptObject(Inventory);
 
    // Add to Scene
    %scene.add(%player);
