@@ -1,6 +1,6 @@
 <ImageAsset
-    AssetName="Ground"
-    ImageFile="ground.png"
+    AssetName="Cliff"
+    ImageFile="cliff.png"
     CellCountX="19"
     CellCountY="8"
     CellWidth="64"
