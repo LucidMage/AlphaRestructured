@@ -185,18 +185,19 @@ if (!isObject(GuiPopUpMenuProfile)) new GuiControlProfile (GuiPopUpMenuProfile :
 
 if (!isObject(GuiTextProfile)) new GuiControlProfile (GuiTextProfile)
 {
-    border=false;
+    border=true;
+    borderColor = "red";
+    borderThickness = 50;
 
     // font
-    fontType = $platformFontType;
-    fontSize = $platformFontSize;
-
-    fontColor = "white";
+    fontType = "Arial";
+    fontSize = 20;
+    fontColor = "Yellow";
 
     modal = true;
     justify = "left";
-    autoSizeWidth = false;
-    autoSizeHeight = false;
+    autoSizeWidth = true;
+    autoSizeHeight = true;
     returnTab = false;
     numbersOnly = false;
     cursorColor = "0 0 0 255";
@@ -314,8 +315,9 @@ if(!isObject(ConsoleScrollProfile)) new GuiControlProfile( ConsoleScrollProfile 
 
 if(!isObject(GuiToolboxProfile)) new GuiControlProfile( GuiToolboxProfile : GuiScrollProfile )
 {
+   //Red, Green, Blue, Alpha(Opaque)
     opaque = true;
-    fillColor = "255 255 255 220";
+    fillColor = "255 255 255 240";
     border = 3;
     borderThickness = 0;
     borderColor = "0 0 0";

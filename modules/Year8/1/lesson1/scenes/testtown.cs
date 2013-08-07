@@ -18,6 +18,7 @@ function testtown::setup(%this)
    
    %this.setupCharacters(%layer);
    %this.setupItems(%layer);
+<<<<<<< HEAD
    
 	%pushable = new Sprite()
 	{
@@ -29,6 +30,29 @@ function testtown::setup(%this)
 	%this.add(%pushable);
    
    %this.setupTriggers();
+=======
+   %this.setupTransitions();
+   
+   //	Create GUI stuff here for now
+   %label = createCustomLabel("ADD CHARACTER DIALOG");
+   DialogueBox.addGuiControl(%label);
+   
+	GlobalActionMap.bind( keyboard, "space",  createDialogueBox);   // Press 'spacebar' to open dialogBox
+}
+
+function createDialogueBox()
+{
+    // Is the console awake?
+    if ( DialogueBox.isAwake() )
+    {
+        Canvas.popDialog(DialogueBox);    
+        //Canvas.popDialog($label);   
+        return;
+    }
+    
+    Canvas.pushDialog(DialogueBox);
+    //Canvas.pushDialog($label);
+>>>>>>> 0e9b0c99aa185f5c05b5cdb800bb00ab2e772c51
 }
 
 function testtown::setupCharacters(%this, %layer)
