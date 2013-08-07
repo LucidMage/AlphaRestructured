@@ -6,9 +6,11 @@
 <Breakpoints/>
 <Bookmarks/>
 <OpenFiles>
-<File ScrollX="0" ScrollY="5" Active="true">modules\Year8\1\lesson1\scenes\testtown.cs</File>
+<File ScrollX="0" ScrollY="3">modules\Year8\1\lesson1\scenes\testtown.cs</File>
 <File ScrollX="4" ScrollY="0">modules\Main\1\main.cs</File>
 <File ScrollX="0" ScrollY="0">modules\Main\1\gui\loadList.cs</File>
-<File ScrollX="0" ScrollY="0">modules\Main\1\gui\guiControls.cs</File>
+<File ScrollX="0" ScrollY="36">modules\Main\1\gui\guiControls.cs</File>
+<File ScrollX="0" ScrollY="177">modules\Main\1\gui\guiprofiles.cs</File>
+<File ScrollX="0" ScrollY="0" Active="true">modules\Main\1\sprites\characters\player.cs</File>
 </OpenFiles>
 </TorsionProjectOptions>

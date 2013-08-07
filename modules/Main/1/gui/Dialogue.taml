@@ -1,6 +1,6 @@
 <GuiControl
     Name="MainOverlay"
-    Profile="GuiDefaultProfile"
+    Profile="GuiPopUpMenuDefault"
     HorizSizing="relative"
     VertSizing="relative"
     Position="0 0"

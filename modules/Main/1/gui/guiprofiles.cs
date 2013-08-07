@@ -185,8 +185,8 @@ if (!isObject(GuiPopUpMenuProfile)) new GuiControlProfile (GuiPopUpMenuProfile :
 
 if (!isObject(GuiTextProfile)) new GuiControlProfile (GuiTextProfile)
 {
-    border=true;
-    borderColor = "red";
+    border= 1;
+    borderColor = "Red";
     borderThickness = 50;
 
     // font
@@ -195,7 +195,7 @@ if (!isObject(GuiTextProfile)) new GuiControlProfile (GuiTextProfile)
     fontColor = "Yellow";
 
     modal = true;
-    justify = "left";
+    justify = "Left";
     autoSizeWidth = true;
     autoSizeHeight = true;
     returnTab = false;

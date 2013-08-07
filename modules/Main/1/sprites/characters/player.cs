@@ -27,13 +27,13 @@ function createPlayer(%scene, %position, %layer)
    // Add to Scene
    %scene.add(%player);
 }
-/*
+
 function Player::onCollision(%this, %sceneobject, %collisiondetails)
 {
    //%this.setBodyType(static);
    %this.setLinearVelocity("0 0");
    %this.setAngularVelocity("0");
-}*/
+}
 /*
 function Player::PickUpItem(%this, %item)
 {

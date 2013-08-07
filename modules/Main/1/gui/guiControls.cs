@@ -21,7 +21,7 @@
 //-----------------------------------------------------------------------------
 
 Main.customLabelHeight = "15";
-Main.customLabelWidth = "220";
+Main.customLabelWidth = "2";
 Main.customLabelSpacing = "18";
 Main.customOptionSpacing = "15";
 Main.customContainerExtent = "250 3";
@@ -51,7 +51,7 @@ function resetCustomControls()
 
 function createCustomLabel(%text)
 {
-    %labelWidth = Main.customLabelWidth + (%characterCount * 5);
+    %labelWidth = Main.customLabelWidth + (%characterCount);
     %labelExtent = %labelWidth SPC Main.customLabelHeight;
 
     %labelControl = new GuiMLTextCtrl()
@@ -70,7 +70,7 @@ function createCustomLabel(%text)
         Active = "0";
         tooltipprofile = "GuiToolTipProfile";
         tooltipWidth = "0";
-        maxLength = "255";
+        maxLength = "50";
         truncate = "0";
     };
 
