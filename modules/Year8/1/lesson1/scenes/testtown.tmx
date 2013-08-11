@@ -319,7 +319,7 @@
  </layer>
  <layer name="Sprite" width="40" height="40">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAC+3U0Q2AIAxAQdzTgC5AGAB2128jfxpNejdBQ8tLCQD+oy9fTwDwju3s235pXNO8sOrN7rN7mFq9DfCAoiUQ1vD/wzoA7fNrywAZAAA=
+   H4sIAAAAAAAAC+3UsQ2AMAwEQHtPFMICUfavUiM5HTRwV75c2S9HAAAAb+sZceU9m1nP8n2juH3Th63DboAHnH4JwO8sr3WFpwAZAAA=
   </data>
  </layer>
  <layer name="Fringe" width="40" height="40">
@@ -343,6 +343,8 @@
    <ellipse/>
   </object>
   <object name="ToGardenSouthWarn" x="1024" y="800" width="64" height="352"/>
+  <object name="ToGardenNorth" x="640" y="288" width="160" height="64"/>
+  <object name="ToGardenSouth" x="992" y="1152" width="128" height="64"/>
  </objectgroup>
  <objectgroup name="collision" width="40" height="40">
   <object name="Rectangle1" x="412" y="1145" width="162" height="42"/>

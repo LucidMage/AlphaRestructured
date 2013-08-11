@@ -1,49 +1,2082 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="64" tileheight="64">
  <tileset firstgid="1" name="Ground" tilewidth="64" tileheight="64">
-  <image source="../../../../Assets/images/tiles/ground.png" width="1216" height="448"/>
+  <image source="../../../../Assets/images/tiles/ground.png" width="1280" height="512"/>
+  <tile id="10">
+   <properties>
+    <property name="Tag" value="CollisionOuterCornerNorthWest"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="Tag" value="CollisionOuterCornerNorthEast"/>
+   </properties>
+  </tile>
+  <tile id="30">
+   <properties>
+    <property name="Tag" value="CollisionOuterCornerSouthWest"/>
+   </properties>
+  </tile>
+  <tile id="31">
+   <properties>
+    <property name="Tag" value="CollisionOuterCornerSouthEast"/>
+   </properties>
+  </tile>
+  <tile id="46">
+   <properties>
+    <property name="Tag" value="CollisionInnerCornerSouthEast"/>
+   </properties>
+  </tile>
+  <tile id="47">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="48">
+   <properties>
+    <property name="Tag" value="CollisionInnerCornerSouthWest"/>
+   </properties>
+  </tile>
+  <tile id="49">
+   <properties>
+    <property name="Tag" value="CollisionOuterCornerNorthWest"/>
+   </properties>
+  </tile>
+  <tile id="50">
+   <properties>
+    <property name="Tag" value="CollisionHalfNorth"/>
+   </properties>
+  </tile>
+  <tile id="51">
+   <properties>
+    <property name="Tag" value="CollisionOuterCornerNorthEast"/>
+   </properties>
+  </tile>
+  <tile id="60">
+   <properties>
+    <property name="Tag" value="CollisionPit"/>
+   </properties>
+  </tile>
+  <tile id="61">
+   <properties>
+    <property name="Tag" value="CollisionPit"/>
+   </properties>
+  </tile>
+  <tile id="66">
+   <properties>
+    <property name="Tag" value="CollisionInnerCornerNorthEast"/>
+   </properties>
+  </tile>
+  <tile id="67">
+   <properties>
+    <property name="Tag" value="CollisionHalfNorth"/>
+   </properties>
+  </tile>
+  <tile id="68">
+   <properties>
+    <property name="Tag" value="CollisionInnerCornerNorthWest"/>
+   </properties>
+  </tile>
+  <tile id="69">
+   <properties>
+    <property name="Tag" value="CollisionOuterCornerSouthWest"/>
+   </properties>
+  </tile>
+  <tile id="70">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="71">
+   <properties>
+    <property name="Tag" value="CollisionOuterCornerSouthEast"/>
+   </properties>
+  </tile>
+  <tile id="90">
+   <properties>
+    <property name="Tag" value="CollisionInnerCornerSouthEast"/>
+   </properties>
+  </tile>
+  <tile id="91">
+   <properties>
+    <property name="Tag" value="CollisionInnerCornerSouthWest"/>
+   </properties>
+  </tile>
+  <tile id="110">
+   <properties>
+    <property name="Tag" value="CollisionInnerCornerNorthEast"/>
+   </properties>
+  </tile>
+  <tile id="111">
+   <properties>
+    <property name="Tag" value="CollisionInnerCornerNorthWest"/>
+   </properties>
+  </tile>
+  <tile id="121">
+   <properties>
+    <property name="Tag" value="CollisionHalfEast"/>
+   </properties>
+  </tile>
+  <tile id="122">
+   <properties>
+    <property name="Tag" value="CollisionHalfWest"/>
+   </properties>
+  </tile>
+  <tile id="123">
+   <properties>
+    <property name="Tag" value="CollisionHalfNorth"/>
+   </properties>
+  </tile>
+  <tile id="124">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
  </tileset>
- <tileset firstgid="134" name="House" tilewidth="64" tileheight="64">
+ <tileset firstgid="161" name="House" tilewidth="64" tileheight="64">
   <image source="../../../../Assets/images/tiles/house.png" width="384" height="385"/>
+  <tile id="0">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="30">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="31">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="32">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="197" name="Cliff" tilewidth="64" tileheight="64">
+  <image source="../../../../Assets/images/tiles/cliff.png" width="768" height="448"/>
+  <tile id="0">
+   <properties>
+    <property name="Tag" value="CollisionHalfEast"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="Tag" value="CollisionHalfWest"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="Tag" value="CollisionOuterCornerSouthEast"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="Tag" value="CollisionOuterCornerSouthWest"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="Tag" value="CollisionOuterCornerSouthEast"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="Tag" value="CollisionOuterCornerSouthWest"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="Tag" value="CollisionHalfEast"/>
+   </properties>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="Tag" value="CollisionHalfWest"/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="24">
+   <properties>
+    <property name="Tag" value="CollisionInnerCornerNorthEast"/>
+   </properties>
+  </tile>
+  <tile id="25">
+   <properties>
+    <property name="Tag" value="CollisionHalfNorth"/>
+   </properties>
+  </tile>
+  <tile id="26">
+   <properties>
+    <property name="Tag" value="CollisionInnerCornerNorthWest"/>
+   </properties>
+  </tile>
+  <tile id="27">
+   <properties>
+    <property name="Tag" value="CollisionOuterCornerNorthWest"/>
+   </properties>
+  </tile>
+  <tile id="28">
+   <properties>
+    <property name="Tag" value="CollisionHalfNorth"/>
+   </properties>
+  </tile>
+  <tile id="29">
+   <properties>
+    <property name="Tag" value="CollisionOuterCornerNorthEast"/>
+   </properties>
+  </tile>
+  <tile id="30">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="31">
+   <properties>
+    <property name="Tag" value="CollisionOuterCornerNorthWest"/>
+   </properties>
+  </tile>
+  <tile id="32">
+   <properties>
+    <property name="Tag" value="CollisionOuterCornerNorthEast"/>
+   </properties>
+  </tile>
+  <tile id="36">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="37">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="38">
+   <properties>
+    <property name="Tag" value="CollisionHalfNorth"/>
+   </properties>
+  </tile>
+  <tile id="49">
+   <properties>
+    <property name="Tag" value="CollisionHalfWest"/>
+   </properties>
+  </tile>
+  <tile id="50">
+   <properties>
+    <property name="Tag" value="CollisionHalfEast"/>
+   </properties>
+  </tile>
+  <tile id="51">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="52">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="53">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="54">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="55">
+   <properties>
+    <property name="Tag" value="CollisionOuterCornerSouthEast"/>
+   </properties>
+  </tile>
+  <tile id="56">
+   <properties>
+    <property name="Tag" value="CollisionOuterCornerSouthWest"/>
+   </properties>
+  </tile>
+  <tile id="61">
+   <properties>
+    <property name="Tag" value="CollisionHalfWest"/>
+   </properties>
+  </tile>
+  <tile id="62">
+   <properties>
+    <property name="Tag" value="CollisionHalfEast"/>
+   </properties>
+  </tile>
+  <tile id="63">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="64">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="65">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="66">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="67">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="68">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="73">
+   <properties>
+    <property name="Tag" value="CollisionInnerCornerSouthWest"/>
+   </properties>
+  </tile>
+  <tile id="74">
+   <properties>
+    <property name="Tag" value="CollisionInnerCornerSouthEast"/>
+   </properties>
+  </tile>
+  <tile id="75">
+   <properties>
+    <property name="Tag" value="CollisionHalfNorth"/>
+   </properties>
+  </tile>
+  <tile id="76">
+   <properties>
+    <property name="Tag" value="CollisionHalfNorth"/>
+   </properties>
+  </tile>
+  <tile id="77">
+   <properties>
+    <property name="Tag" value="CollisionHalfNorth"/>
+   </properties>
+  </tile>
+  <tile id="78">
+   <properties>
+    <property name="Tag" value="CollisionHalfNorth"/>
+   </properties>
+  </tile>
+  <tile id="79">
+   <properties>
+    <property name="Tag" value="CollisionHalfNorth"/>
+   </properties>
+  </tile>
+  <tile id="80">
+   <properties>
+    <property name="Tag" value="CollisionHalfNorth"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="281" name="HouseCyan" tilewidth="64" tileheight="64">
+  <image source="../../../../Assets/images/tiles/housecyan.png" width="1024" height="641"/>
+  <tile id="0">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="42">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="43">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="44">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="51">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="52">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="53">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="54">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="55">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="56">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="57">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="67">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="68">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="69">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="70">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="71">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="72">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="73">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="90">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="91">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="92">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="115">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="116">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="117">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="118">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="119">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="120">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="121">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="131">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="132">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="133">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="134">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="135">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="136">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="137">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="441" name="HouseGrey" tilewidth="64" tileheight="64">
+  <image source="../../../../Assets/images/tiles/housegrey.png" width="1024" height="641"/>
+  <tile id="0">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="42">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="43">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="44">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="51">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="52">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="53">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="54">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="55">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="56">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="57">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="67">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="68">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="69">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="70">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="71">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="72">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="73">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="90">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="91">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="92">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="115">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="116">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="117">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="118">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="119">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="120">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="121">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="131">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="132">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="133">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="134">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="135">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="136">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="137">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="601" name="HouseRed" tilewidth="64" tileheight="64">
+  <image source="../../../../Assets/images/tiles/housered.png" width="1024" height="641"/>
+  <tile id="0">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="42">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="43">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="44">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="51">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="52">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="53">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="54">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="55">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="56">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="57">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="67">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="68">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="69">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="70">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="71">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="72">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="73">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="90">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="91">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="92">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="115">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="116">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="117">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="118">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="119">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="120">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="121">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="131">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="132">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="133">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="134">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="135">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="136">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="137">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="761" name="Trees1" tilewidth="64" tileheight="64">
+  <image source="../../../../Assets/images/tiles/trees1.png" width="1024" height="512"/>
+  <tile id="0">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="22">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="23">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="24">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="25">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="26">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="27">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="28">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="29">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="30">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="31">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="32">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="33">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="34">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="35">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="36">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="37">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="38">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="39">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="40">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="41">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="42">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="43">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="44">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="45">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="46">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="47">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="48">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="49">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="50">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="51">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="56">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="57">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="58">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="59">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="64">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="65">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="66">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="67">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="72">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="73">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="74">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="75">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="80">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="81">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="82">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="83">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="88">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="89">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="90">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="91">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="96">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="97">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="98">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="99">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="104">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="105">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="106">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="107">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="112">
+   <properties>
+    <property name="Tag" value="CollisionInnerCornerSouthEast"/>
+   </properties>
+  </tile>
+  <tile id="113">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="114">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="116">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="117">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="118">
+   <properties>
+    <property name="Tag" value="CollisionInnerCornerSouthWest"/>
+   </properties>
+  </tile>
+  <tile id="120">
+   <properties>
+    <property name="Tag" value="CollisionInnerCornerSouthEast"/>
+   </properties>
+  </tile>
+  <tile id="121">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="122">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="124">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="125">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="126">
+   <properties>
+    <property name="Tag" value="CollisionInnerCornerSouthWest"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="889" name="Trees2" tilewidth="64" tileheight="64">
+  <image source="../../../../Assets/images/tiles/trees2.png" width="1024" height="448"/>
+  <tile id="0">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="22">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="23">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="32">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="33">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="34">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="35">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="36">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="37">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="38">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="39">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="40">
+   <properties>
+    <property name="Tag" value="CollisionHalfEast"/>
+   </properties>
+  </tile>
+  <tile id="41">
+   <properties>
+    <property name="Tag" value="CollisionHalfWest"/>
+   </properties>
+  </tile>
+  <tile id="42">
+   <properties>
+    <property name="Tag" value="CollisionHalfEast"/>
+   </properties>
+  </tile>
+  <tile id="43">
+   <properties>
+    <property name="Tag" value="CollisionHalfWest"/>
+   </properties>
+  </tile>
+  <tile id="44">
+   <properties>
+    <property name="Tag" value="CollisionHalfEast"/>
+   </properties>
+  </tile>
+  <tile id="45">
+   <properties>
+    <property name="Tag" value="CollisionHalfWest"/>
+   </properties>
+  </tile>
+  <tile id="46">
+   <properties>
+    <property name="Tag" value="CollisionHalfEast"/>
+   </properties>
+  </tile>
+  <tile id="47">
+   <properties>
+    <property name="Tag" value="CollisionHalfWest"/>
+   </properties>
+  </tile>
+  <tile id="48">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="49">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="50">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="51">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="64">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="65">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="66">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="67">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="80">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="81">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="82">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="83">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="86">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="87">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="88">
+   <properties>
+    <property name="Tag" value="CollisionHalfEast"/>
+   </properties>
+  </tile>
+  <tile id="89">
+   <properties>
+    <property name="Tag" value="CollisionHalfWest"/>
+   </properties>
+  </tile>
+  <tile id="90">
+   <properties>
+    <property name="Tag" value="CollisionHalfEast"/>
+   </properties>
+  </tile>
+  <tile id="91">
+   <properties>
+    <property name="Tag" value="CollisionHalfWest"/>
+   </properties>
+  </tile>
+  <tile id="92">
+   <properties>
+    <property name="Tag" value="CollisionHalfEast"/>
+   </properties>
+  </tile>
+  <tile id="93">
+   <properties>
+    <property name="Tag" value="CollisionHalfWest"/>
+   </properties>
+  </tile>
+  <tile id="94">
+   <properties>
+    <property name="Tag" value="CollisionHalfEast"/>
+   </properties>
+  </tile>
+  <tile id="95">
+   <properties>
+    <property name="Tag" value="CollisionHalfWest"/>
+   </properties>
+  </tile>
+  <tile id="96">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="97">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="98">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="99">
+   <properties>
+    <property name="Tag" value="CollisionHalfSouth"/>
+   </properties>
+  </tile>
+  <tile id="106">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="107">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="108">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="109">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="110">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+  <tile id="111">
+   <properties>
+    <property name="Tag" value="CollisionSquare"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="1001" name="Tools" tilewidth="64" tileheight="64">
+  <image source="../../../../Assets/images/tiles/tools.png" width="192" height="192"/>
+ </tileset>
+ <tileset firstgid="1010" name="Sprite" tilewidth="64" tileheight="64">
+  <image source="../../../../Assets/images/tiles/Blocks.png" width="512" height="512"/>
+  <tile id="0">
+   <properties>
+    <property name="Tag" value="PlayerPos"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="Tag" value="DragonPos"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="Tag" value="FairyPos"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="Tag" value="KeaPos"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="Tag" value="OwlPos"/>
+   </properties>
+  </tile>
  </tileset>
  <layer name="Sea" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzt1LENADEIA0AmpPkJUv3+G6T6BhG9icAoUgrXJ2GLISLj5iaYp8nVJlubbCXbn/GSbW2yrcGyPYNhK2hXuyub4Xo2y7U202XtmWkjLrvf012vJ/sfKtzVRhA746Y7dlaXUTtzQxE7e7uone2idoWL2FXunz0B465GpA==
+   eJzt1bsKgDAMheE8YxffoJPvP+ugIKXNpZ4TEfpD5m9IaURWq3jbOVUZVsWwGdXL1WxWRXQb3W3sho3uaWg2w/XYLNeyma5ms92RneH27Cy3tTPdrPes2V+42fv9u9u7M+3/wHBHN85jv3VnbYQ7Y6PcqI10Izba9doM12OzXMs+AP9NZ34=
   </data>
  </layer>
  <layer name="Ground" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzt1TEKACAIRuH/Fo4dy4sEXb/2QAuy6Qlv/hAHTZIRXearEVTldsWD++au7bOb7YmLi4uLW++69n+e/YMX7uluuLi4Ne4ETG5HcQ==
+   eJyTYGBgkBjFo5hEHA3EtXgwreytYsAPRu2lTrwq0NleQv4ctXfU3lF7R+0dtZf29mKr2xXoYC+xfhu1d9TeUXtpYy8AEJlKrA==
   </data>
  </layer>
  <layer name="Dirt" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztlEEKwjAQRXOB2ivEM+i29QrVK1jv0Jbq2fsHMjAWSjbOz8I8eItA4JEwSQj/yQrf8HOw9uQOL6l3TWtvGnhOLas3cq96RmY37HoRnmBL7EZSz3bZTe3KPDPejmLnuQS5rv4n6i/uRs6cm2HdI3cTM3s9aEjNDvbGG6EpDOH7X5lI/X1XfRTozvDl3H3Chdy07THJalYqlUppNh2yG1Q=
+   eJztlMEJAjEQRQf2rNawXqxAz2oFHlxrUItQUdvRDrQ2/0A+xMBGD5nxYD68QyDsY4a/EfnPnMEFXHvOVpmADkyDbxbOK2PvAIyDK8baq3vljJ5e7pm0YAhGjt7WwZd6PZ2xV/ts/e/Eifts3aU0nDnn5XtCSuxGZ/7UYd7R3Xh3gX4P5xwsIpYOTs1a3t+Vg5M/9ZJNgW/fGpF78733CPYFvA84nz3eLTgZODW5eeneBUo5Nbl5a2pqan6dF7haJNk=
   </data>
  </layer>
  <layer name="Road" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYCAd1ANxAxA3kqGXEjBq76i9o/YSB6KA2A0Hboba24Qm7k4Fe0F+8gXiSBwYXQ7Ep4b/YWGZD8Q5BHABA/XCnZQ4pGZ8j9o7au9ItTePAZKPc+lsLzXBqL3UB7A6D7kew2YvNnWUAJgdyPUptjoWJkatMMBV1+ISo5a9sPxHLKZGPh0F9AEAjl1MyQ==
+   eJxjYCAdtAJxGxC3k6GXEjBq76i9o/YSB+KA2BMH7oTa24Em7kUFe0F+mgTEsTjwNDR+PwN1/A8LyxIgLiSASxmoF+6kxCE143vU3oGz13aA7EUGtiSoJQQeMDMwnGPGb5YdDjcGUmDvPWaI3fjsxQaKGSD5uIhMe4nxLy0Auf6lJhjO9sLqPOR6DJu92NRRAmB2INen2OpYmBi1wgBk70QGwnUsCE+gor2w/EcsJjefjgL6AwAUkllU
   </data>
  </layer>
  <layer name="RoadOver" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztlesJwzAMhD1CskJbz9CO0McIbbJE94cqPwRH8ONkufRHfXAQnFgfKOIUwu90Eh8NjpV7MXCaxXfxgfBDPBXu4XuG2/Jt6l5rrcHluDpjq4Nbmm+su91b4Fxn7NLIrc231j1nzlmluGyvPCpxmUxhc8LCrfXckhNWbqmu558M7uD+MxezxLIHvNx9llhzGevoXokkt0d+z/A8Zbi9eovSfbZl7RLSOxb3q6e3qOeOn9uxevbqwEQuq17cq/ht8K0Td+j7+gAweCU9
+   eJztlekNwjAMhSNlgXYGIDvAChwrQNmCJTtCxW/EuQGOVEtWaRK7MZfgSU+q0tqf4jS2Mb+nCXgssEvEOcNTCV6CRwyvwEUkjr7ncId82xc3NNe3cfGstxnc2H9G8/q4iqzjWc8GclP/GeadBta56uNya5WjGJdzt7n3VcJN1VxyX6XcWN6cM/l07tm+h3sE7qFlX+zruFQnRW4NufY2zL3ax1prcD2ziXC9cJ83xf02if2iaC+RzIEQ1zNrBrfbS6R9mebBueIMj6vRv0vyXAS4WrWlwnnme21l+mcsna85taVad/ihGYtrGwUm5XKlxZ2DdwIvlLh/PV93IUk1MA==
   </data>
  </layer>
- <layer name="GroundOver" width="30" height="30">
+ <layer name="sprite" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJwLZ2BgKCcByzOgAjkS9YNwBBCXMNAflI7aSxcgN0D2MozaO2rvqL2j9tLYXqsBshcdUOKOoRDOMGA9QPZSA4zaO2rvqL3UsZea5S4p9g4EyALiMjIxDwX2AgC9iiGe
+   eJzt1NsJACAMA0DB/Zf19e0QFirlboKEQFrjZ6NnJyDStCfwYBf6kFOoC5Bj+ZEQF/uXBNQ=
+  </data>
+ </layer>
+ <layer name="Cliff" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1bEKgzAQxvFPXBTcWsGH9fWqU5fu1UGt1VfQQi/gkDp5Gi4W7uBPsoQfN6UAUDAq8Ts35nvTY6liVK/cJ/N9ZbnS48u9e3I7Ty7UVfck7kCNyynpxgGQ0RkFsu6Hmqj5GMt2U9rzQl2F93U16qqrrrr/5r5CoN/YO3TnSo/trne292ro3lKdg13NmD8831lywP0CiSJkMA==
+  </data>
+ </layer>
+ <layer name="CliffTop" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztzUEKABAQheHR7Ln/oRxBDmDPlo0oK0yT8v56y9fnDKlnm1n0Wcr0l0tw4cL9ys2Hv1tXKrhw4cKF+7YbeW9SrnazG3hdz/OYVOlwN1WBJz0/
+  </data>
+ </layer>
+ <layer name="TreesBack" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt0DkKgEAQRNGGubgbaCLiApq6gB7THziJmYGtQT34cUGZvScPZgWVVFFKWXhx8NKzMdBIE7XUOeyubGy000EzLQ92vf65i//Uztvxn8Z5N/ngYxERERGRPzoB0GsPwg==
   </data>
  </layer>
  <layer name="House" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo4B+oBOI+7Hgbhrb2wbE7VhwBxHuo8RtS4B4KRa8jAh16GpGwSgYBaNgFAwvQO06B91cXGZhqxPR60NyAKwuw1V/jdZ1wwPgasvRuj2Hqy1HrfSLC+Bqyw2n9AsAEcgu+g==
+   eJzt0EsOwVAYhuHTswusACvCCrAF97H72K0lBnaAAYbYlFdCSNOjTtJ20v9LnlHb/02qlOzfNbRSTbTQRgdd9HS83T73BxhihDEmmMbcnXF/jgWWWMGFF3O3xP1ygIpFN+MolQ2Qc8zfVPWn/WzVXuoW3Tz3CwGKP7rvtm0rzdvzPw84hvxX6UrXZld6N9wT7srSuw12PtsI75puufB81hF0TzjjEvL8m+ldmUyW3B50ZjIk
   </data>
  </layer>
  <layer name="HouseOver" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzt1TsKADAIREHvfwL1tCGQSpQE8inCm2YtFixXBPifj7SQnnRP0/BTi54lXQAAbrDi3tE3VWW+ras9AG80ZroKxA==
+   eJzt0ztPwlAYxvHTgoN8JkRxlovMgOgmKrcZubuBctGNBHUDHOT2iYBPAO78E2oiA01bSA3JeZJf3g7t+5ycpELIGE1WFeIROeRRQBEl1fgOtyLECTw4xRm8OFe2f1Nlfw3PeEEdDTRN9F6w3wc/AgjiEiGd3jb7y6igg3d84NNEb5j9EURxhRiucaPT+/Wn9wnfGGBoovee/Q9IIIkU0sjo9PbZ38Ir3rSunonO39xpHXHmrbKeRtK10PXfcXBmJ45sPvuUO51hbvBuZa+1LOhb4sfmXpe6Oe3M8QH+hzIyVjLe8rxLJhhpcx/vycjI2JMVVp0v4A==
   </data>
  </layer>
+ <layer name="TreesFront" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztzskJgEAQRNGGCd317np3TUAz0Aw0Hv/Zo+CMSD34x6ba7F8SZ5ZSRjlFFLv3dys2amqopYJKD7sDGyNNNFNH/YPdhZvVw793G5t7gN2DzTPAroiIiIjIl1yOyg9t
+  </data>
+ </layer>
+ <objectgroup name="trigger" width="30" height="30">
+  <object name="ToTestTown" x="768" y="0" width="320" height="64"/>
+  <object name="ToTestTownWarn" x="768" y="64" width="320" height="128"/>
+ </objectgroup>
 </map>

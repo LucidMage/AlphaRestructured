@@ -38,7 +38,6 @@ function testtown::setupCharacters(%this, %layer)
    SetupPlayer(%this, %position, %layer);
    
    //  Barbarian
-   //%this.add(BarbarianPosition);
    %barbarian = new CompositeSprite(Barbarian)
    {
       displayName = "Barbarian";
@@ -116,22 +115,42 @@ function testtown::setupItems(%this, %layer)
 
 function testtown::setupTriggers(%this)
 {
-   %toGardenNorth = new Trigger()
-   {
-      class = "Transition";
-      height = 1;
-      width = 4;
-      
-      Position = "2.5 9";
-      //Position = ToGardenNorthPosition.Position;
-      toScene = "garden";
-   };
-
-   //  Add to Scene
-   %this.add(%toGardenNorth);
+	//	Should already be created via Tiled
+	ToGardenNorth.class = "Transition";
+	ToGardenNorth.toScene = "garden";
+	
+	ToGardenSouth.class = "Transition";
+	ToGardenSouth.toScene = "testart";
 }
-/*
+
 //	Triggers
+function ToGardenNorthWarn::onEnter(%this, %object)
+{
+	echo("About to enter Garden");
+}
+function ToGardenNorthWarn::onStay(%this, %object)
+{
+	echo(%this.getPosition());
+	echo(%object.getPosition());
+}
+
+function ToGardenSouthWarn::onEnter(%this, %object)
+{
+	echo("About to enter Test Art");
+}
+function ToGardenSouthWarn::onStay(%this, %object)
+{
+	echo(%this.getPosition());
+	echo(%object.getPosition());
+}
+
+function RandomCircle::onStay(%this, %object)
+{
+	echo(%this.getPosition());
+	echo(%object.getPosition());
+}
+
+/*
 function ToGardenNorthWarn::onAddToScene(%this)
 {
 	echo("ToGardenNorthWarn");

@@ -1,0 +1,7 @@
+<ImageAsset
+    AssetName="Cliff"
+    ImageFile="cliff.png"
+    CellCountX="12"
+    CellCountY="7"
+    CellWidth="64"
+    CellHeight="64" />

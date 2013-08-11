@@ -18,7 +18,7 @@ function Character::onAdd(%this)
 	// Collision Circle, if size not set = size of image
 	// (radius, [relative xPos, relative yPos])
 	//%this.createCircleCollisionShape(0.25, 0, -0.25);
-	%this.createPolygonBoxCollisionShape(0.5, 0.5, 0, -0.25);
+	%this.createPolygonBoxCollisionShape(1, 1, 0, -0.25);
 
 	%this.setCollisionCallback(true);   // So onCollision will be called
 	%this.setFixedAngle(true); // Stop from rotating on collision
@@ -26,6 +26,7 @@ function Character::onAdd(%this)
 	// Sprites, or graphics, the player is composed of
 	%this.addSprite();
 	%this.setSpriteName("body");
+	%this.setSpriteSize(2);
 	//%this.setSpriteImage("Assets:PC_Body1");
 	//%image = %this.getSpriteImage();
 	%image = %this.imageName;

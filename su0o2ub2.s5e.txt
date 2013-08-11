@@ -1,0 +1,52 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+	new file:   Data/Test.Lesson1.testart.taml
+	modified:   Data/Test.Lesson1.testtown.taml
+	modified:   Torque2D.exe
+	modified:   Torque2D_DEBUG.exe
+	new file:   modules/Assets/images/sprites/characters/dragon.png
+	new file:   modules/Assets/images/sprites/characters/fairy.png
+	new file:   modules/Assets/images/sprites/characters/hair.png
+	new file:   modules/Assets/images/sprites/characters/heads.png
+	new file:   modules/Assets/images/sprites/characters/kea.png
+	new file:   modules/Assets/images/sprites/characters/legs.png
+	new file:   modules/Assets/images/sprites/characters/owl.png
+	new file:   modules/Assets/images/sprites/characters/torsos.png
+	new file:   modules/Assets/images/tiles/cliff.asset.taml
+	new file:   modules/Assets/images/tiles/cliff.png
+	modified:   modules/Assets/images/tiles/ground.asset.taml
+	modified:   modules/Assets/images/tiles/ground.png
+	modified:   modules/Assets/images/tiles/house.asset.taml
+	new file:   modules/Assets/images/tiles/housecyan.asset.taml
+	new file:   modules/Assets/images/tiles/housecyan.png
+	new file:   modules/Assets/images/tiles/housegrey.asset.taml
+	new file:   modules/Assets/images/tiles/housegrey.png
+	new file:   modules/Assets/images/tiles/houseinterior.png
+	new file:   modules/Assets/images/tiles/houseinteriorfloor.png
+	new file:   modules/Assets/images/tiles/housered.asset.taml
+	new file:   modules/Assets/images/tiles/housered.png
+	new file:   modules/Assets/images/tiles/tools.asset.taml
+	new file:   modules/Assets/images/tiles/tools.png
+	new file:   modules/Assets/images/tiles/trees1.asset.taml
+	new file:   modules/Assets/images/tiles/trees1.png
+	new file:   modules/Assets/images/tiles/trees2.asset.taml
+	new file:   modules/Assets/images/tiles/trees2.png
+	modified:   modules/Main/1/sprites/characters/character.cs
+	modified:   modules/Year8/1/lesson1/main.cs
+	modified:   modules/Year8/1/lesson1/scenes/garden.cs
+	new file:   modules/Year8/1/lesson1/scenes/testart.asset.taml
+	new file:   modules/Year8/1/lesson1/scenes/testart.cs
+	modified:   modules/Year8/1/lesson1/scenes/testart.tmx
+	modified:   modules/Year8/1/lesson1/scenes/testtown.asset.taml
+	modified:   modules/Year8/1/lesson1/scenes/testtown.cs
+	modified:   modules/Year8/1/lesson1/scenes/testtown.tmx
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	4ds0jcws.rp4.txt
+
