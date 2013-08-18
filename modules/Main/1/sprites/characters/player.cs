@@ -17,12 +17,20 @@ function SetupPlayer(%scene, %position, %layer)
    // Must be different than other characters to stop the player from pushing other characters
    %player.setDefaultDensity(0);
    */
+   
+   echo("Getting character from profile");
    %player = Profile.character;
+   echo("Setup in player setup");
+   %player.setup();
+   
    %player.setPosition(%position);
    %player.setSceneLayer(%layer);
 
    // Set Behaviours
    %controls = PlayerControlsBehaviour.createInstance();
+   %player.addBehavior(%controls);
+   
+   %controls = InteractBehaviour.createInstance();
    %player.addBehavior(%controls);
    
    // Inventory

@@ -9624,7 +9624,6 @@
     <CompositeSprite
         TamlRefId="1" />
     <SceneObject
-        Name="TileCollision"
         SceneLayer="15"
         Size="0.96 0.96"
         Position="-3.36 -8.16"
@@ -9869,49 +9868,42 @@
         SceneLayer="14"
         Size="0.96 0.96"
         Position="-5.28 1.44"
-        BodyType="Static"
         Awake="0" />
     <SceneObject
         Name="GreenGemPosition"
         SceneLayer="14"
         Size="0.96 0.96"
         Position="-4.32 1.44"
-        BodyType="Static"
         Awake="0" />
     <SceneObject
         Name="BarbarianPosition"
         SceneLayer="14"
         Size="0.96 0.96"
         Position="-2.4 -10.08"
-        BodyType="Static"
         Awake="0" />
     <SceneObject
         Name="BlueGemPosition"
         SceneLayer="14"
         Size="0.96 0.96"
         Position="-0.48 1.44"
-        BodyType="Static"
         Awake="0" />
     <SceneObject
         Name="PlayerPosition"
         SceneLayer="14"
         Size="0.96 0.96"
         Position="2.4 -3.36"
-        BodyType="Static"
         Awake="0" />
     <SceneObject
         Name="KnightPosition"
         SceneLayer="14"
         Size="0.96 0.96"
         Position="6.24 -1.44"
-        BodyType="Static"
         Awake="0" />
     <SceneObject
         Name="DwarfPosition"
         SceneLayer="14"
         Size="0.96 0.96"
         Position="11.04 -1.44"
-        BodyType="Static"
         Awake="0" />
     <SceneObject
         SceneLayer="14"
@@ -17254,6 +17246,10 @@
         TamlRefId="1" />
     <Trigger
         TamlRefId="1" />
+    <Trigger
+        TamlRefId="1" />
+    <Trigger
+        TamlRefId="1" />
     <CompositeSprite
         Name="Player"
         class="Character"
@@ -17470,23 +17466,4 @@
             </Polygon>
         </Sprite.CollisionShapes>
     </Sprite>
-    <Trigger
-        class="Transition"
-        Position="2.5 9"
-        FixedAngle="1"
-        BodyType="Static"
-        GatherContacts="1"
-        CollisionCallback="1"
-        Height="1"
-        toScene="garden"
-        Width="4">
-        <Trigger.CollisionShapes>
-            <Polygon>
-                <Point>-2 -0.5</Point>
-                <Point>2 -0.5</Point>
-                <Point>2 0.5</Point>
-                <Point>-2 0.5</Point>
-            </Polygon>
-        </Trigger.CollisionShapes>
-    </Trigger>
 </Scene>

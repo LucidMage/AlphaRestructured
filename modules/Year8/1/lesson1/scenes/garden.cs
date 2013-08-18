@@ -18,7 +18,7 @@ function garden::setup(%this)
    
    %this.setupCharacters(%layer);
    %this.setupItems(%layer);
-   %this.setupTransitions();
+   %this.setupTriggers();
 }
 
 function garden::setupCharacters(%this, %layer)
@@ -101,7 +101,7 @@ function garden::setupItems(%this, %layer)
    %this.add(%gemGreen);
 }
 
-function garden::setupTransitions(%this)
+function garden::setupTriggers(%this)
 {
    %toTestTown = new Trigger()
    {

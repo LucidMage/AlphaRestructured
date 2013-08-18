@@ -23,13 +23,16 @@
 $platformFontType = ($platform $= "windows") ? "lucida console" : "monaco";
 $platformFontSize = ($platform $= "ios") ? 18 : 12;
 
+$fontSizeLabel = 24;
+$fontSizeText = 18;
+
 //-----------------------------------------------------------------------------
 
 new GuiCursor(DefaultCursor)
 {
     hotSpot = "4 4";
     renderOffset = "0 0";
-    bitmapName = "./images/defaultCursor";
+    bitmapName = "@asset=Assets:defaultCursor";
 };
 
 //---------------------------------------------------------------------------------------------
@@ -65,7 +68,7 @@ if(!isObject(GuiDefaultProfile)) new GuiControlProfile (GuiDefaultProfile)
     fontColorSEL= "10 10 10";
 
     // bitmap information
-    bitmap = "./images/window.png";
+    bitmap = "./images/window";
     bitmapBase = "";
     textOffset = "0 0";
 
@@ -323,7 +326,7 @@ if(!isObject(GuiToolboxProfile)) new GuiControlProfile( GuiToolboxProfile : GuiS
 
 //-----------------------------------------------------------------------------
 
-if(!isObject(SandboxWindowProfile)) new GuiControlProfile (SandboxWindowProfile : GuiDefaultProfile)
+if(!isObject(GameWindowProfile)) new GuiControlProfile (GameWindowProfile : GuiDefaultProfile)
 {
     // fill color
     opaque = false;
@@ -458,4 +461,46 @@ if (!isObject(GuiSunkenContainerProfile)) new GuiControlProfile (GuiSunkenContai
     border = -2;
     bitmap = "./images/sunkenContainer";
     borderColor = "40 40 40 10";
+};
+
+//-----------------------------------------------------------------------------
+//	SRG
+//-----------------------------------------------------------------------------
+
+if (!isObject(DialogueLabelProfile)) new GuiControlProfile (DialogueLabelProfile)
+{
+    border = false;
+
+    // font
+    fontType = $platformFontType;
+    fontSize = $fontSizeLabel;
+
+    fontColor = "white";
+
+    modal = true;
+    justify = "left";
+    autoSizeWidth = false;
+    autoSizeHeight = false;
+    returnTab = false;
+    numbersOnly = false;
+    cursorColor = "0 0 0 255";
+};
+
+if (!isObject(DialogueTextProfile)) new GuiControlProfile (DialogueTextProfile)
+{
+    border = false;
+
+    // font
+    fontType = $platformFontType;
+    fontSize = $fontSizeText;
+
+    fontColor = "white";
+
+    modal = true;
+    justify = "left";
+    autoSizeWidth = false;
+    autoSizeHeight = false;
+    returnTab = false;
+    numbersOnly = false;
+    cursorColor = "0 0 0 255";
 };

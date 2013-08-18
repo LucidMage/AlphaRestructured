@@ -26,16 +26,6 @@
 				</SceneObject.CollisionShapes>
 			</SceneObject>
 		</Tile>
-		<!-- Sprite Positions -->
-		<Tile Tag="PlayerPosition" ><SceneObject TamlId="1" BodyType="Static"/></Tile>
-		
-		<Tile Tag="BarbarianPosition" ><SceneObject TamlId="1" BodyType="Static"/></Tile>
-		<Tile Tag="DwarfPosition" ><SceneObject TamlId="1" BodyType="Static"/></Tile>
-		<Tile Tag="KnightPosition" ><SceneObject TamlId="1" BodyType="Static"/></Tile>
-		
-		<Tile Tag="RedGemPosition" ><SceneObject TamlId="1" BodyType="Static"/></Tile>
-		<Tile Tag="GreenGemPosition" ><SceneObject TamlId="1" BodyType="Static"/></Tile>
-		<Tile Tag="BlueGemPosition" ><SceneObject TamlId="1" BodyType="Static"/></Tile>
 	</TmxMapAsset.Tiles>
 	
 </TmxMapAsset>

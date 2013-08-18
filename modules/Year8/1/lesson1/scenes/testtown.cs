@@ -29,6 +29,27 @@ function testtown::setup(%this)
 	%this.add(%pushable);
    
    %this.setupTriggers();
+   
+   //	Create GUI stuff here for now
+   %label = createCustomLabel("ADD CHARACTER DIALOG");
+   DialogueBox.addGuiControl(%label);
+   
+	GlobalActionMap.bind( keyboard, "w",  createDialogueBox);   // Press 'enter' to open dialogBox
+}
+
+function createDialogueBox()
+{
+   echo("Some Text");
+    // Is the console awake?
+    if ( DialogueBox.isAwake() )
+    {
+        Canvas.popDialog(DialogueBox);    
+        //Canvas.popDialog($label);   
+        return;
+    }
+    
+    Canvas.pushDialog(DialogueBox);
+    //Canvas.pushDialog($label);
 }
 
 function testtown::setupCharacters(%this, %layer)
@@ -38,7 +59,6 @@ function testtown::setupCharacters(%this, %layer)
    SetupPlayer(%this, %position, %layer);
    
    //  Barbarian
-   //%this.add(BarbarianPosition);
    %barbarian = new CompositeSprite(Barbarian)
    {
       displayName = "Barbarian";
@@ -116,22 +136,42 @@ function testtown::setupItems(%this, %layer)
 
 function testtown::setupTriggers(%this)
 {
-   %toGardenNorth = new Trigger()
-   {
-      class = "Transition";
-      height = 1;
-      width = 4;
-      
-      Position = "2.5 9";
-      //Position = ToGardenNorthPosition.Position;
-      toScene = "garden";
-   };
-
-   //  Add to Scene
-   %this.add(%toGardenNorth);
+	//	Should already be created via Tiled
+	ToGardenNorth.class = "Transition";
+	ToGardenNorth.toScene = "garden";
+	
+	ToGardenSouth.class = "Transition";
+	ToGardenSouth.toScene = "testart";
 }
-/*
+
 //	Triggers
+function ToGardenNorthWarn::onEnter(%this, %object)
+{
+	echo("About to enter Garden");
+}
+function ToGardenNorthWarn::onStay(%this, %object)
+{
+	echo(%this.getPosition());
+	echo(%object.getPosition());
+}
+
+function ToGardenSouthWarn::onEnter(%this, %object)
+{
+	echo("About to enter Test Art");
+}
+function ToGardenSouthWarn::onStay(%this, %object)
+{
+	echo(%this.getPosition());
+	echo(%object.getPosition());
+}
+
+function RandomCircle::onStay(%this, %object)
+{
+	echo(%this.getPosition());
+	echo(%object.getPosition());
+}
+
+/*
 function ToGardenNorthWarn::onAddToScene(%this)
 {
 	echo("ToGardenNorthWarn");

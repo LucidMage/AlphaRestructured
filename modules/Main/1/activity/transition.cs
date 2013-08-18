@@ -24,7 +24,7 @@ function Transition::onAddToScene(%this)
 // Change to a different scene when player collides with transition
 function Transition::onEnter (%this, %object)
 {
-	if (%object.getName() == Player)
+	if (%object.getName() $= Player)
 	{
 		// Assign schedule to current scene to make sure it doesn't remain after transition
 		%scene = GameWindow.getScene();

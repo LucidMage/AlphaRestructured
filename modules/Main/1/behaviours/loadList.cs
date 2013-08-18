@@ -1,2 +1,3 @@
 // Load all behaviours
-exec("./movement/playerControls.cs");
+exec("./playerControls.cs");
+exec("./interact.cs");
