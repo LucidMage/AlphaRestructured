@@ -1,0 +1,119 @@
+<!-- In Game GUI -->
+<GuiControl
+    Name="InGameGUI"
+    Profile="GuiDefaultProfile"
+    HorizSizing="relative"
+    VertSizing="relative"
+    Position="0 0"
+    Extent="800 600"
+    MinExtent="80 60"
+    Visible="1">
+	
+	<!-- Menu -->
+    <GuiButtonCtrl
+        Name="MenuButton"
+        Profile="BlueButtonProfile"
+		Text="Menu"
+		ButtonType="PushButton"
+        command="cycleManipulation(true);"
+        canSaveDynamicFields="0"
+        isContainer="0"
+        HorizSizing="left"
+        VertSizing="top"
+        Position="0 0"
+        Extent="80 30"
+        MinExtent="80 30"
+        canSave="1"
+        Visible="1"
+        Active="1"
+        hovertime="1000"
+        groupNum="-1"
+        useMouseEvents="1" />
+	
+	<!-- Dialogue Box -->
+	<GuiSpriteCtrl
+		Name="DialogueBox"
+		Profile="GuiToolboxProfile"
+		HorizSizing="right"
+		VertSizing="top"
+		Position="160 0"
+		Extent="640 120"
+		MinExtent="80 60"
+		Visible="1"
+		Image="@asset=Assets:blueGradient">
+		
+		<!-- Name of Guy Talking -->
+		<GuiTextCtrl
+			Name="DialogueLabel"
+			canSaveDynamicFields="0"
+			isContainer="0"
+			Profile="DialogueLabelProfile"
+			HorizSizing="left"
+			VertSizing="top"
+			Position="20 0"
+			Extent="600 30"
+			MinExtent="80 30"
+			canSave="1"
+			Visible="1"
+			Active="0"
+			text="Some Guy:"
+			maxLength="255"
+			truncate="0" />
+		
+		<!-- Dialogue -->
+		<GuiMLTextCtrl
+			Name="DialogueText"
+			canSaveDynamicFields="0"
+			isContainer="0"
+			Profile="DialogueTextProfile"
+			HorizSizing="left"
+			VertSizing="center"
+			Position="20 30"
+			Extent="600 90"
+			MinExtent="80 60"
+			canSave="1"
+			Visible="1"
+			Active="0"
+			text="Boring, boring, boring, I am boring. Dooring, mooring, gloring. Why haven't you closed the dialogue box yet? Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah end."
+			maxLength="511"
+			truncate="0" />
+	</GuiSpriteCtrl>
+	
+	<!-- Option Box -->
+	<GuiSpriteCtrl
+		Name="OptionBox"
+		Profile="GuiToolboxProfile"
+		HorizSizing="left"
+		VertSizing="bottom"
+		Position="0 480"
+		Extent="400 120"
+		MinExtent="80 60"
+		Visible="1"
+		Image="@asset=Assets:blueGradient">
+		
+		<!-- Exit Dialogue -->
+		<GuiButtonCtrl
+			Name="ExitDialogueButton"
+			Profile="BlueButtonProfile"
+			Text="End Dialogue"
+			ButtonType="PushButton"
+			command="cycleManipulation(true);"
+			canSaveDynamicFields="0"
+			isContainer="0"
+			HorizSizing="left"
+			VertSizing="bottom"
+			Position="0 90"
+			Extent="200 30"
+			MinExtent="80 30"
+			canSave="1"
+			Visible="1"
+			Active="1"
+			hovertime="1000"
+			toolTipProfile="GuiToolTipProfile"
+			toolTip="Selects the background color for the scene."
+			groupNum="-1"
+			useMouseEvents="1" />
+		
+	</GuiSpriteCtrl>
+	
+</GuiControl>
