@@ -143,20 +143,24 @@ function testart::setupItems(%this)
 
 function testart::setupTriggers(%this)
 {
+	echo("Setup Triggers");
+	
+	SetupTrigger(ToTestTown);
+	SetupTrigger(ToTestTownWarn);
+
 	//	Should already be created via Tiled
-	ToTestTown.class = "Transition";
 	ToTestTown.toScene = "testtown";
 }
 
 //	Triggers
 function ToTestTown::onEnter(%this, %object)
 {
-	echo("Transferring to Test Town");
+	HelpText.Text = "Transferring to Test Town";
 }
 
 function ToTestTownWarn::onEnter(%this, %object)
 {
-	echo("About to enter Test Town");
+	HelpText.Text = "About to enter Test Town";
 }
 function ToTestTownWarn::onStay(%this, %object)
 {

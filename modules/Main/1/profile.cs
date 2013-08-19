@@ -1,6 +1,6 @@
 function CreateProfile()
 {
-   echo("Create profile scriptobject");
+   //echo("Create profile scriptobject");
    new ScriptObject(Profile)
    {
       password = "guest";
@@ -12,7 +12,7 @@ function CreateProfile()
    };
    
    // Create Default Player Character
-   echo("Create player composite sprite");
+   //echo("Create player composite sprite");
    %player = new CompositeSprite(Player)
    {
       displayName = "Test";

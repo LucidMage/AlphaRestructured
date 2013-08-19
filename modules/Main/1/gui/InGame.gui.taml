@@ -6,7 +6,7 @@
     VertSizing="relative"
     Position="0 0"
     Extent="800 600"
-    MinExtent="80 60"
+    MinExtent="320 240"
     Visible="1">
 	
 	<!-- Menu -->
@@ -18,28 +18,61 @@
         command="cycleManipulation(true);"
         canSaveDynamicFields="0"
         isContainer="0"
-        HorizSizing="left"
-        VertSizing="top"
+        HorizSizing="right"
+        VertSizing="bottom"
         Position="0 0"
         Extent="80 30"
         MinExtent="80 30"
         canSave="1"
         Visible="1"
         Active="1"
-        hovertime="1000"
+		hovertime="1000"
+		toolTipProfile="GuiToolTipProfile"
+		toolTip="Open the In-Game Menu"
         groupNum="-1"
         useMouseEvents="1" />
+	
+	<!-- Help -->
+	<GuiSpriteCtrl
+		Name="HelpBox"
+		Profile="GuiToolboxProfile"
+		HorizSizing="width"
+		VertSizing="bottom"
+		Position="80 0"
+		Extent="720 30"
+		MinExtent="80 30"
+		Visible="1"
+		Image="@asset=Assets:blueGradient">
+		
+		<!-- Text Explaining Something -->
+		<GuiTextCtrl
+			Name="HelpText"
+			canSaveDynamicFields="0"
+			isContainer="0"
+			Profile="DialogueTextProfile"
+			HorizSizing="width"
+			VertSizing="bottom"
+			Position="20 0"
+			Extent="640 30"
+			MinExtent="80 30"
+			canSave="1"
+			Visible="1"
+			Active="0"
+			text="Explain what will happen when the player is in range of using something"
+			maxLength="255"
+			truncate="0" />
+	</GuiSpriteCtrl>
 	
 	<!-- Dialogue Box -->
 	<GuiSpriteCtrl
 		Name="DialogueBox"
 		Profile="GuiToolboxProfile"
-		HorizSizing="right"
-		VertSizing="top"
-		Position="160 0"
-		Extent="640 120"
+		HorizSizing="width"
+		VertSizing="bottom"
+		Position="0 30"
+		Extent="800 90"
 		MinExtent="80 60"
-		Visible="1"
+		Visible="0"
 		Image="@asset=Assets:blueGradient">
 		
 		<!-- Name of Guy Talking -->
@@ -48,10 +81,10 @@
 			canSaveDynamicFields="0"
 			isContainer="0"
 			Profile="DialogueLabelProfile"
-			HorizSizing="left"
-			VertSizing="top"
+			HorizSizing="width"
+			VertSizing="bottom"
 			Position="20 0"
-			Extent="600 30"
+			Extent="720 30"
 			MinExtent="80 30"
 			canSave="1"
 			Visible="1"
@@ -66,54 +99,80 @@
 			canSaveDynamicFields="0"
 			isContainer="0"
 			Profile="DialogueTextProfile"
-			HorizSizing="left"
-			VertSizing="center"
+			HorizSizing="width"
+			VertSizing="bottom"
 			Position="20 30"
-			Extent="600 90"
+			Extent="720 60"
 			MinExtent="80 60"
 			canSave="1"
 			Visible="1"
 			Active="0"
-			text="Boring, boring, boring, I am boring. Dooring, mooring, gloring. Why haven't you closed the dialogue box yet? Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah end."
-			maxLength="511"
+			text="wibble"
+			maxLength="255"
 			truncate="0" />
 	</GuiSpriteCtrl>
 	
 	<!-- Option Box -->
-	<GuiSpriteCtrl
+	<GuiListBoxCtrl
 		Name="OptionBox"
 		Profile="GuiToolboxProfile"
-		HorizSizing="left"
-		VertSizing="bottom"
+		HorizSizing="right"
+		VertSizing="top"
 		Position="0 480"
 		Extent="400 120"
 		MinExtent="80 60"
-		Visible="1"
+		Visible="0"
 		Image="@asset=Assets:blueGradient">
 		
 		<!-- Exit Dialogue -->
 		<GuiButtonCtrl
 			Name="ExitDialogueButton"
-			Profile="BlueButtonProfile"
+			Profile="DialogueOptionProfile"
 			Text="End Dialogue"
 			ButtonType="PushButton"
 			command="cycleManipulation(true);"
 			canSaveDynamicFields="0"
 			isContainer="0"
-			HorizSizing="left"
-			VertSizing="bottom"
-			Position="0 90"
-			Extent="200 30"
+			HorizSizing="width"
+			VertSizing="top"
+			Position="20 90"
+			Extent="360 30"
 			MinExtent="80 30"
 			canSave="1"
 			Visible="1"
 			Active="1"
 			hovertime="1000"
 			toolTipProfile="GuiToolTipProfile"
-			toolTip="Selects the background color for the scene."
+			toolTip="Close Dialogue Box"
 			groupNum="-1"
 			useMouseEvents="1" />
-		
-	</GuiSpriteCtrl>
+	</GuiListBoxCtrl>
+	
+	<!-- Invetory -->
+	<GuiControl
+		Name="InventoryBox"
+		Profile="GuiToolboxProfile"
+		HorizSizing="left"
+		VertSizing="top"
+		Position="400 480"
+		Extent="400 120"
+		MinExtent="80 60"
+		Visible="1">
+        <GuiControl
+            Name="InventorySelected"
+            canSaveDynamicFields="0"
+            isContainer="1"
+            Profile="GuiSunkenContainerProfile"
+            HorizSizing="relative"
+            VertSizing="relative"
+            Position="0 95"
+            Extent="215 600"
+            MinExtent="8 2"
+            canSave="1"
+            Visible="1"
+            Active="1"
+            hovertime="1000">
+		</GuiControl>
+	</GuiControl>
 	
 </GuiControl>

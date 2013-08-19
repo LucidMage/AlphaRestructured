@@ -25,6 +25,7 @@ $platformFontSize = ($platform $= "ios") ? 18 : 12;
 
 $fontSizeLabel = 24;
 $fontSizeText = 18;
+$fontType = "arial";
 
 //-----------------------------------------------------------------------------
 
@@ -472,7 +473,7 @@ if (!isObject(DialogueLabelProfile)) new GuiControlProfile (DialogueLabelProfile
     border = false;
 
     // font
-    fontType = $platformFontType;
+    fontType = $fontType;
     fontSize = $fontSizeLabel;
 
     fontColor = "white";
@@ -491,7 +492,7 @@ if (!isObject(DialogueTextProfile)) new GuiControlProfile (DialogueTextProfile)
     border = false;
 
     // font
-    fontType = $platformFontType;
+    fontType = $fontType;
     fontSize = $fontSizeText;
 
     fontColor = "white";
@@ -499,6 +500,29 @@ if (!isObject(DialogueTextProfile)) new GuiControlProfile (DialogueTextProfile)
     modal = true;
     justify = "left";
     autoSizeWidth = false;
+    autoSizeHeight = false;
+    returnTab = false;
+    numbersOnly = false;
+    cursorColor = "0 0 0 255";
+};
+
+if (!isObject(DialogueOptionProfile)) new GuiControlProfile (DialogueOptionProfile)
+{
+    border = true;
+    borderColor = "0 0 0 255";
+
+    // font
+    fontType = $fontType;
+    fontSize = $fontSizeText;
+
+    fontColor = "black";
+    fontColorHL = "95 95 95 255";
+    fixedExtent = true;
+    canKeyFocus = false;
+
+    modal = true;
+    justify = "left";
+    autoSizeWidth = true;
     autoSizeHeight = false;
     returnTab = false;
     numbersOnly = false;

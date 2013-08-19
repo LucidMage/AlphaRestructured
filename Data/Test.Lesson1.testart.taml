@@ -7200,9 +7200,42 @@
         </SceneObject.CollisionShapes>
     </SceneObject>
     <Trigger
-        TamlRefId="1" />
+        Name="ToTestTown"
+        Size="9.6 1.92"
+        Position="-0.96 27.84"
+        FixedAngle="1"
+        BodyType="Static"
+        GatherContacts="1"
+        CollisionCallback="1"
+        toScene="testtown">
+        <Trigger.CollisionShapes>
+            <Polygon
+                Sensor="1">
+                <Point>-4.8 -0.96</Point>
+                <Point>4.8 -0.96</Point>
+                <Point>4.8 0.96</Point>
+                <Point>-4.8 0.96</Point>
+            </Polygon>
+        </Trigger.CollisionShapes>
+    </Trigger>
     <Trigger
-        TamlRefId="1" />
+        Name="ToTestTownWarn"
+        Size="9.6 3.84"
+        Position="-0.96 24.96"
+        FixedAngle="1"
+        BodyType="Static"
+        GatherContacts="1"
+        CollisionCallback="1">
+        <Trigger.CollisionShapes>
+            <Polygon
+                Sensor="1">
+                <Point>-4.8 -1.92</Point>
+                <Point>4.8 -1.92</Point>
+                <Point>4.8 1.92</Point>
+                <Point>-4.8 1.92</Point>
+            </Polygon>
+        </Trigger.CollisionShapes>
+    </Trigger>
     <CompositeSprite
         Name="Player"
         class="Character"

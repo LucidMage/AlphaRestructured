@@ -43,21 +43,6 @@ function Character::setup(%this)
 	%this.setSpriteSize(2);
 	
 	%this.updateImages();
-	
-	/*
-	if (%this.state $= $SpriteStateIdle ||
-		%this.state $= $SpriteStateWalk)
-	{
-		%state = "";
-	}
-	else
-	{
-		%state = %this.state;
-	}
-	
-	%animation = %this.getSpriteName() @ %this.gender @ %this.ethnicity @ %state @ %this.direction;
-	echo(%animation);
-	%this.setSpriteAnimation("Assets:" @ %animation);*/
 }
 
 // Change the images to match the current state
@@ -77,7 +62,7 @@ function Character::updateImages(%this)
 	}
 	
 	%animation = %this.getSpriteName() @ %this.gender @ %this.ethnicity @ %state @ %this.direction;
-	echo(%animation);
+	//echo(%animation);
 	%this.setSpriteAnimation("Assets:" @ %animation);
 	
 	//	Torso
@@ -94,7 +79,7 @@ function Character::updateImages(%this)
 	}
 		
 	%animation = %this.getSpriteName() @ %this.torsoColour @ %state @ %this.direction;
-	echo(%animation);
+	//echo(%animation);
 	%this.setSpriteAnimation("Assets:" @ %animation);
 	
 	//	Legs
@@ -111,7 +96,7 @@ function Character::updateImages(%this)
 	}
 		
 	%animation = %this.getSpriteName() @ %this.torsoColour @ %state @ %this.direction;
-	echo(%animation);
+	//echo(%animation);
 	%this.setSpriteAnimation("Assets:" @ %animation);
 }
 
@@ -129,6 +114,12 @@ function Character::use(%this, %user)
       %this.direction = $SpriteDirectionUp;
    else if (%pos.y > %uPos.y)
       %this.direction = $SpriteDirectionDown;
+	
+	DialogueBox.setVisible(true);
+	OptionBox.setVisible(true);
+	
+	DialogueLabel.Text = %this.displayName;
+	DialogueText.Text = "Boring, boring, boring, I am boring. Dooring, mooring, gloring. Why haven't you closed the dialogue box yet? Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah end.";
 }
 /*
 function Character::onCollision(%this, %sceneobject, %collisiondetails)

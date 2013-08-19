@@ -33,7 +33,7 @@ function Guide::setup(%this)
 	
 	%image = %this.imageName;
 	%animation = %image @ %this.state @ %this.direction;
-	echo(%animation);
+	//echo(%animation);
 	%this.playAnimation(%animation);
 }
 
@@ -54,4 +54,10 @@ function Guide::use(%this, %user)
       %this.direction = $SpriteDirectionUp;
    else if (%pos.y > %uPos.y)
       %this.direction = $SpriteDirectionDown;
+	
+	DialogueBox.setVisible(true);
+	OptionBox.setVisible(true);
+	
+	DialogueLabel.setText(%this.displayName);
+	DialogueText.setText("Hello" SPC %user.getName() @ ", how are things?");
 }
