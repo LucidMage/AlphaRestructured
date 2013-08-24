@@ -42,33 +42,6 @@ function Guide::use(%this, %user)
    echo("User:");
    echo(%user);
    echo(%user.getName());
-<<<<<<< HEAD
 	
 	%this.dialogueTree.openDialogue();
-=======
-   %pos = %this.getPosition();
-   %uPos = %user.getPosition();
-   
-   if (%pos.x < %uPos.x)
-      %this.direction = $SpriteDirectionRight;
-   else if (%pos.x > %uPos.x)
-      %this.direction = $SpriteDirectionLeft;
-   
-   if (%pos.y < %uPos.y)
-      %this.direction = $SpriteDirectionUp;
-   else if (%pos.y > %uPos.y)
-      %this.direction = $SpriteDirectionDown;
-	
-	DialogueBox.setVisible(true);
-	OptionBox.setVisible(true);
-	
-	DialogueLabel.setText(%this.displayName);
-	DialogueText.setText("Hello" SPC %user.getName() @ ", how are things?");
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ddbb0e2a3810c6db81b57699fa9d4c2567cf7d10
-=======
->>>>>>> ddbb0e2a3810c6db81b57699fa9d4c2567cf7d10
-=======
->>>>>>> ddbb0e2a3810c6db81b57699fa9d4c2567cf7d10
 }

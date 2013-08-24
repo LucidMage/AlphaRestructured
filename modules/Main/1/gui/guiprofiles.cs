@@ -506,19 +506,7 @@ if (!isObject(DialogueTextProfile)) new GuiControlProfile (DialogueTextProfile)
     cursorColor = "0 0 0 255";
 };
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 if (!isObject(DialogueResponseProfile)) new GuiControlProfile (DialogueResponseProfile)
-=======
-if (!isObject(DialogueOptionProfile)) new GuiControlProfile (DialogueOptionProfile)
->>>>>>> ddbb0e2a3810c6db81b57699fa9d4c2567cf7d10
-=======
-if (!isObject(DialogueOptionProfile)) new GuiControlProfile (DialogueOptionProfile)
->>>>>>> ddbb0e2a3810c6db81b57699fa9d4c2567cf7d10
-=======
-if (!isObject(DialogueOptionProfile)) new GuiControlProfile (DialogueOptionProfile)
->>>>>>> ddbb0e2a3810c6db81b57699fa9d4c2567cf7d10
 {
     border = true;
     borderColor = "0 0 0 255";

@@ -34,19 +34,7 @@
 	
 	<!-- Help -->
 	<GuiSpriteCtrl
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 		Name="HelpContainer"
-=======
-		Name="HelpBox"
->>>>>>> ddbb0e2a3810c6db81b57699fa9d4c2567cf7d10
-=======
-		Name="HelpBox"
->>>>>>> ddbb0e2a3810c6db81b57699fa9d4c2567cf7d10
-=======
-		Name="HelpBox"
->>>>>>> ddbb0e2a3810c6db81b57699fa9d4c2567cf7d10
 		Profile="GuiToolboxProfile"
 		HorizSizing="width"
 		VertSizing="bottom"
@@ -124,21 +112,9 @@
 			truncate="0" />
 	</GuiSpriteCtrl>
 	
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 	<!-- Response Box -->
 	<GuiSpriteCtrl
 		Name="ResponseContainer"
-=======
-=======
->>>>>>> ddbb0e2a3810c6db81b57699fa9d4c2567cf7d10
-=======
->>>>>>> ddbb0e2a3810c6db81b57699fa9d4c2567cf7d10
-	<!-- Option Box -->
-	<GuiListBoxCtrl
-		Name="OptionBox"
->>>>>>> ddbb0e2a3810c6db81b57699fa9d4c2567cf7d10
 		Profile="GuiToolboxProfile"
 		HorizSizing="right"
 		VertSizing="top"
@@ -148,7 +124,6 @@
 		Visible="0"
 		Image="@asset=Assets:blueGradient">
 		
-<<<<<<< HEAD
 		<!-- Scroller -->
 		<GuiScrollCtrl
 			Name="ResponseScroller"
@@ -160,27 +135,10 @@
 			Position="20 15"
 			Extent="380 90"
 			MinExtent="80 60"
-=======
-		<!-- Exit Dialogue -->
-		<GuiButtonCtrl
-			Name="ExitDialogueButton"
-			Profile="DialogueOptionProfile"
-			Text="End Dialogue"
-			ButtonType="PushButton"
-			command="cycleManipulation(true);"
-			canSaveDynamicFields="0"
-			isContainer="0"
-			HorizSizing="width"
-			VertSizing="top"
-			Position="20 90"
-			Extent="360 30"
-			MinExtent="80 30"
->>>>>>> ddbb0e2a3810c6db81b57699fa9d4c2567cf7d10
 			canSave="1"
 			Visible="1"
 			Active="1"
 			hovertime="1000"
-<<<<<<< HEAD
 			willFirstRespond="1"
 			hScrollBar="alwaysOff"
 			vScrollBar="dynamic"
@@ -211,46 +169,6 @@
 				colSpacing="8" />
 		</GuiScrollCtrl>
 	</GuiSpriteCtrl>
-=======
-			toolTipProfile="GuiToolTipProfile"
-			toolTip="Close Dialogue Box"
-			groupNum="-1"
-			useMouseEvents="1" />
-	</GuiListBoxCtrl>
-	
-	<!-- Invetory -->
-	<GuiControl
-		Name="InventoryBox"
-		Profile="GuiToolboxProfile"
-		HorizSizing="left"
-		VertSizing="top"
-		Position="400 480"
-		Extent="400 120"
-		MinExtent="80 60"
-		Visible="1">
-        <GuiControl
-            Name="InventorySelected"
-            canSaveDynamicFields="0"
-            isContainer="1"
-            Profile="GuiSunkenContainerProfile"
-            HorizSizing="relative"
-            VertSizing="relative"
-            Position="0 95"
-            Extent="215 600"
-            MinExtent="8 2"
-            canSave="1"
-            Visible="1"
-            Active="1"
-            hovertime="1000">
-		</GuiControl>
-	</GuiControl>
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ddbb0e2a3810c6db81b57699fa9d4c2567cf7d10
-=======
->>>>>>> ddbb0e2a3810c6db81b57699fa9d4c2567cf7d10
-=======
->>>>>>> ddbb0e2a3810c6db81b57699fa9d4c2567cf7d10
 	
 	<!-- Invetory -->
 	<GuiSpriteCtrl
