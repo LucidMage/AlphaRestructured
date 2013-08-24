@@ -1,0 +1,111 @@
+//-------------------------- 8/24/2013 -- 18:53:10 -----
+Console trace is off.
+--------------------------------------------------------------------------------
+Video Initialization:
+--------------------------------------------------------------------------------
+Video initialization:
+   Accelerated OpenGL display device detected.
+
+Activating the OpenGL display device...
+Activating the OpenGL display device...
+Setting screen mode to 800x600x32 (w)...
+Creating a new window...
+Acquiring a new device context...
+Pixel format set:
+  32 color bits, 24 depth bits, 8 stencil bits
+Creating a new rendering context...
+Making the new rendering context current...
+OpenGL driver information:
+  Vendor: ATI Technologies Inc.
+  Renderer: Radeon (TM) HD 6470M    
+  Version: 4.1.10600 Compatibility Profile Context
+OpenGL Init: Enabled Extensions
+  ARB_multitexture (Max Texture Units: 8)
+  EXT_blend_color
+  EXT_blend_minmax
+  EXT_compiled_vertex_array
+  EXT_texture_env_combine
+  EXT_packed_pixels
+  EXT_fog_coord
+  ARB_texture_compression
+  EXT_texture_compression_s3tc
+  (ARB|EXT)_texture_env_add
+  EXT_texture_filter_anisotropic (Max anisotropy: 16)
+  WGL_EXT_swap_control
+OpenGL Init: Disabled Extensions
+  EXT_paletted_texture
+  NV_vertex_array_range
+  3DFX_texture_compression_FXT1
+
+Max Texture Size reported as: 16384
+OpenAL Driver Init
+OpenAL Driver Init Success
+Asset Manager: Encountered asset Id 'Assets:HeadMaleMaoriWest' in asset file 'C:/Users/Adam/Dropbox/SRG/AlphaRestructured/modules/Assets/animations/characters/HeadMalePakehaEast.asset.taml' but it conflicts with existing asset Id in asset file 'C:/Users/Adam/Dropbox/SRG/AlphaRestructured/modules/Assets/animations/characters/HeadMaleMaoriWest.asset.taml'.
+Asset Manager: Encountered asset Id 'Assets:HeadMaleMaoriNorth' in asset file 'C:/Users/Adam/Dropbox/SRG/AlphaRestructured/modules/Assets/animations/characters/HeadMalePakehaNorth.asset.taml' but it conflicts with existing asset Id in asset file 'C:/Users/Adam/Dropbox/SRG/AlphaRestructured/modules/Assets/animations/characters/HeadMaleMaoriNorth.asset.taml'.
+TamlXmlParser: Could not load Taml XML file from stream.
+Asset Manager: Failed to parse file containing asset declaration: 'C:/Users/Adam/Dropbox/SRG/AlphaRestructured/modules/Assets//animations/characters/LegDressWalkingEast.asset.taml'.
+TamlXmlParser: Could not load Taml XML file from stream.
+Asset Manager: Failed to parse file containing asset declaration: 'C:/Users/Adam/Dropbox/SRG/AlphaRestructured/modules/Assets//animations/characters/LegDressWalkingNorth.asset.taml'.
+TamlXmlParser: Could not load Taml XML file from stream.
+Asset Manager: Failed to parse file containing asset declaration: 'C:/Users/Adam/Dropbox/SRG/AlphaRestructured/modules/Assets//animations/characters/LegDressWalkingSouth.asset.taml'.
+TamlXmlParser: Could not load Taml XML file from stream.
+Asset Manager: Failed to parse file containing asset declaration: 'C:/Users/Adam/Dropbox/SRG/AlphaRestructured/modules/Assets//animations/characters/LegDressWalkingWest.asset.taml'.
+Asset Manager: Encountered asset Id 'Assets:FairyIdleEast' in asset file 'C:/Users/Adam/Dropbox/SRG/AlphaRestructured/modules/Assets/animations/guide/FairyIdleSouth.asset.taml' but it conflicts with existing asset Id in asset file 'C:/Users/Adam/Dropbox/SRG/AlphaRestructured/modules/Assets/animations/guide/FairyIdleEast.asset.taml'.
+Asset Manager: Encountered asset Id 'Assets:KeaIdleEast' in asset file 'C:/Users/Adam/Dropbox/SRG/AlphaRestructured/modules/Assets/animations/guide/KeaIdleSouth.asset.taml' but it conflicts with existing asset Id in asset file 'C:/Users/Adam/Dropbox/SRG/AlphaRestructured/modules/Assets/animations/guide/KeaIdleEast.asset.taml'.
+Asset Manager: Encountered asset Id 'Assets:OwlIdleEast' in asset file 'C:/Users/Adam/Dropbox/SRG/AlphaRestructured/modules/Assets/animations/guide/OwlIdleSouth.asset.taml' but it conflicts with existing asset Id in asset file 'C:/Users/Adam/Dropbox/SRG/AlphaRestructured/modules/Assets/animations/guide/OwlIdleEast.asset.taml'.
+Asset Manager: Failed to acquire asset Id 'Assets:LegsblueSouth' as it does not exist.
+modules/Main/1/activity/scene.cs (35): Unable to find object: 'testart' attempting to call function 'getName'
+Data/Test.Lesson1..taml
+Scene object added to scene but the object is not registered with the simulation.  No 'onAddToScene' can be performed!  Use Target scene.
+Scene object added to scene but the object is not registered with the simulation.  No 'onAddToScene' can be performed!  Use Target scene.
+Scene object added to scene but the object is not registered with the simulation.  No 'onAddToScene' can be performed!  Use Target scene.
+Scene object added to scene but the object is not registered with the simulation.  No 'onAddToScene' can be performed!  Use Target scene.
+Scene object added to scene but the object is not registered with the simulation.  No 'onAddToScene' can be performed!  Use Target scene.
+Scene object added to scene but the object is not registered with the simulation.  No 'onAddToScene' can be performed!  Use Target scene.
+Scene object added to scene but the object is not registered with the simulation.  No 'onAddToScene' can be performed!  Use Target scene.
+Scene object added to scene but the object is not registered with the simulation.  No 'onAddToScene' can be performed!  Use Target scene.
+Scene object added to scene but the object is not registered with the simulation.  No 'onAddToScene' can be performed!  Use Target scene.
+Scene object added to scene but the object is not registered with the simulation.  No 'onAddToScene' can be performed!  Use Target scene.
+Scene object added to scene but the object is not registered with the simulation.  No 'onAddToScene' can be performed!  Use Target scene.
+Scene object added to scene but the object is not registered with the simulation.  No 'onAddToScene' can be performed!  Use Target scene.
+Getting character from profile
+Setup in player setup
+Asset Manager: Failed to acquire asset Id 'Assets:LegsblueSouth' as it does not exist.
+modules/Main/1/sprites/characters/player.cs (46): Unknown command clearBehaviours.
+  Object Player(1174) Player -> Character -> CompositeSprite -> SceneObject -> BehaviorComponent -> DynamicConsoleMethodComponent -> SimComponent -> SimObject
+Setup Triggers
+Asset Manager: Failed to acquire asset Id 'Assets:LegsblueSouth' as it does not exist.
+Asset Manager: Failed to acquire asset Id 'Assets:LegsblueWest' as it does not exist.
+Asset Manager: Failed to acquire asset Id 'Assets:LegsblueSouth' as it does not exist.
+Asset Manager: Failed to acquire asset Id 'Assets:LegsblueWest' as it does not exist.
+Asset Manager: Failed to acquire asset Id 'Assets:LegsblueWest' as it does not exist.
+Asset Manager: Failed to acquire asset Id 'Assets:LegsblueWest' as it does not exist.
+Running Use
+Val is 1
+Val is greater than 0
+Picked object:
+1566
+Dragon
+Owner:
+Player
+Player
+User:
+1564
+
+modules/Main/1/sprites/characters/guide.cs (46): Unable to find object: '' attempting to call function 'openDialogue'
+End of Use
+Running Use
+Val is 0
+End of Use
+Con::execute - 0 has no namespace: onRemoveFromScene
+Con::execute - 0 has no namespace: onRemoveFromScene
+Con::execute - 0 has no namespace: onRemoveFromScene
+Con::execute - 0 has no namespace: onRemoveFromScene
+Con::execute - 0 has no namespace: onRemoveFromScene
+Con::execute - 0 has no namespace: onRemoveFromScene
+Con::execute - 0 has no namespace: onRemoveFromScene
+Con::execute - 0 has no namespace: onRemoveFromScene
+Con::execute - 0 has no namespace: onRemoveFromScene
+Con::execute - 0 has no namespace: onRemoveFromScene
+Con::execute - 0 has no namespace: onRemoveFromScene
+Con::execute - 0 has no namespace: onRemoveFromScene
