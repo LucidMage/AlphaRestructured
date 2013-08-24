@@ -64,5 +64,8 @@ function Guide::use(%this, %user)
 	
 	DialogueLabel.setText(%this.displayName);
 	DialogueText.setText("Hello" SPC %user.getName() @ ", how are things?");
+<<<<<<< HEAD
+>>>>>>> ddbb0e2a3810c6db81b57699fa9d4c2567cf7d10
+=======
 >>>>>>> ddbb0e2a3810c6db81b57699fa9d4c2567cf7d10
 }
