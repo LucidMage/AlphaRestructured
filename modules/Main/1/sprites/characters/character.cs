@@ -124,6 +124,9 @@ function Character::use(%this, %user)
 	DialogueLabel.Text = %this.displayName;
 	DialogueText.Text = "Boring, boring, boring, I am boring. Dooring, mooring, gloring. Why haven't you closed the dialogue box yet? Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah end.";
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ddbb0e2a3810c6db81b57699fa9d4c2567cf7d10
+=======
 >>>>>>> ddbb0e2a3810c6db81b57699fa9d4c2567cf7d10
 =======
 >>>>>>> ddbb0e2a3810c6db81b57699fa9d4c2567cf7d10

@@ -36,7 +36,11 @@
 	<GuiSpriteCtrl
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		Name="HelpContainer"
+=======
+		Name="HelpBox"
+>>>>>>> ddbb0e2a3810c6db81b57699fa9d4c2567cf7d10
 =======
 		Name="HelpBox"
 >>>>>>> ddbb0e2a3810c6db81b57699fa9d4c2567cf7d10
@@ -122,10 +126,13 @@
 	
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	<!-- Response Box -->
 	<GuiSpriteCtrl
 		Name="ResponseContainer"
 =======
+=======
+>>>>>>> ddbb0e2a3810c6db81b57699fa9d4c2567cf7d10
 =======
 >>>>>>> ddbb0e2a3810c6db81b57699fa9d4c2567cf7d10
 	<!-- Option Box -->
@@ -238,6 +245,9 @@
 		</GuiControl>
 	</GuiControl>
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ddbb0e2a3810c6db81b57699fa9d4c2567cf7d10
+=======
 >>>>>>> ddbb0e2a3810c6db81b57699fa9d4c2567cf7d10
 =======
 >>>>>>> ddbb0e2a3810c6db81b57699fa9d4c2567cf7d10
