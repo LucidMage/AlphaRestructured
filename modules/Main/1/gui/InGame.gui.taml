@@ -6,7 +6,7 @@
     VertSizing="relative"
     Position="0 0"
     Extent="800 600"
-    MinExtent="80 60"
+    MinExtent="320 240"
     Visible="1">
 	
 	<!-- Menu -->
@@ -18,28 +18,61 @@
         command="cycleManipulation(true);"
         canSaveDynamicFields="0"
         isContainer="0"
-        HorizSizing="left"
-        VertSizing="top"
+        HorizSizing="right"
+        VertSizing="bottom"
         Position="0 0"
         Extent="80 30"
         MinExtent="80 30"
         canSave="1"
         Visible="1"
         Active="1"
-        hovertime="1000"
+		hovertime="1000"
+		toolTipProfile="GuiToolTipProfile"
+		toolTip="Open the In-Game Menu"
         groupNum="-1"
         useMouseEvents="1" />
 	
+	<!-- Help -->
+	<GuiSpriteCtrl
+		Name="HelpContainer"
+		Profile="GuiToolboxProfile"
+		HorizSizing="width"
+		VertSizing="bottom"
+		Position="80 0"
+		Extent="720 30"
+		MinExtent="80 30"
+		Visible="1"
+		Image="@asset=Assets:blueGradient">
+		
+		<!-- Text Explaining Something -->
+		<GuiTextCtrl
+			Name="HelpText"
+			canSaveDynamicFields="0"
+			isContainer="0"
+			Profile="DialogueTextProfile"
+			HorizSizing="width"
+			VertSizing="bottom"
+			Position="20 0"
+			Extent="640 30"
+			MinExtent="80 30"
+			canSave="1"
+			Visible="1"
+			Active="0"
+			text="Explain what will happen when the player is in range of using something"
+			maxLength="255"
+			truncate="0" />
+	</GuiSpriteCtrl>
+	
 	<!-- Dialogue Box -->
 	<GuiSpriteCtrl
-		Name="DialogueBox"
+		Name="DialogueContainer"
 		Profile="GuiToolboxProfile"
-		HorizSizing="right"
-		VertSizing="top"
-		Position="160 0"
-		Extent="640 120"
+		HorizSizing="width"
+		VertSizing="bottom"
+		Position="0 30"
+		Extent="800 90"
 		MinExtent="80 60"
-		Visible="1"
+		Visible="0"
 		Image="@asset=Assets:blueGradient">
 		
 		<!-- Name of Guy Talking -->
@@ -48,10 +81,10 @@
 			canSaveDynamicFields="0"
 			isContainer="0"
 			Profile="DialogueLabelProfile"
-			HorizSizing="left"
-			VertSizing="top"
+			HorizSizing="width"
+			VertSizing="bottom"
 			Position="20 0"
-			Extent="600 30"
+			Extent="720 30"
 			MinExtent="80 30"
 			canSave="1"
 			Visible="1"
@@ -66,54 +99,87 @@
 			canSaveDynamicFields="0"
 			isContainer="0"
 			Profile="DialogueTextProfile"
-			HorizSizing="left"
-			VertSizing="center"
+			HorizSizing="width"
+			VertSizing="bottom"
 			Position="20 30"
-			Extent="600 90"
+			Extent="720 60"
 			MinExtent="80 60"
 			canSave="1"
 			Visible="1"
 			Active="0"
-			text="Boring, boring, boring, I am boring. Dooring, mooring, gloring. Why haven't you closed the dialogue box yet? Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah end."
-			maxLength="511"
+			text="wibble"
+			maxLength="255"
 			truncate="0" />
 	</GuiSpriteCtrl>
 	
-	<!-- Option Box -->
+	<!-- Response Box -->
 	<GuiSpriteCtrl
-		Name="OptionBox"
+		Name="ResponseContainer"
 		Profile="GuiToolboxProfile"
-		HorizSizing="left"
-		VertSizing="bottom"
+		HorizSizing="right"
+		VertSizing="top"
 		Position="0 480"
 		Extent="400 120"
 		MinExtent="80 60"
-		Visible="1"
+		Visible="0"
 		Image="@asset=Assets:blueGradient">
 		
-		<!-- Exit Dialogue -->
-		<GuiButtonCtrl
-			Name="ExitDialogueButton"
-			Profile="BlueButtonProfile"
-			Text="End Dialogue"
-			ButtonType="PushButton"
-			command="cycleManipulation(true);"
-			canSaveDynamicFields="0"
-			isContainer="0"
-			HorizSizing="left"
-			VertSizing="bottom"
-			Position="0 90"
-			Extent="200 30"
-			MinExtent="80 30"
+		<!-- Scroller -->
+		<GuiScrollCtrl
+			Name="ResponseScroller"
+			canSaveDynamicFields="1"
+			isContainer="1"
+			Profile="GuiLightScrollProfile"
+			HorizSizing="relative"
+			VertSizing="relative"
+			Position="20 15"
+			Extent="380 90"
+			MinExtent="80 60"
 			canSave="1"
 			Visible="1"
 			Active="1"
 			hovertime="1000"
-			toolTipProfile="GuiToolTipProfile"
-			toolTip="Selects the background color for the scene."
-			groupNum="-1"
-			useMouseEvents="1" />
-		
+			willFirstRespond="1"
+			hScrollBar="alwaysOff"
+			vScrollBar="dynamic"
+			constantThumbHeight="0"
+			childMargin="2 3" >
+
+			<!-- Array Holding Options -->
+			<GuiDynamicCtrlArrayControl
+				Name="ResponseArray"
+				canSaveDynamicFields="0"
+				internalName="objectList"
+				isContainer="1"
+				Profile="GuiTransparentProfile"
+				HorizSizing="relative"
+				VertSizing="relative"
+				Position="25 1"
+				Extent="190 300"
+				MinExtent="1 2"
+				canSave="1"
+				Visible="1"
+				Active="1"
+				tooltipprofile="GuiToolTipProfile"
+				hovertime="1000"
+				colCount="1"
+				colSize="180"
+				rowSize="50"
+				rowSpacing="8"
+				colSpacing="8" />
+		</GuiScrollCtrl>
 	</GuiSpriteCtrl>
 	
+	<!-- Invetory -->
+	<GuiSpriteCtrl
+		Name="InventoryContainer"
+		Profile="GuiSunkenContainerProfile"
+		HorizSizing="left"
+		VertSizing="top"
+		Position="500 480"
+		Extent="300 120"
+		MinExtent="60 60"
+		Visible="1"
+		Image="@asset=Assets:blueGradient">
+	</GuiSpriteCtrl>
 </GuiControl>

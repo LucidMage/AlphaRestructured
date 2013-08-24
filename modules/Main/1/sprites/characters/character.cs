@@ -43,21 +43,6 @@ function Character::setup(%this)
 	%this.setSpriteSize(2);
 	
 	%this.updateImages();
-	
-	/*
-	if (%this.state $= $SpriteStateIdle ||
-		%this.state $= $SpriteStateWalk)
-	{
-		%state = "";
-	}
-	else
-	{
-		%state = %this.state;
-	}
-	
-	%animation = %this.getSpriteName() @ %this.gender @ %this.ethnicity @ %state @ %this.direction;
-	echo(%animation);
-	%this.setSpriteAnimation("Assets:" @ %animation);*/
 }
 
 // Change the images to match the current state
@@ -77,7 +62,7 @@ function Character::updateImages(%this)
 	}
 	
 	%animation = %this.getSpriteName() @ %this.gender @ %this.ethnicity @ %state @ %this.direction;
-	echo(%animation);
+	//echo(%animation);
 	%this.setSpriteAnimation("Assets:" @ %animation);
 	
 	//	Torso
@@ -94,7 +79,7 @@ function Character::updateImages(%this)
 	}
 		
 	%animation = %this.getSpriteName() @ %this.torsoColour @ %state @ %this.direction;
-	echo(%animation);
+	//echo(%animation);
 	%this.setSpriteAnimation("Assets:" @ %animation);
 	
 	//	Legs
@@ -111,32 +96,30 @@ function Character::updateImages(%this)
 	}
 		
 	%animation = %this.getSpriteName() @ %this.torsoColour @ %state @ %this.direction;
-	echo(%animation);
+	//echo(%animation);
 	%this.setSpriteAnimation("Assets:" @ %animation);
 }
 
 function Character::use(%this, %user)
 {
-   %pos = %this.getPosition();
-   %uPos = %user.getPosition();
-   
-   if (%pos.x < %uPos.x)
-      %this.direction = $SpriteDirectionRight;
-   else if (%pos.x > %uPos.x)
-      %this.direction = $SpriteDirectionLeft;
-   
-   if (%pos.y < %uPos.y)
-      %this.direction = $SpriteDirectionUp;
-   else if (%pos.y > %uPos.y)
-      %this.direction = $SpriteDirectionDown;
+	%this.dialogueTree.openDialogue();
 }
-/*
-function Character::onCollision(%this, %sceneobject, %collisiondetails)
+
+//	Set the character to look 
+function Character::faceTarget(%this, %target)
 {
-   // Stop character, as a dynamic body type, from floating away
-   echo(%this.getLinearVelocity());
-   echo(%sceneobject.getClassName());
-   
-   //%this.setLinearVelocity("0 0");
-   //%this.setAngularVelocity("0");
-}*/
+	%pos = %this.getPosition();
+	%tPos = %target.getPosition();
+
+	if (%pos.x < %tPos.x)
+		%this.owner.direction = $SpriteDirectionRight;
+	else if (%pos.x > %tPos.x)
+		%this.owner.direction = $SpriteDirectionLeft;
+
+	if (%pos.y < %tPos.y)
+		%this.owner.direction = $SpriteDirectionUp;
+	else if (%pos.y > %tPos.y)
+		%this.owner.direction = $SpriteDirectionDown;
+	
+	%this.updateImages();
+}

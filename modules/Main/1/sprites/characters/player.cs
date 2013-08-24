@@ -27,17 +27,37 @@ function SetupPlayer(%scene, %position, %layer)
    %player.setSceneLayer(%layer);
 
    // Set Behaviours
-   %controls = PlayerControlsBehaviour.createInstance();
+   %player.setGeneralBehaviours();
+   /*%controls = PlayerControlsBehaviour.createInstance();
    %player.addBehavior(%controls);
    
    %controls = InteractBehaviour.createInstance();
-   %player.addBehavior(%controls);
+   %player.addBehavior(%controls);*/
    
    // Inventory
    //%inventory = new ScriptObject(Inventory);
 
    // Add to Scene
    %scene.add(%player);
+}
+
+function Player::setGeneralBehaviours(%this)
+{
+	%this.clearBehaviours();
+
+	%controls = PlayerControlsBehaviour.createInstance();
+	%this.addBehavior(%controls);
+
+	%controls = InteractBehaviour.createInstance();
+	%this.addBehavior(%controls);
+}
+
+function Player::setDialogueBehaviours(%this)
+{
+	%this.clearBehaviours();
+	
+	%controls = DialogueBehaviour.createInstance();
+	%this.addBehaviour(%controls);
 }
 /*
 function Player::onCollision(%this, %sceneobject, %collisiondetails)

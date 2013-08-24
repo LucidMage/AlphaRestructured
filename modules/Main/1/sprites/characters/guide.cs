@@ -8,9 +8,9 @@ function Guide::onAdd(%this)
 function Guide::setup(%this)
 {
 	%this.damping = 20;
-	%this.direction = $SpriteDirectionDown;   // Used for determining image
+	%this.direction = $SpriteDirectionRight;   // Used for determining image
 	%this.speed = 4;
-	%this.state = $SpriteStateIdle;	// Used for determining image
+	%this.state = $SpriteStateWalk;	// Used for determining image
 	%this.positionAdjust = "0 -0.5";
 	%this.useRange = 1.5;	// How close does something have to be for the character to use it
 
@@ -33,7 +33,7 @@ function Guide::setup(%this)
 	
 	%image = %this.imageName;
 	%animation = %image @ %this.state @ %this.direction;
-	echo(%animation);
+	//echo(%animation);
 	%this.playAnimation(%animation);
 }
 
@@ -42,16 +42,6 @@ function Guide::use(%this, %user)
    echo("User:");
    echo(%user);
    echo(%user.getName());
-   %pos = %this.getPosition();
-   %uPos = %user.getPosition();
-   
-   if (%pos.x < %uPos.x)
-      %this.direction = $SpriteDirectionRight;
-   else if (%pos.x > %uPos.x)
-      %this.direction = $SpriteDirectionLeft;
-   
-   if (%pos.y < %uPos.y)
-      %this.direction = $SpriteDirectionUp;
-   else if (%pos.y > %uPos.y)
-      %this.direction = $SpriteDirectionDown;
+	
+	%this.dialogueTree.openDialogue();
 }

@@ -7200,9 +7200,42 @@
         </SceneObject.CollisionShapes>
     </SceneObject>
     <Trigger
-        TamlRefId="1" />
+        Name="ToTestTown"
+        Size="9.6 1.92"
+        Position="-0.96 27.84"
+        FixedAngle="1"
+        BodyType="Static"
+        GatherContacts="1"
+        CollisionCallback="1"
+        toScene="testtown">
+        <Trigger.CollisionShapes>
+            <Polygon
+                Sensor="1">
+                <Point>-4.8 -0.96</Point>
+                <Point>4.8 -0.96</Point>
+                <Point>4.8 0.96</Point>
+                <Point>-4.8 0.96</Point>
+            </Polygon>
+        </Trigger.CollisionShapes>
+    </Trigger>
     <Trigger
-        TamlRefId="1" />
+        Name="ToTestTownWarn"
+        Size="9.6 3.84"
+        Position="-0.96 24.96"
+        FixedAngle="1"
+        BodyType="Static"
+        GatherContacts="1"
+        CollisionCallback="1">
+        <Trigger.CollisionShapes>
+            <Polygon
+                Sensor="1">
+                <Point>-4.8 -1.92</Point>
+                <Point>4.8 -1.92</Point>
+                <Point>4.8 1.92</Point>
+                <Point>-4.8 1.92</Point>
+            </Polygon>
+        </Trigger.CollisionShapes>
+    </Trigger>
     <CompositeSprite
         Name="Player"
         class="Character"
@@ -7216,8 +7249,8 @@
         damping="20"
         direction="South"
         displayName="Test"
-        ethnicity="maori"
-        gender="male"
+        ethnicity="pakeha"
+        gender="female"
         positionAdjust="0 -0.5"
         speed="4"
         state="Idle"
@@ -7250,8 +7283,8 @@
         </CompositeSprite.CollisionShapes>
         <CompositeSprite.Sprites>
             <Sprite
-                Name="HEAD"
-                Animation="Assets:HeadMaleMaoriSouth"
+                Name="Head"
+                Animation="Assets:HeadFemalePakehaSouth"
                 Position="0 0"
                 Size="2 2" />
             <Sprite
@@ -7285,14 +7318,14 @@
         DefaultFriction="0"
         LinearDamping="20"
         CollisionCallback="1"
-        Animation="@asset=Assets:DragonIdleSouth"
+        Animation="@asset=Assets:DragonWalkEast"
         damping="20"
-        direction="South"
+        direction="East"
         displayName="Dragon"
         imageName="Assets:Dragon"
         positionAdjust="0 -0.5"
         speed="4"
-        state="Idle"
+        state="Walk"
         useRange="1.5">
         <Sprite.CollisionShapes>
             <Polygon>
@@ -7314,13 +7347,14 @@
         DefaultFriction="0"
         LinearDamping="20"
         CollisionCallback="1"
+        Animation="@asset=Assets:FairyWalkEast"
         damping="20"
-        direction="South"
+        direction="East"
         displayName="Fairy"
         imageName="Assets:Fairy"
         positionAdjust="0 -0.5"
         speed="4"
-        state="Idle"
+        state="Walk"
         useRange="1.5">
         <Sprite.CollisionShapes>
             <Polygon>
@@ -7342,13 +7376,14 @@
         DefaultFriction="0"
         LinearDamping="20"
         CollisionCallback="1"
+        Animation="@asset=Assets:KeaWalkEast"
         damping="20"
-        direction="South"
+        direction="East"
         displayName="Kea"
         imageName="Assets:Kea"
         positionAdjust="0 -0.5"
         speed="4"
-        state="Idle"
+        state="Walk"
         useRange="1.5">
         <Sprite.CollisionShapes>
             <Polygon>
@@ -7370,13 +7405,14 @@
         DefaultFriction="0"
         LinearDamping="20"
         CollisionCallback="1"
+        Animation="@asset=Assets:OwlWalkEast"
         damping="20"
-        direction="South"
+        direction="East"
         displayName="Owl"
         imageName="Assets:Owl"
         positionAdjust="0 -0.5"
         speed="4"
-        state="Idle"
+        state="Walk"
         useRange="1.5">
         <Sprite.CollisionShapes>
             <Polygon>

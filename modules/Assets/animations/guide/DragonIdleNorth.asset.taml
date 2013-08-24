@@ -1,7 +1,7 @@
 <AnimationAsset
-    AssetName="DragonIdleSouth"
+    AssetName="DragonIdleNorth"
     Image="@asset=Assets:Dragon"
-    animationFrames="2 8 14 8"
+    animationFrames="5 11 17 11"
     animationTime="0.5"
     animationCycle="1"
      />

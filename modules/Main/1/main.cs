@@ -7,15 +7,13 @@ function Main::create( %this )
    exec("./global.cs"); // Global Values
    exec("./console.cs");   // Console
    exec("./activity/loadList.cs");  // Load Activity Scripts
+   exec("./gui/loadList.cs");   //  Load GUI
    exec("./behaviours/loadList.cs");   // Load Behaviours
    exec("./sprites/loadList.cs");   // Load Sprites
 
    //exec("./scenewindow.cs");
    exec("./profile.cs");
    exec("./inventory.cs");
-   
-   //  Load GUI Profiles
-   exec("./gui/loadList.cs");   //  Need this to create GUI controls
 
    CreateSceneWindow();
 	

@@ -6,6 +6,9 @@ $DataSavePath = "Data/";
 $DataSaveExtension = ".taml";
 $DataSaveFormat = xml;
 
+//	GUI
+$GUIResponseHeight = 30;
+
 // Sprites
 $SpriteDirectionUp = "North";
 $SpriteDirectionDown = "South";

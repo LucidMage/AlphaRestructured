@@ -52,9 +52,7 @@ function createDialogueBox()
 function testart::setupCharacters(%this)
 {
    //  Create Player
-   echo("Player Setup");
    SetupPlayer(%this, PlayerPos.getPosition(), PlayerPos.getSceneLayer());
-   echo("End of Player Setup");
    
    //  Dragon
    %dragon = new Sprite(Dragon)
@@ -143,20 +141,24 @@ function testart::setupItems(%this)
 
 function testart::setupTriggers(%this)
 {
+	echo("Setup Triggers");
+	
+	SetupTrigger(ToTestTown);
+	SetupTrigger(ToTestTownWarn);
+
 	//	Should already be created via Tiled
-	ToTestTown.class = "Transition";
 	ToTestTown.toScene = "testtown";
 }
 
 //	Triggers
 function ToTestTown::onEnter(%this, %object)
 {
-	echo("Transferring to Test Town");
+	HelpText.Text = "Transferring to Test Town";
 }
 
 function ToTestTownWarn::onEnter(%this, %object)
 {
-	echo("About to enter Test Town");
+	HelpText.Text = "About to enter Test Town";
 }
 function ToTestTownWarn::onStay(%this, %object)
 {
