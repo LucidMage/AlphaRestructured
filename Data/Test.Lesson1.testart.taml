@@ -2481,54 +2481,6 @@
         </SceneObject.CollisionShapes>
     </SceneObject>
     <SceneObject
-        Name="OwlPos"
-        SceneLayer="18"
-        Size="1.92 1.92"
-        Position="-20.16 -6.72"
-        Awake="0" />
-    <SceneObject
-        Name="FairyPos"
-        SceneLayer="18"
-        Size="1.92 1.92"
-        Position="-12.48 -24"
-        Awake="0" />
-    <SceneObject
-        Name="DragonPos"
-        SceneLayer="18"
-        Size="1.92 1.92"
-        Position="-8.64 14.4"
-        Awake="0" />
-    <SceneObject
-        Name="GreenGemPos"
-        SceneLayer="18"
-        Size="1.92 1.92"
-        Position="-6.72 -2.88"
-        Awake="0" />
-    <SceneObject
-        Name="BlueGemPos"
-        SceneLayer="18"
-        Size="1.92 1.92"
-        Position="-6.72 -6.72"
-        Awake="0" />
-    <SceneObject
-        Name="KeaPos"
-        SceneLayer="18"
-        Size="1.92 1.92"
-        Position="-2.88 -2.88"
-        Awake="0" />
-    <SceneObject
-        Name="PlayerPos"
-        SceneLayer="18"
-        Size="1.92 1.92"
-        Position="-0.96 22.08"
-        Awake="0" />
-    <SceneObject
-        Name="RedGemPos"
-        SceneLayer="18"
-        Size="1.92 1.92"
-        Position="-0.96 -4.8"
-        Awake="0" />
-    <SceneObject
         SceneLayer="19"
         Size="1.92 1.92"
         Position="-27.84 27.84"
@@ -2991,12 +2943,6 @@
                 <Point>-1 1</Point>
                 <Point>-1 0</Point>
             </Polygon>
-            <Polygon>
-                <Point>0 -1</Point>
-                <Point>0 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
-            </Polygon>
         </SceneObject.CollisionShapes>
     </SceneObject>
     <SceneObject
@@ -3041,12 +2987,6 @@
                 <Point>1 1</Point>
                 <Point>-1 1</Point>
                 <Point>-1 0</Point>
-            </Polygon>
-            <Polygon>
-                <Point>0 -1</Point>
-                <Point>0 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
             </Polygon>
         </SceneObject.CollisionShapes>
     </SceneObject>
@@ -3107,12 +3047,6 @@
                 <Point>1 1</Point>
                 <Point>-1 1</Point>
                 <Point>-1 0</Point>
-            </Polygon>
-            <Polygon>
-                <Point>0 -1</Point>
-                <Point>0 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
             </Polygon>
         </SceneObject.CollisionShapes>
     </SceneObject>
@@ -3189,12 +3123,6 @@
                 <Point>-1 1</Point>
                 <Point>-1 0</Point>
             </Polygon>
-            <Polygon>
-                <Point>0 -1</Point>
-                <Point>0 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
-            </Polygon>
         </SceneObject.CollisionShapes>
     </SceneObject>
     <SceneObject
@@ -3269,12 +3197,6 @@
                 <Point>1 1</Point>
                 <Point>-1 1</Point>
                 <Point>-1 0</Point>
-            </Polygon>
-            <Polygon>
-                <Point>0 -1</Point>
-                <Point>0 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
             </Polygon>
         </SceneObject.CollisionShapes>
     </SceneObject>
@@ -3351,12 +3273,6 @@
                 <Point>-1 1</Point>
                 <Point>-1 0</Point>
             </Polygon>
-            <Polygon>
-                <Point>0 -1</Point>
-                <Point>0 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
-            </Polygon>
         </SceneObject.CollisionShapes>
     </SceneObject>
     <SceneObject
@@ -3431,12 +3347,6 @@
                 <Point>1 1</Point>
                 <Point>-1 1</Point>
                 <Point>-1 0</Point>
-            </Polygon>
-            <Polygon>
-                <Point>0 -1</Point>
-                <Point>0 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
             </Polygon>
         </SceneObject.CollisionShapes>
     </SceneObject>
@@ -3513,12 +3423,6 @@
                 <Point>-1 1</Point>
                 <Point>-1 0</Point>
             </Polygon>
-            <Polygon>
-                <Point>0 -1</Point>
-                <Point>0 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
-            </Polygon>
         </SceneObject.CollisionShapes>
     </SceneObject>
     <SceneObject
@@ -3579,12 +3483,6 @@
                 <Point>-1 1</Point>
                 <Point>-1 0</Point>
             </Polygon>
-            <Polygon>
-                <Point>0 -1</Point>
-                <Point>0 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
-            </Polygon>
         </SceneObject.CollisionShapes>
     </SceneObject>
     <SceneObject
@@ -3644,12 +3542,6 @@
                 <Point>1 1</Point>
                 <Point>-1 1</Point>
                 <Point>-1 0</Point>
-            </Polygon>
-            <Polygon>
-                <Point>0 -1</Point>
-                <Point>0 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
             </Polygon>
         </SceneObject.CollisionShapes>
     </SceneObject>
@@ -3726,12 +3618,6 @@
                 <Point>-1 1</Point>
                 <Point>-1 0</Point>
             </Polygon>
-            <Polygon>
-                <Point>0 -1</Point>
-                <Point>0 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
-            </Polygon>
         </SceneObject.CollisionShapes>
     </SceneObject>
     <SceneObject
@@ -3802,14 +3688,38 @@
         Awake="0">
         <SceneObject.CollisionShapes>
             <Polygon>
+                <Point>0 0</Point>
+                <Point>0 1</Point>
+                <Point>-1 1</Point>
+                <Point>-1 0</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="19"
+        Size="1.92 1.92"
+        Position="-4.8 6.72"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
                 <Point>1 -1</Point>
                 <Point>1 0</Point>
                 <Point>-1 0</Point>
                 <Point>-1 -1</Point>
             </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="19"
+        Size="1.92 1.92"
+        Position="-4.8 4.8"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
             <Polygon>
-                <Point>0 -1</Point>
-                <Point>0 1</Point>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
                 <Point>-1 1</Point>
                 <Point>-1 -1</Point>
             </Polygon>
@@ -3819,6 +3729,21 @@
         SceneLayer="19"
         Size="1.92 1.92"
         Position="-4.8 2.88"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
+                <Point>-1 1</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="19"
+        Size="1.92 1.92"
+        Position="-4.8 0.96"
         BodyType="Static"
         Awake="0">
         <SceneObject.CollisionShapes>
@@ -3878,7 +3803,37 @@
     <SceneObject
         SceneLayer="19"
         Size="1.92 1.92"
+        Position="-2.88 6.72"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 0</Point>
+                <Point>-1 0</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="19"
+        Size="1.92 1.92"
         Position="-2.88 2.88"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
+                <Point>-1 1</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="19"
+        Size="1.92 1.92"
+        Position="-2.88 0.96"
         BodyType="Static"
         Awake="0">
         <SceneObject.CollisionShapes>
@@ -3928,8 +3883,23 @@
         Awake="0">
         <SceneObject.CollisionShapes>
             <Polygon>
-                <Point>0 -1</Point>
-                <Point>0 1</Point>
+                <Point>1 -1</Point>
+                <Point>1 0</Point>
+                <Point>-1 0</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="19"
+        Size="1.92 1.92"
+        Position="-0.96 4.8"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
                 <Point>-1 1</Point>
                 <Point>-1 -1</Point>
             </Polygon>
@@ -3939,6 +3909,21 @@
         SceneLayer="19"
         Size="1.92 1.92"
         Position="-0.96 2.88"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
+                <Point>-1 1</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="19"
+        Size="1.92 1.92"
+        Position="-0.96 0.96"
         BodyType="Static"
         Awake="0">
         <SceneObject.CollisionShapes>
@@ -4009,10 +3994,10 @@
         Awake="0">
         <SceneObject.CollisionShapes>
             <Polygon>
-                <Point>1 -1</Point>
+                <Point>1 0</Point>
                 <Point>1 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
+                <Point>0 1</Point>
+                <Point>0 0</Point>
             </Polygon>
         </SceneObject.CollisionShapes>
     </SceneObject>
@@ -4044,12 +4029,6 @@
                 <Point>-1 1</Point>
                 <Point>-1 0</Point>
             </Polygon>
-            <Polygon>
-                <Point>0 -1</Point>
-                <Point>0 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
-            </Polygon>
         </SceneObject.CollisionShapes>
     </SceneObject>
     <SceneObject
@@ -4079,12 +4058,6 @@
                 <Point>1 1</Point>
                 <Point>-1 1</Point>
                 <Point>-1 0</Point>
-            </Polygon>
-            <Polygon>
-                <Point>0 -1</Point>
-                <Point>0 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
             </Polygon>
         </SceneObject.CollisionShapes>
     </SceneObject>
@@ -4116,12 +4089,6 @@
                 <Point>-1 1</Point>
                 <Point>-1 0</Point>
             </Polygon>
-            <Polygon>
-                <Point>0 -1</Point>
-                <Point>0 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
-            </Polygon>
         </SceneObject.CollisionShapes>
     </SceneObject>
     <SceneObject
@@ -4151,12 +4118,6 @@
                 <Point>1 1</Point>
                 <Point>-1 1</Point>
                 <Point>-1 0</Point>
-            </Polygon>
-            <Polygon>
-                <Point>0 -1</Point>
-                <Point>0 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
             </Polygon>
         </SceneObject.CollisionShapes>
     </SceneObject>
@@ -4188,12 +4149,6 @@
                 <Point>-1 1</Point>
                 <Point>-1 0</Point>
             </Polygon>
-            <Polygon>
-                <Point>0 -1</Point>
-                <Point>0 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
-            </Polygon>
         </SceneObject.CollisionShapes>
     </SceneObject>
     <SceneObject
@@ -4223,12 +4178,6 @@
                 <Point>1 1</Point>
                 <Point>-1 1</Point>
                 <Point>-1 0</Point>
-            </Polygon>
-            <Polygon>
-                <Point>0 -1</Point>
-                <Point>0 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
             </Polygon>
         </SceneObject.CollisionShapes>
     </SceneObject>
@@ -4260,12 +4209,6 @@
                 <Point>-1 1</Point>
                 <Point>-1 0</Point>
             </Polygon>
-            <Polygon>
-                <Point>0 -1</Point>
-                <Point>0 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
-            </Polygon>
         </SceneObject.CollisionShapes>
     </SceneObject>
     <SceneObject
@@ -4295,12 +4238,6 @@
                 <Point>1 1</Point>
                 <Point>-1 1</Point>
                 <Point>-1 0</Point>
-            </Polygon>
-            <Polygon>
-                <Point>0 -1</Point>
-                <Point>0 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
             </Polygon>
         </SceneObject.CollisionShapes>
     </SceneObject>
@@ -4332,12 +4269,6 @@
                 <Point>-1 1</Point>
                 <Point>-1 0</Point>
             </Polygon>
-            <Polygon>
-                <Point>0 -1</Point>
-                <Point>0 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
-            </Polygon>
         </SceneObject.CollisionShapes>
     </SceneObject>
     <SceneObject
@@ -4367,12 +4298,6 @@
                 <Point>1 1</Point>
                 <Point>-1 1</Point>
                 <Point>-1 0</Point>
-            </Polygon>
-            <Polygon>
-                <Point>0 -1</Point>
-                <Point>0 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
             </Polygon>
         </SceneObject.CollisionShapes>
     </SceneObject>
@@ -4404,12 +4329,6 @@
                 <Point>-1 1</Point>
                 <Point>-1 0</Point>
             </Polygon>
-            <Polygon>
-                <Point>0 -1</Point>
-                <Point>0 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
-            </Polygon>
         </SceneObject.CollisionShapes>
     </SceneObject>
     <SceneObject
@@ -4439,12 +4358,6 @@
                 <Point>1 1</Point>
                 <Point>-1 1</Point>
                 <Point>-1 0</Point>
-            </Polygon>
-            <Polygon>
-                <Point>0 -1</Point>
-                <Point>0 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
             </Polygon>
         </SceneObject.CollisionShapes>
     </SceneObject>
@@ -4952,6 +4865,171 @@
     <SceneObject
         SceneLayer="17"
         Size="1.92 1.92"
+        Position="-25.92 -27.84"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
+                <Point>-1 1</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="17"
+        Size="1.92 1.92"
+        Position="-24 -27.84"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
+                <Point>-1 1</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="17"
+        Size="1.92 1.92"
+        Position="-22.08 -27.84"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
+                <Point>-1 1</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="17"
+        Size="1.92 1.92"
+        Position="-20.16 -27.84"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
+                <Point>-1 1</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="17"
+        Size="1.92 1.92"
+        Position="-18.24 -27.84"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
+                <Point>-1 1</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="17"
+        Size="1.92 1.92"
+        Position="-16.32 -27.84"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
+                <Point>-1 1</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="17"
+        Size="1.92 1.92"
+        Position="-14.4 -27.84"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
+                <Point>-1 1</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="17"
+        Size="1.92 1.92"
+        Position="-12.48 -27.84"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
+                <Point>-1 1</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="17"
+        Size="1.92 1.92"
+        Position="-10.56 -27.84"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
+                <Point>-1 1</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="17"
+        Size="1.92 1.92"
+        Position="-8.64 -27.84"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
+                <Point>-1 1</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="17"
+        Size="1.92 1.92"
+        Position="-6.72 -27.84"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
+                <Point>-1 1</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="17"
+        Size="1.92 1.92"
         Position="-4.8 4.8"
         BodyType="Static"
         Awake="0">
@@ -4959,6 +5037,36 @@
             <Polygon>
                 <Point>0 -1</Point>
                 <Point>0 1</Point>
+                <Point>-1 1</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="17"
+        Size="1.92 1.92"
+        Position="-4.8 -27.84"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
+                <Point>-1 1</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="17"
+        Size="1.92 1.92"
+        Position="-2.88 -27.84"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
                 <Point>-1 1</Point>
                 <Point>-1 -1</Point>
             </Polygon>
@@ -4976,6 +5084,36 @@
                 <Point>1 1</Point>
                 <Point>0 1</Point>
                 <Point>0 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="17"
+        Size="1.92 1.92"
+        Position="-0.96 -27.84"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
+                <Point>-1 1</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="17"
+        Size="1.92 1.92"
+        Position="0.96 -27.84"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 0</Point>
+                <Point>-1 0</Point>
+                <Point>-1 -1</Point>
             </Polygon>
         </SceneObject.CollisionShapes>
     </SceneObject>
@@ -6480,606 +6618,6 @@
         </SceneObject.CollisionShapes>
     </SceneObject>
     <SceneObject
-        SceneLayer="14"
-        Size="1.92 1.92"
-        Position="-24 20.16"
-        BodyType="Static"
-        Awake="0">
-        <SceneObject.CollisionShapes>
-            <Polygon>
-                <Point>1 -1</Point>
-                <Point>1 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
-            </Polygon>
-        </SceneObject.CollisionShapes>
-    </SceneObject>
-    <SceneObject
-        SceneLayer="14"
-        Size="1.92 1.92"
-        Position="-24 18.24"
-        BodyType="Static"
-        Awake="0">
-        <SceneObject.CollisionShapes>
-            <Polygon>
-                <Point>1 -1</Point>
-                <Point>1 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
-            </Polygon>
-        </SceneObject.CollisionShapes>
-    </SceneObject>
-    <SceneObject
-        SceneLayer="14"
-        Size="1.92 1.92"
-        Position="-24 8.64"
-        BodyType="Static"
-        Awake="0">
-        <SceneObject.CollisionShapes>
-            <Polygon>
-                <Point>1 -1</Point>
-                <Point>1 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
-            </Polygon>
-        </SceneObject.CollisionShapes>
-    </SceneObject>
-    <SceneObject
-        SceneLayer="14"
-        Size="1.92 1.92"
-        Position="-24 6.72"
-        BodyType="Static"
-        Awake="0">
-        <SceneObject.CollisionShapes>
-            <Polygon>
-                <Point>1 -1</Point>
-                <Point>1 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
-            </Polygon>
-        </SceneObject.CollisionShapes>
-    </SceneObject>
-    <SceneObject
-        SceneLayer="14"
-        Size="1.92 1.92"
-        Position="-24 4.8"
-        BodyType="Static"
-        Awake="0">
-        <SceneObject.CollisionShapes>
-            <Polygon>
-                <Point>1 -1</Point>
-                <Point>1 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
-            </Polygon>
-        </SceneObject.CollisionShapes>
-    </SceneObject>
-    <SceneObject
-        SceneLayer="14"
-        Size="1.92 1.92"
-        Position="-22.08 20.16"
-        BodyType="Static"
-        Awake="0">
-        <SceneObject.CollisionShapes>
-            <Polygon>
-                <Point>1 -1</Point>
-                <Point>1 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
-            </Polygon>
-        </SceneObject.CollisionShapes>
-    </SceneObject>
-    <SceneObject
-        SceneLayer="14"
-        Size="1.92 1.92"
-        Position="-22.08 18.24"
-        BodyType="Static"
-        Awake="0">
-        <SceneObject.CollisionShapes>
-            <Polygon>
-                <Point>1 -1</Point>
-                <Point>1 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
-            </Polygon>
-        </SceneObject.CollisionShapes>
-    </SceneObject>
-    <SceneObject
-        SceneLayer="14"
-        Size="1.92 1.92"
-        Position="-22.08 8.64"
-        BodyType="Static"
-        Awake="0">
-        <SceneObject.CollisionShapes>
-            <Polygon>
-                <Point>1 -1</Point>
-                <Point>1 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
-            </Polygon>
-        </SceneObject.CollisionShapes>
-    </SceneObject>
-    <SceneObject
-        SceneLayer="14"
-        Size="1.92 1.92"
-        Position="-22.08 6.72"
-        BodyType="Static"
-        Awake="0">
-        <SceneObject.CollisionShapes>
-            <Polygon>
-                <Point>1 -1</Point>
-                <Point>1 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
-            </Polygon>
-        </SceneObject.CollisionShapes>
-    </SceneObject>
-    <SceneObject
-        SceneLayer="14"
-        Size="1.92 1.92"
-        Position="-22.08 4.8"
-        BodyType="Static"
-        Awake="0">
-        <SceneObject.CollisionShapes>
-            <Polygon>
-                <Point>1 -1</Point>
-                <Point>1 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
-            </Polygon>
-        </SceneObject.CollisionShapes>
-    </SceneObject>
-    <SceneObject
-        SceneLayer="14"
-        Size="1.92 1.92"
-        Position="-20.16 20.16"
-        BodyType="Static"
-        Awake="0">
-        <SceneObject.CollisionShapes>
-            <Polygon>
-                <Point>1 -1</Point>
-                <Point>1 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
-            </Polygon>
-        </SceneObject.CollisionShapes>
-    </SceneObject>
-    <SceneObject
-        SceneLayer="14"
-        Size="1.92 1.92"
-        Position="-20.16 18.24"
-        BodyType="Static"
-        Awake="0">
-        <SceneObject.CollisionShapes>
-            <Polygon>
-                <Point>1 -1</Point>
-                <Point>1 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
-            </Polygon>
-        </SceneObject.CollisionShapes>
-    </SceneObject>
-    <SceneObject
-        SceneLayer="14"
-        Size="1.92 1.92"
-        Position="-20.16 8.64"
-        BodyType="Static"
-        Awake="0">
-        <SceneObject.CollisionShapes>
-            <Polygon>
-                <Point>1 -1</Point>
-                <Point>1 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
-            </Polygon>
-        </SceneObject.CollisionShapes>
-    </SceneObject>
-    <SceneObject
-        SceneLayer="14"
-        Size="1.92 1.92"
-        Position="-20.16 6.72"
-        BodyType="Static"
-        Awake="0">
-        <SceneObject.CollisionShapes>
-            <Polygon>
-                <Point>1 -1</Point>
-                <Point>1 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
-            </Polygon>
-        </SceneObject.CollisionShapes>
-    </SceneObject>
-    <SceneObject
-        SceneLayer="14"
-        Size="1.92 1.92"
-        Position="-20.16 4.8"
-        BodyType="Static"
-        Awake="0">
-        <SceneObject.CollisionShapes>
-            <Polygon>
-                <Point>1 -1</Point>
-                <Point>1 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
-            </Polygon>
-        </SceneObject.CollisionShapes>
-    </SceneObject>
-    <SceneObject
-        SceneLayer="14"
-        Size="1.92 1.92"
-        Position="-18.24 20.16"
-        BodyType="Static"
-        Awake="0">
-        <SceneObject.CollisionShapes>
-            <Polygon>
-                <Point>1 -1</Point>
-                <Point>1 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
-            </Polygon>
-        </SceneObject.CollisionShapes>
-    </SceneObject>
-    <SceneObject
-        SceneLayer="14"
-        Size="1.92 1.92"
-        Position="-18.24 18.24"
-        BodyType="Static"
-        Awake="0">
-        <SceneObject.CollisionShapes>
-            <Polygon>
-                <Point>1 -1</Point>
-                <Point>1 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
-            </Polygon>
-        </SceneObject.CollisionShapes>
-    </SceneObject>
-    <SceneObject
-        SceneLayer="14"
-        Size="1.92 1.92"
-        Position="-16.32 20.16"
-        BodyType="Static"
-        Awake="0">
-        <SceneObject.CollisionShapes>
-            <Polygon>
-                <Point>1 -1</Point>
-                <Point>1 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
-            </Polygon>
-        </SceneObject.CollisionShapes>
-    </SceneObject>
-    <SceneObject
-        SceneLayer="14"
-        Size="1.92 1.92"
-        Position="-16.32 18.24"
-        BodyType="Static"
-        Awake="0">
-        <SceneObject.CollisionShapes>
-            <Polygon>
-                <Point>1 -1</Point>
-                <Point>1 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
-            </Polygon>
-        </SceneObject.CollisionShapes>
-    </SceneObject>
-    <SceneObject
-        SceneLayer="14"
-        Size="1.92 1.92"
-        Position="-14.4 20.16"
-        BodyType="Static"
-        Awake="0">
-        <SceneObject.CollisionShapes>
-            <Polygon>
-                <Point>1 -1</Point>
-                <Point>1 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
-            </Polygon>
-        </SceneObject.CollisionShapes>
-    </SceneObject>
-    <SceneObject
-        SceneLayer="14"
-        Size="1.92 1.92"
-        Position="-14.4 18.24"
-        BodyType="Static"
-        Awake="0">
-        <SceneObject.CollisionShapes>
-            <Polygon>
-                <Point>1 -1</Point>
-                <Point>1 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
-            </Polygon>
-        </SceneObject.CollisionShapes>
-    </SceneObject>
-    <SceneObject
-        SceneLayer="14"
-        Size="1.92 1.92"
-        Position="-12.48 20.16"
-        BodyType="Static"
-        Awake="0">
-        <SceneObject.CollisionShapes>
-            <Polygon>
-                <Point>1 -1</Point>
-                <Point>1 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
-            </Polygon>
-        </SceneObject.CollisionShapes>
-    </SceneObject>
-    <SceneObject
-        SceneLayer="14"
-        Size="1.92 1.92"
-        Position="-12.48 18.24"
-        BodyType="Static"
-        Awake="0">
-        <SceneObject.CollisionShapes>
-            <Polygon>
-                <Point>1 -1</Point>
-                <Point>1 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
-            </Polygon>
-        </SceneObject.CollisionShapes>
-    </SceneObject>
-    <SceneObject
-        SceneLayer="14"
-        Size="1.92 1.92"
-        Position="0.96 22.08"
-        BodyType="Static"
-        Awake="0">
-        <SceneObject.CollisionShapes>
-            <Polygon>
-                <Point>1 -1</Point>
-                <Point>1 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
-            </Polygon>
-        </SceneObject.CollisionShapes>
-    </SceneObject>
-    <SceneObject
-        SceneLayer="14"
-        Size="1.92 1.92"
-        Position="0.96 20.16"
-        BodyType="Static"
-        Awake="0">
-        <SceneObject.CollisionShapes>
-            <Polygon>
-                <Point>1 -1</Point>
-                <Point>1 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
-            </Polygon>
-        </SceneObject.CollisionShapes>
-    </SceneObject>
-    <SceneObject
-        SceneLayer="14"
-        Size="1.92 1.92"
-        Position="2.88 22.08"
-        BodyType="Static"
-        Awake="0">
-        <SceneObject.CollisionShapes>
-            <Polygon>
-                <Point>1 -1</Point>
-                <Point>1 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
-            </Polygon>
-        </SceneObject.CollisionShapes>
-    </SceneObject>
-    <SceneObject
-        SceneLayer="14"
-        Size="1.92 1.92"
-        Position="2.88 20.16"
-        BodyType="Static"
-        Awake="0">
-        <SceneObject.CollisionShapes>
-            <Polygon>
-                <Point>1 -1</Point>
-                <Point>1 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
-            </Polygon>
-        </SceneObject.CollisionShapes>
-    </SceneObject>
-    <SceneObject
-        SceneLayer="14"
-        Size="1.92 1.92"
-        Position="2.88 18.24"
-        BodyType="Static"
-        Awake="0">
-        <SceneObject.CollisionShapes>
-            <Polygon>
-                <Point>1 -1</Point>
-                <Point>1 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
-            </Polygon>
-        </SceneObject.CollisionShapes>
-    </SceneObject>
-    <SceneObject
-        SceneLayer="14"
-        Size="1.92 1.92"
-        Position="4.8 22.08"
-        BodyType="Static"
-        Awake="0">
-        <SceneObject.CollisionShapes>
-            <Polygon>
-                <Point>1 -1</Point>
-                <Point>1 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
-            </Polygon>
-        </SceneObject.CollisionShapes>
-    </SceneObject>
-    <SceneObject
-        SceneLayer="14"
-        Size="1.92 1.92"
-        Position="4.8 20.16"
-        BodyType="Static"
-        Awake="0">
-        <SceneObject.CollisionShapes>
-            <Polygon>
-                <Point>1 -1</Point>
-                <Point>1 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
-            </Polygon>
-        </SceneObject.CollisionShapes>
-    </SceneObject>
-    <SceneObject
-        SceneLayer="14"
-        Size="1.92 1.92"
-        Position="4.8 18.24"
-        BodyType="Static"
-        Awake="0">
-        <SceneObject.CollisionShapes>
-            <Polygon>
-                <Point>1 -1</Point>
-                <Point>1 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
-            </Polygon>
-        </SceneObject.CollisionShapes>
-    </SceneObject>
-    <SceneObject
-        SceneLayer="14"
-        Size="1.92 1.92"
-        Position="6.72 22.08"
-        BodyType="Static"
-        Awake="0">
-        <SceneObject.CollisionShapes>
-            <Polygon>
-                <Point>1 -1</Point>
-                <Point>1 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
-            </Polygon>
-        </SceneObject.CollisionShapes>
-    </SceneObject>
-    <SceneObject
-        SceneLayer="14"
-        Size="1.92 1.92"
-        Position="6.72 20.16"
-        BodyType="Static"
-        Awake="0">
-        <SceneObject.CollisionShapes>
-            <Polygon>
-                <Point>1 -1</Point>
-                <Point>1 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
-            </Polygon>
-        </SceneObject.CollisionShapes>
-    </SceneObject>
-    <SceneObject
-        SceneLayer="14"
-        Size="1.92 1.92"
-        Position="6.72 18.24"
-        BodyType="Static"
-        Awake="0">
-        <SceneObject.CollisionShapes>
-            <Polygon>
-                <Point>1 -1</Point>
-                <Point>1 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
-            </Polygon>
-        </SceneObject.CollisionShapes>
-    </SceneObject>
-    <SceneObject
-        SceneLayer="14"
-        Size="1.92 1.92"
-        Position="8.64 22.08"
-        BodyType="Static"
-        Awake="0">
-        <SceneObject.CollisionShapes>
-            <Polygon>
-                <Point>1 -1</Point>
-                <Point>1 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
-            </Polygon>
-        </SceneObject.CollisionShapes>
-    </SceneObject>
-    <SceneObject
-        SceneLayer="14"
-        Size="1.92 1.92"
-        Position="8.64 20.16"
-        BodyType="Static"
-        Awake="0">
-        <SceneObject.CollisionShapes>
-            <Polygon>
-                <Point>1 -1</Point>
-                <Point>1 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
-            </Polygon>
-        </SceneObject.CollisionShapes>
-    </SceneObject>
-    <SceneObject
-        SceneLayer="14"
-        Size="1.92 1.92"
-        Position="10.56 22.08"
-        BodyType="Static"
-        Awake="0">
-        <SceneObject.CollisionShapes>
-            <Polygon>
-                <Point>1 -1</Point>
-                <Point>1 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
-            </Polygon>
-        </SceneObject.CollisionShapes>
-    </SceneObject>
-    <SceneObject
-        SceneLayer="14"
-        Size="1.92 1.92"
-        Position="10.56 20.16"
-        BodyType="Static"
-        Awake="0">
-        <SceneObject.CollisionShapes>
-            <Polygon>
-                <Point>1 -1</Point>
-                <Point>1 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
-            </Polygon>
-        </SceneObject.CollisionShapes>
-    </SceneObject>
-    <SceneObject
-        SceneLayer="14"
-        Size="1.92 1.92"
-        Position="12.48 22.08"
-        BodyType="Static"
-        Awake="0">
-        <SceneObject.CollisionShapes>
-            <Polygon>
-                <Point>1 -1</Point>
-                <Point>1 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
-            </Polygon>
-        </SceneObject.CollisionShapes>
-    </SceneObject>
-    <SceneObject
-        SceneLayer="14"
-        Size="1.92 1.92"
-        Position="12.48 20.16"
-        BodyType="Static"
-        Awake="0">
-        <SceneObject.CollisionShapes>
-            <Polygon>
-                <Point>1 -1</Point>
-                <Point>1 1</Point>
-                <Point>-1 1</Point>
-                <Point>-1 -1</Point>
-            </Polygon>
-        </SceneObject.CollisionShapes>
-    </SceneObject>
-    <SceneObject
         SceneLayer="13"
         Size="1.92 1.92"
         Position="-8.64 16.32"
@@ -7199,6 +6737,678 @@
             </Polygon>
         </SceneObject.CollisionShapes>
     </SceneObject>
+    <SceneObject
+        Name="OwlPos"
+        SceneLayer="12"
+        Size="1.92 1.92"
+        Position="-20.16 -6.72"
+        Awake="0" />
+    <SceneObject
+        Name="Person1Pos"
+        SceneLayer="12"
+        Size="1.92 1.92"
+        Position="-16.32 12.48"
+        Awake="0" />
+    <SceneObject
+        Name="FairyPos"
+        SceneLayer="12"
+        Size="1.92 1.92"
+        Position="-12.48 -24"
+        Awake="0" />
+    <SceneObject
+        Name="DragonPos"
+        SceneLayer="12"
+        Size="1.92 1.92"
+        Position="-8.64 14.4"
+        Awake="0" />
+    <SceneObject
+        Name="GreenGemPos"
+        SceneLayer="12"
+        Size="1.92 1.92"
+        Position="-6.72 -2.88"
+        Awake="0" />
+    <SceneObject
+        Name="BlueGemPos"
+        SceneLayer="12"
+        Size="1.92 1.92"
+        Position="-6.72 -6.72"
+        Awake="0" />
+    <SceneObject
+        Name="Person3Pos"
+        SceneLayer="12"
+        Size="1.92 1.92"
+        Position="-6.72 -16.32"
+        Awake="0" />
+    <SceneObject
+        Name="KeaPos"
+        SceneLayer="12"
+        Size="1.92 1.92"
+        Position="-2.88 -2.88"
+        Awake="0" />
+    <SceneObject
+        Name="PlayerPos"
+        SceneLayer="12"
+        Size="1.92 1.92"
+        Position="-0.96 22.08"
+        Awake="0" />
+    <SceneObject
+        Name="RedGemPos"
+        SceneLayer="12"
+        Size="1.92 1.92"
+        Position="-0.96 -4.8"
+        Awake="0" />
+    <SceneObject
+        Name="Person2Pos"
+        SceneLayer="12"
+        Size="1.92 1.92"
+        Position="6.72 12.48"
+        Awake="0" />
+    <SceneObject
+        Name="Person4Pos"
+        SceneLayer="12"
+        Size="1.92 1.92"
+        Position="8.64 -8.64"
+        Awake="0" />
+    <SceneObject
+        SceneLayer="11"
+        Size="1.92 1.92"
+        Position="-24 20.16"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
+                <Point>-1 1</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="11"
+        Size="1.92 1.92"
+        Position="-24 18.24"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
+                <Point>-1 1</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="11"
+        Size="1.92 1.92"
+        Position="-24 8.64"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
+                <Point>-1 1</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="11"
+        Size="1.92 1.92"
+        Position="-24 6.72"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
+                <Point>-1 1</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="11"
+        Size="1.92 1.92"
+        Position="-24 4.8"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
+                <Point>-1 1</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="11"
+        Size="1.92 1.92"
+        Position="-22.08 20.16"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
+                <Point>-1 1</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="11"
+        Size="1.92 1.92"
+        Position="-22.08 18.24"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
+                <Point>-1 1</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="11"
+        Size="1.92 1.92"
+        Position="-22.08 8.64"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
+                <Point>-1 1</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="11"
+        Size="1.92 1.92"
+        Position="-22.08 6.72"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
+                <Point>-1 1</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="11"
+        Size="1.92 1.92"
+        Position="-22.08 4.8"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
+                <Point>-1 1</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="11"
+        Size="1.92 1.92"
+        Position="-20.16 20.16"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
+                <Point>-1 1</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="11"
+        Size="1.92 1.92"
+        Position="-20.16 18.24"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
+                <Point>-1 1</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="11"
+        Size="1.92 1.92"
+        Position="-20.16 8.64"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
+                <Point>-1 1</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="11"
+        Size="1.92 1.92"
+        Position="-20.16 6.72"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
+                <Point>-1 1</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="11"
+        Size="1.92 1.92"
+        Position="-20.16 4.8"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
+                <Point>-1 1</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="11"
+        Size="1.92 1.92"
+        Position="-18.24 20.16"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
+                <Point>-1 1</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="11"
+        Size="1.92 1.92"
+        Position="-18.24 18.24"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
+                <Point>-1 1</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="11"
+        Size="1.92 1.92"
+        Position="-16.32 20.16"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
+                <Point>-1 1</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="11"
+        Size="1.92 1.92"
+        Position="-16.32 18.24"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
+                <Point>-1 1</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="11"
+        Size="1.92 1.92"
+        Position="-14.4 20.16"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
+                <Point>-1 1</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="11"
+        Size="1.92 1.92"
+        Position="-14.4 18.24"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
+                <Point>-1 1</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="11"
+        Size="1.92 1.92"
+        Position="-12.48 20.16"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
+                <Point>-1 1</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="11"
+        Size="1.92 1.92"
+        Position="-12.48 18.24"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
+                <Point>-1 1</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="11"
+        Size="1.92 1.92"
+        Position="0.96 22.08"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
+                <Point>-1 1</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="11"
+        Size="1.92 1.92"
+        Position="0.96 20.16"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
+                <Point>-1 1</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="11"
+        Size="1.92 1.92"
+        Position="2.88 22.08"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
+                <Point>-1 1</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="11"
+        Size="1.92 1.92"
+        Position="2.88 20.16"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
+                <Point>-1 1</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="11"
+        Size="1.92 1.92"
+        Position="2.88 18.24"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
+                <Point>-1 1</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="11"
+        Size="1.92 1.92"
+        Position="4.8 22.08"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
+                <Point>-1 1</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="11"
+        Size="1.92 1.92"
+        Position="4.8 20.16"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
+                <Point>-1 1</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="11"
+        Size="1.92 1.92"
+        Position="4.8 18.24"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
+                <Point>-1 1</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="11"
+        Size="1.92 1.92"
+        Position="6.72 22.08"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
+                <Point>-1 1</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="11"
+        Size="1.92 1.92"
+        Position="6.72 20.16"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
+                <Point>-1 1</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="11"
+        Size="1.92 1.92"
+        Position="6.72 18.24"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
+                <Point>-1 1</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="11"
+        Size="1.92 1.92"
+        Position="8.64 22.08"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
+                <Point>-1 1</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="11"
+        Size="1.92 1.92"
+        Position="8.64 20.16"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
+                <Point>-1 1</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="11"
+        Size="1.92 1.92"
+        Position="10.56 22.08"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
+                <Point>-1 1</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="11"
+        Size="1.92 1.92"
+        Position="10.56 20.16"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
+                <Point>-1 1</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="11"
+        Size="1.92 1.92"
+        Position="12.48 22.08"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
+                <Point>-1 1</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+    <SceneObject
+        SceneLayer="11"
+        Size="1.92 1.92"
+        Position="12.48 20.16"
+        BodyType="Static"
+        Awake="0">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>1 -1</Point>
+                <Point>1 1</Point>
+                <Point>-1 1</Point>
+                <Point>-1 -1</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
     <Trigger
         Name="ToTestTown"
         Size="9.6 1.92"
@@ -7207,7 +7417,7 @@
         BodyType="Static"
         GatherContacts="1"
         CollisionCallback="1"
-        toScene="testtown">
+        toScene="testart">
         <Trigger.CollisionShapes>
             <Polygon
                 Sensor="1">
@@ -7239,22 +7449,25 @@
     <CompositeSprite
         Name="Player"
         class="Character"
-        SceneLayer="18"
+        SceneLayer="12"
         Position="-0.96 22.08"
         FixedAngle="1"
-        DefaultDensity="1000000"
+        DefaultDensity="100"
         DefaultFriction="0"
         LinearDamping="20"
         CollisionCallback="1"
+        collisionSize="0.6 0.8"
         damping="20"
+        DialogueTree="1591"
         direction="South"
         displayName="Test"
         ethnicity="pakeha"
         gender="female"
+        Legs="dress"
         positionAdjust="0 -0.5"
         speed="4"
         state="Idle"
-        torsoColour="blue"
+        Torso="plaid"
         useRange="1.5">
         <CompositeSprite.Behaviors>
             <PlayerControlsBehaviour
@@ -7269,31 +7482,282 @@
         </CompositeSprite.Behaviors>
         <CompositeSprite.CollisionShapes>
             <Polygon>
-                <Point>-0.5 -1</Point>
-                <Point>0.5 -1</Point>
-                <Point>0.5 0</Point>
-                <Point>-0.5 0</Point>
+                <Point>-0.3 -0.9</Point>
+                <Point>0.3 -0.9</Point>
+                <Point>0.3 -0.1</Point>
+                <Point>-0.3 -0.1</Point>
             </Polygon>
             <Polygon>
-                <Point>-0.5 -1</Point>
-                <Point>0.5 -1</Point>
-                <Point>0.5 0</Point>
-                <Point>-0.5 0</Point>
+                <Point>-0.3 -0.9</Point>
+                <Point>0.3 -0.9</Point>
+                <Point>0.3 -0.1</Point>
+                <Point>-0.3 -0.1</Point>
             </Polygon>
         </CompositeSprite.CollisionShapes>
         <CompositeSprite.Sprites>
+            <Sprite
+                Name="Legs"
+                Animation="Assets:LegsDressIdleSouth"
+                Position="0 0"
+                Size="2 2" />
+            <Sprite
+                Name="Torso"
+                Animation="Assets:TorsoPlaidSouth"
+                Position="0 0"
+                Size="2 2" />
             <Sprite
                 Name="Head"
                 Animation="Assets:HeadFemalePakehaSouth"
                 Position="0 0"
                 Size="2 2" />
             <Sprite
-                Name="Torso"
-                Animation="Assets:TorsoBlueSouth"
                 Position="0 0"
                 Size="2 2" />
             <Sprite
+                Position="0 0"
+                Size="2 2" />
+            <Sprite
+                Position="0 0"
+                Size="2 2" />
+        </CompositeSprite.Sprites>
+    </CompositeSprite>
+    <CompositeSprite
+        Name="Person1"
+        class="Character"
+        SceneLayer="12"
+        Position="-16.32 12.48"
+        FixedAngle="1"
+        DefaultDensity="1000000"
+        DefaultFriction="0"
+        LinearDamping="20"
+        CollisionCallback="1"
+        collisionSize="0.6 0.8"
+        damping="20"
+        DialogueTree="1600"
+        direction="South"
+        displayName="Bob"
+        ethnicity="Maori"
+        gender="Male"
+        Legs="Dress"
+        positionAdjust="0 -0.5"
+        speed="4"
+        state="Idle"
+        useRange="1.5">
+        <CompositeSprite.CollisionShapes>
+            <Polygon>
+                <Point>-0.3 -0.9</Point>
+                <Point>0.3 -0.9</Point>
+                <Point>0.3 -0.1</Point>
+                <Point>-0.3 -0.1</Point>
+            </Polygon>
+            <Polygon>
+                <Point>-0.3 -0.9</Point>
+                <Point>0.3 -0.9</Point>
+                <Point>0.3 -0.1</Point>
+                <Point>-0.3 -0.1</Point>
+            </Polygon>
+        </CompositeSprite.CollisionShapes>
+        <CompositeSprite.Sprites>
+            <Sprite
                 Name="Legs"
+                Animation="Assets:LegsDressIdleSouth"
+                Position="0 0"
+                Size="2 2" />
+            <Sprite
+                Name="Torso"
+                Position="0 0"
+                Size="2 2" />
+            <Sprite
+                Name="Head"
+                Animation="Assets:HeadMaleMaoriSouth"
+                Position="0 0"
+                Size="2 2" />
+            <Sprite
+                Position="0 0"
+                Size="2 2" />
+            <Sprite
+                Position="0 0"
+                Size="2 2" />
+            <Sprite
+                Position="0 0"
+                Size="2 2" />
+        </CompositeSprite.Sprites>
+    </CompositeSprite>
+    <CompositeSprite
+        Name="Person2"
+        class="Character"
+        SceneLayer="12"
+        Position="6.72 12.48"
+        FixedAngle="1"
+        DefaultDensity="1000000"
+        DefaultFriction="0"
+        LinearDamping="20"
+        CollisionCallback="1"
+        collisionSize="0.6 0.8"
+        damping="20"
+        DialogueTree="1605"
+        direction="South"
+        displayName="Mary"
+        ethnicity="Pakeha"
+        gender="Female"
+        Legs="Dress"
+        positionAdjust="0 -0.5"
+        speed="4"
+        state="Idle"
+        useRange="1.5">
+        <CompositeSprite.CollisionShapes>
+            <Polygon>
+                <Point>-0.3 -0.9</Point>
+                <Point>0.3 -0.9</Point>
+                <Point>0.3 -0.1</Point>
+                <Point>-0.3 -0.1</Point>
+            </Polygon>
+            <Polygon>
+                <Point>-0.3 -0.9</Point>
+                <Point>0.3 -0.9</Point>
+                <Point>0.3 -0.1</Point>
+                <Point>-0.3 -0.1</Point>
+            </Polygon>
+        </CompositeSprite.CollisionShapes>
+        <CompositeSprite.Sprites>
+            <Sprite
+                Name="Legs"
+                Animation="Assets:LegsDressIdleSouth"
+                Position="0 0"
+                Size="2 2" />
+            <Sprite
+                Name="Torso"
+                Position="0 0"
+                Size="2 2" />
+            <Sprite
+                Name="Head"
+                Animation="Assets:HeadFemalePakehaSouth"
+                Position="0 0"
+                Size="2 2" />
+            <Sprite
+                Position="0 0"
+                Size="2 2" />
+            <Sprite
+                Position="0 0"
+                Size="2 2" />
+            <Sprite
+                Position="0 0"
+                Size="2 2" />
+        </CompositeSprite.Sprites>
+    </CompositeSprite>
+    <CompositeSprite
+        Name="Person3"
+        class="Character"
+        SceneLayer="12"
+        Position="-6.72 -16.32"
+        FixedAngle="1"
+        DefaultDensity="1000000"
+        DefaultFriction="0"
+        LinearDamping="20"
+        CollisionCallback="1"
+        collisionSize="0.6 0.8"
+        damping="20"
+        DialogueTree="1611"
+        direction="South"
+        displayName="Sue"
+        ethnicity="PI"
+        gender="Female"
+        Legs="Dress"
+        positionAdjust="0 -0.5"
+        speed="4"
+        state="Idle"
+        useRange="1.5">
+        <CompositeSprite.CollisionShapes>
+            <Polygon>
+                <Point>-0.3 -0.9</Point>
+                <Point>0.3 -0.9</Point>
+                <Point>0.3 -0.1</Point>
+                <Point>-0.3 -0.1</Point>
+            </Polygon>
+            <Polygon>
+                <Point>-0.3 -0.9</Point>
+                <Point>0.3 -0.9</Point>
+                <Point>0.3 -0.1</Point>
+                <Point>-0.3 -0.1</Point>
+            </Polygon>
+        </CompositeSprite.CollisionShapes>
+        <CompositeSprite.Sprites>
+            <Sprite
+                Name="Legs"
+                Animation="Assets:LegsDressIdleSouth"
+                Position="0 0"
+                Size="2 2" />
+            <Sprite
+                Name="Torso"
+                Position="0 0"
+                Size="2 2" />
+            <Sprite
+                Name="Head"
+                Animation="Assets:HeadFemalePISouth"
+                Position="0 0"
+                Size="2 2" />
+            <Sprite
+                Position="0 0"
+                Size="2 2" />
+            <Sprite
+                Position="0 0"
+                Size="2 2" />
+            <Sprite
+                Position="0 0"
+                Size="2 2" />
+        </CompositeSprite.Sprites>
+    </CompositeSprite>
+    <CompositeSprite
+        Name="Person4"
+        class="Character"
+        SceneLayer="12"
+        Position="8.64 -8.64"
+        FixedAngle="1"
+        DefaultDensity="1000000"
+        DefaultFriction="0"
+        LinearDamping="20"
+        CollisionCallback="1"
+        collisionSize="0.6 0.8"
+        damping="20"
+        DialogueTree="1617"
+        direction="South"
+        displayName="Lee"
+        ethnicity="Asian"
+        gender="Male"
+        Legs="Dress"
+        positionAdjust="0 -0.5"
+        speed="4"
+        state="Idle"
+        Torso="Plaid"
+        useRange="1.5">
+        <CompositeSprite.CollisionShapes>
+            <Polygon>
+                <Point>-0.3 -0.9</Point>
+                <Point>0.3 -0.9</Point>
+                <Point>0.3 -0.1</Point>
+                <Point>-0.3 -0.1</Point>
+            </Polygon>
+            <Polygon>
+                <Point>-0.3 -0.9</Point>
+                <Point>0.3 -0.9</Point>
+                <Point>0.3 -0.1</Point>
+                <Point>-0.3 -0.1</Point>
+            </Polygon>
+        </CompositeSprite.CollisionShapes>
+        <CompositeSprite.Sprites>
+            <Sprite
+                Name="Legs"
+                Animation="Assets:LegsDressIdleSouth"
+                Position="0 0"
+                Size="2 2" />
+            <Sprite
+                Name="Torso"
+                Animation="Assets:TorsoPlaidSouth"
+                Position="0 0"
+                Size="2 2" />
+            <Sprite
+                Name="Head"
+                Animation="Assets:HeadMaleAsianSouth"
                 Position="0 0"
                 Size="2 2" />
             <Sprite
@@ -7310,7 +7774,7 @@
     <Sprite
         Name="Dragon"
         class="Guide"
-        SceneLayer="18"
+        SceneLayer="12"
         Size="2 2"
         Position="-8.64 14.4"
         FixedAngle="1"
@@ -7318,28 +7782,30 @@
         DefaultFriction="0"
         LinearDamping="20"
         CollisionCallback="1"
-        Animation="@asset=Assets:DragonWalkEast"
+        Animation="@asset=Assets:DragonIdleSouth"
+        collisionSize="0.6 0.8"
         damping="20"
-        direction="East"
+        DialogueTree="1620"
+        direction="South"
         displayName="Dragon"
         imageName="Assets:Dragon"
         positionAdjust="0 -0.5"
         speed="4"
-        state="Walk"
+        state="Idle"
         useRange="1.5">
         <Sprite.CollisionShapes>
             <Polygon>
-                <Point>-0.5 -1</Point>
-                <Point>0.5 -1</Point>
-                <Point>0.5 0</Point>
-                <Point>-0.5 0</Point>
+                <Point>-0.3 -0.9</Point>
+                <Point>0.3 -0.9</Point>
+                <Point>0.3 -0.1</Point>
+                <Point>-0.3 -0.1</Point>
             </Polygon>
         </Sprite.CollisionShapes>
     </Sprite>
     <Sprite
         Name="Fairy"
         class="Guide"
-        SceneLayer="18"
+        SceneLayer="12"
         Size="2 2"
         Position="-12.48 -24"
         FixedAngle="1"
@@ -7347,28 +7813,30 @@
         DefaultFriction="0"
         LinearDamping="20"
         CollisionCallback="1"
-        Animation="@asset=Assets:FairyWalkEast"
+        Animation="@asset=Assets:FairyIdleSouth"
+        collisionSize="0.6 0.8"
         damping="20"
-        direction="East"
+        DialogueTree="1625"
+        direction="South"
         displayName="Fairy"
         imageName="Assets:Fairy"
         positionAdjust="0 -0.5"
         speed="4"
-        state="Walk"
+        state="Idle"
         useRange="1.5">
         <Sprite.CollisionShapes>
             <Polygon>
-                <Point>-0.5 -1</Point>
-                <Point>0.5 -1</Point>
-                <Point>0.5 0</Point>
-                <Point>-0.5 0</Point>
+                <Point>-0.3 -0.9</Point>
+                <Point>0.3 -0.9</Point>
+                <Point>0.3 -0.1</Point>
+                <Point>-0.3 -0.1</Point>
             </Polygon>
         </Sprite.CollisionShapes>
     </Sprite>
     <Sprite
         Name="Kea"
         class="Guide"
-        SceneLayer="18"
+        SceneLayer="12"
         Size="2 2"
         Position="-2.88 -2.88"
         FixedAngle="1"
@@ -7376,28 +7844,30 @@
         DefaultFriction="0"
         LinearDamping="20"
         CollisionCallback="1"
-        Animation="@asset=Assets:KeaWalkEast"
+        Animation="@asset=Assets:KeaIdleSouth"
+        collisionSize="0.6 0.8"
         damping="20"
-        direction="East"
+        DialogueTree="1630"
+        direction="South"
         displayName="Kea"
         imageName="Assets:Kea"
         positionAdjust="0 -0.5"
         speed="4"
-        state="Walk"
+        state="Idle"
         useRange="1.5">
         <Sprite.CollisionShapes>
             <Polygon>
-                <Point>-0.5 -1</Point>
-                <Point>0.5 -1</Point>
-                <Point>0.5 0</Point>
-                <Point>-0.5 0</Point>
+                <Point>-0.3 -0.9</Point>
+                <Point>0.3 -0.9</Point>
+                <Point>0.3 -0.1</Point>
+                <Point>-0.3 -0.1</Point>
             </Polygon>
         </Sprite.CollisionShapes>
     </Sprite>
     <Sprite
         Name="Owl"
         class="Guide"
-        SceneLayer="18"
+        SceneLayer="12"
         Size="2 2"
         Position="-20.16 -6.72"
         FixedAngle="1"
@@ -7405,21 +7875,23 @@
         DefaultFriction="0"
         LinearDamping="20"
         CollisionCallback="1"
-        Animation="@asset=Assets:OwlWalkEast"
+        Animation="@asset=Assets:OwlIdleSouth"
+        collisionSize="0.6 0.8"
         damping="20"
-        direction="East"
+        DialogueTree="1635"
+        direction="South"
         displayName="Owl"
         imageName="Assets:Owl"
         positionAdjust="0 -0.5"
         speed="4"
-        state="Walk"
+        state="Idle"
         useRange="1.5">
         <Sprite.CollisionShapes>
             <Polygon>
-                <Point>-0.5 -1</Point>
-                <Point>0.5 -1</Point>
-                <Point>0.5 0</Point>
-                <Point>-0.5 0</Point>
+                <Point>-0.3 -0.9</Point>
+                <Point>0.3 -0.9</Point>
+                <Point>0.3 -0.1</Point>
+                <Point>-0.3 -0.1</Point>
             </Polygon>
         </Sprite.CollisionShapes>
     </Sprite>
@@ -7488,8 +7960,9 @@
         SceneLayer="14"
         Position="-1 -2"
         FixedAngle="1"
+        DefaultDensity="350"
         DefaultFriction="0"
-        DefaultRestitution="0.25"
+        DefaultRestitution="0.100000001"
         LinearDamping="2"
         CollisionCallback="1"
         Image="@asset=Assets:Tiles"

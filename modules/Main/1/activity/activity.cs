@@ -1,5 +1,30 @@
 Main.ActiveYear = "";
 
+//	Defaults for all activities
+function PreSetupActivity(%activity)
+{
+	%activity.objective[0] = "Find the exit.";
+	%activity.currentObjective = 0;
+}
+
+//	Requires elements from the activity itself to work
+function PostSetupActivity(%activity)
+{
+	Canvas.pushDialog(InGameGUI);
+	
+	//	Default to objective 0
+	UpdateHelpBar(%activity, "");
+}
+
+//	Update the text in the In-game GUI Help Bar
+function UpdateHelpBar(%activity, %text)
+{
+	if (%text $= "")
+		HelpText.Text = %activity.objective[%activity.currentObjective];
+	else
+		HelpText.Text = %text;
+}
+
 function LoadYearGroup( %moduleDefinition )
 {
    // Sanity!
@@ -32,7 +57,10 @@ function LoadYearGroup( %moduleDefinition )
    %moduleDefinition.ScopeSet.add(GameWindow.getScene());
    
    // Add activity scope-set as a listener.
-   GameWindow.addInputListener( %moduleDefinition.ScopeSet );        
+   GameWindow.addInputListener( %moduleDefinition.ScopeSet );
+   
+	//	Default Activity Settings
+	CentreWindowOnSprite(Player);
 }
 
 function UnloadYearGroup()

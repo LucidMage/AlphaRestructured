@@ -22,6 +22,7 @@ function SetupPlayer(%scene, %position, %layer)
    %player = Profile.character;
    echo("Setup in player setup");
    %player.setup();
+   %player.setDefaultDensity(100);	//	So player cannot push characters
    
    %player.setPosition(%position);
    %player.setSceneLayer(%layer);
@@ -43,21 +44,25 @@ function SetupPlayer(%scene, %position, %layer)
 
 function Player::setGeneralBehaviours(%this)
 {
-	%this.clearBehaviours();
+	echo("Setting General Behaviour");
+	%this.clearBehaviors();
 
 	%controls = PlayerControlsBehaviour.createInstance();
 	%this.addBehavior(%controls);
 
 	%controls = InteractBehaviour.createInstance();
 	%this.addBehavior(%controls);
+	echo("General Behaviour Set");
 }
 
 function Player::setDialogueBehaviours(%this)
 {
-	%this.clearBehaviours();
+	echo("Setting Dialogue Behaviour");
+	%this.clearBehaviors();
 	
 	%controls = DialogueBehaviour.createInstance();
-	%this.addBehaviour(%controls);
+	%this.addBehavior(%controls);
+	echo("Dialogue Behaviour Set");
 }
 /*
 function Player::onCollision(%this, %sceneobject, %collisiondetails)

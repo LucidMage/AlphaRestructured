@@ -6,8 +6,8 @@ function Pushable::onAdd(%this)
    %this.setBodyType(dynamic);
    
    // This effects how characters collide
-   %this.setDefaultDensity(1);   // Made ridiculously high so characters will not budge
-   %this.setDefaultRestitution(0.25);	//	Bounciness
+   %this.setDefaultDensity(350);   // Made ridiculously high so characters will not budge
+   %this.setDefaultRestitution(0.1);	//	Bounciness
    %this.setDefaultFriction(0);
    %this.setLinearDamping(2);	//	How quickly it slows down
    

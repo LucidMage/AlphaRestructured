@@ -152,19 +152,19 @@
 				internalName="objectList"
 				isContainer="1"
 				Profile="GuiTransparentProfile"
-				HorizSizing="relative"
-				VertSizing="relative"
-				Position="25 1"
-				Extent="190 300"
-				MinExtent="1 2"
+				HorizSizing="width"
+				VertSizing="height"
+				Position="0 0"
+				Extent="340 30"
+				MinExtent="80 30"
 				canSave="1"
 				Visible="1"
 				Active="1"
 				tooltipprofile="GuiToolTipProfile"
 				hovertime="1000"
 				colCount="1"
-				colSize="180"
-				rowSize="50"
+				colSize="330"
+				rowSize="30"
 				rowSpacing="8"
 				colSpacing="8" />
 		</GuiScrollCtrl>
@@ -179,7 +179,7 @@
 		Position="500 480"
 		Extent="300 120"
 		MinExtent="60 60"
-		Visible="1"
+		Visible="0"
 		Image="@asset=Assets:blueGradient">
 	</GuiSpriteCtrl>
 </GuiControl>

@@ -1,5 +1,5 @@
 <AnimationAsset
-    AssetName="FairyIdleEast"
+    AssetName="FairyIdleSouth"
     Image="@asset=Assets:Fairy"
     animationFrames="2 8 14 8"
     animationTime="0.5"

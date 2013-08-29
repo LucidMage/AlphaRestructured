@@ -1,7 +1,7 @@
 <AnimationAsset
-    AssetName="HeadMaleMaoriNorth"
+    AssetName="HeadMalePakehaNorth"
     Image="@asset=Assets:Head"
-    animationFrames="3"
+    animationFrames="11"
     animationTime="1"
     animationCycle="1"
      />

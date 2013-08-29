@@ -13,12 +13,12 @@
 		<Layer Name = "CliffTop" Layer = "17" Render="true" useObjects="true" ></Layer>
 		<Layer Name = "TreesBack" Layer = "16" Render="true" useObjects="true" ></Layer>
 		<Layer Name = "House" Layer = "15" Render="true" useObjects="true" ></Layer>
-		<Layer Name = "HouseOver" Layer = "14" Render="true" useObjects="true" ></Layer>
+		<Layer Name = "HouseOver" Layer = "11" Render="true" useObjects="true" ></Layer>
 		<Layer Name = "TreesFront" Layer = "13" Render="true" useObjects="true" ></Layer>
 		
 		<Layer Name = "Collision" Layer = "19" Render = "false" useObjects="true"></Layer>
 		<Layer Name = "Trigger" Layer = "19" Render = "false" useObjects="true"></Layer>
-		<Layer Name = "Sprite" Layer = "18" Render = "false" useObjects="true"></Layer>
+		<Layer Name = "Sprite" Layer = "12" Render = "false" useObjects="true"></Layer>
 	</TmxMapAsset.Layers>
 		
 	<TmxMapAsset.Tiles>
@@ -59,7 +59,7 @@
 			</SceneObject>
 		</Tile>
 		<Tile Tag="CollisionHalfSouth" >
-			<SceneObject TamlId="1" BodyType="Static">				
+			<SceneObject TamlId="1" BodyType="Static">
 				<SceneObject.CollisionShapes>
 					<Polygon>
 						<Point>-1 0</Point>
@@ -71,7 +71,7 @@
 			</SceneObject>
 		</Tile>
 		<Tile Tag="CollisionHalfWest" >
-			<SceneObject TamlId="1" BodyType="Static">				
+			<SceneObject TamlId="1" BodyType="Static">
 				<SceneObject.CollisionShapes>
 					<Polygon>
 						<Point>0 -1</Point>
@@ -83,7 +83,7 @@
 			</SceneObject>
 		</Tile>
 		<Tile Tag="CollisionHalfEast" >
-			<SceneObject TamlId="1" BodyType="Static">				
+			<SceneObject TamlId="1" BodyType="Static">
 				<SceneObject.CollisionShapes>
 					<Polygon>
 						<Point>0 -1</Point>

@@ -1,6 +1,5 @@
 function CreateProfile()
 {
-   //echo("Create profile scriptobject");
    new ScriptObject(Profile)
    {
       password = "guest";
@@ -8,11 +7,11 @@ function CreateProfile()
       gender = "female";
       ethnicity = "pakeha";
 	  
-	  torsoColour = "blue";
+	  torso = "plaid";
+	  legs = "dress";
    };
    
    // Create Default Player Character
-   //echo("Create player composite sprite");
    %player = new CompositeSprite(Player)
    {
       displayName = "Test";
@@ -20,7 +19,8 @@ function CreateProfile()
       gender = Profile.gender;
       ethnicity = Profile.ethnicity;
 	  
-	  torsoColour = Profile.torsoColour;
+	  torso = Profile.torso;
+	  legs = Profile.legs;
    };
    
    // Must be different than other characters to stop the player from pushing other characters

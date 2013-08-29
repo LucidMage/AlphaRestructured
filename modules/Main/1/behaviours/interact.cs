@@ -16,7 +16,7 @@ function InteractBehaviour::onBehaviorAdd(%this)
       return;
 
    // bindObj(getWord(object.behaviour field, [function parameters excluding %this]), "function name", object)
-   GlobalActionMap.bindObj(getWord(%this.useKey, 0), getWord(%this.useKey, 1), "use", %this);
+   GlobalActionMap.bindObj(getWord(%this.useKey, 0), getWord(%this.useKey, 1), "Use", %this);
    
    // For debugging
    %scene = GameWindow.getScene();
@@ -41,17 +41,17 @@ function InteractBehaviour::onBehaviorRemove(%this)
 }
 
 //	Run the use function of whatever sprite is within range
-function InteractBehaviour::use(%this, %val)
+function InteractBehaviour::Use(%this, %val)
 {
-	echo("Running Use");
+	//echo("Running Use");
 	
-	echo("Val is " @ %val);
+	//echo("Val is " @ %val);
 	if (%val > 0)
 	{
 		echo("Val is greater than 0");
 		
 		%direction = %this.owner.direction;
-		%range = "0 0";//%this.owner.useRange;
+		%range = "0 0";
 		%startPos = %this.owner.getPosition(); // Starting point of pickRay
 		%startPos.x += %this.owner.positionAdjust.x;
 		%startPos.y += %this.owner.positionAdjust.y;
@@ -82,23 +82,52 @@ function InteractBehaviour::use(%this, %val)
 		for (%i = 0; %i < %count; %i++)
 		{
 		   %object = getWord(%picked, %i);
-		   echo("Picked object:");
-		   echo(%object);
-		   echo(%object.getName());
-		   echo("Owner:");
-		   echo(%this.owner);
-		   echo(%this.owner.getName());
-		   %object.use(%this, %this.owner);
+		   %object.Use(%this.owner);
 		}
 		
 		// For debugging
 		%this.RangeOverlay.PolyList = %startPos SPC %endPos;
-		GameWindow.getScene().add(%this.RangeOverlay);
+		//GameWindow.getScene().add(%this.RangeOverlay);
 	}
 	
-	echo("End of Use");
+	//echo("End of Use");
 }
 
-function InteractBehaviour::ShowRange()
+//	Scheduled method to display description of what will happen when they use an object in range
+function InteractBehaviour::DisplayUsable()
 {
+	%direction = %this.owner.direction;
+	%range = "0 0";
+	%startPos = %this.owner.getPosition(); // Starting point of pickRay
+	%startPos.x += %this.owner.positionAdjust.x;
+	%startPos.y += %this.owner.positionAdjust.y;
+	
+	%scene = GameWindow.getScene();
+	
+	//	First select a sprite
+	//	Should be in the direction the character is facing
+	switch$(%direction)
+	{
+	   case $SpriteDirectionUp:
+		  %range.y += %this.owner.useRange;
+	   case $SpriteDirectionRight:
+		   %range.x += %this.owner.useRange;
+	   case $SpriteDirectionDown:
+		   %range.y -= %this.owner.useRange;
+	   case $SpriteDirectionLeft:
+		   %range.x -= %this.owner.useRange;
+	}
+	
+	// Get sprites within range
+	%endPos = (%startPos.x + %range.x) SPC (%startPos.y + %range.y); // Ending point of pickRay
+	%picked = %scene.pickRay(%startPos, %endPos, "", "", collision);
+	
+	// Iterate over list of picked objects
+	%count = %picked.count;
+	
+	for (%i = 0; %i < %count; %i++)
+	{
+	   %object = getWord(%picked, %i);
+	   HelpText.Text = %object.DisplayUse();
+	}
 }

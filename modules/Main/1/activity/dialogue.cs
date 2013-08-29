@@ -1,11 +1,11 @@
-$DialogueResponseMax = 9;
-
 function Dialogue::setup(%this, %text)
 {
 	%this.dialogue = %text;
 	
+	echo("Dialogue Setup Response 0");
 	%this.responseText[0] = "[End Dialogue]";
 	%this.responseCount = 0;
+	echo("End of Dialogue Setup Response 0");
 	
 	%this.canEnd = true;
 	%this.canRepeat = true;
@@ -15,20 +15,38 @@ function Dialogue::setup(%this, %text)
 //	Display dialogue elements
 function Dialogue::display(%this, %owner, %target)
 {
+	echo("Displaying Dialogue");
+	
 	DialogueLabel.setText(%owner.displayName);
 	DialogueText.setText(%this.dialogue);
 	
-	%this.updateResponseArray();
+	%this.updateResponseArray(%owner);
 }
 
 //	Updates GUI to display responses from this dialogue
-function Dialogue::updateResponseArray(%this)
+function Dialogue::updateResponseArray(%this, %owner)
 {
-	%ResponseArray.clear();
+	ResponseArray.clear();
 	
+	%width = ResponseArray.getExtent().x;
+	%height = 0;//$GUIResponseHeight;
+	
+	//	Responses 1-9
 	for (%i = 1; %i <= %this.responseCount; %i++)
 	{
+		%height += $GUIResponseHeight;
+		ResponseArray.displayResponse(%owner, %this, %i);
 	}
+	
+	//	End Dialogue Response
+	if (%this.canEnd)
+	{
+		%height += $GUIResponseHeight;
+		ResponseArray.displayResponse(%owner, %this, 0);
+	}
+	
+	ResponseArray.resize(0, 0, %width, %height);
+	echo("After:" SPC ResponseArray.getExtent().y);
 }
 
 //	Add a response for the player to select
@@ -36,7 +54,7 @@ function Dialogue::updateResponseArray(%this)
 //	Next Dialogue = the dialogue object this response will lead to when selected
 function Dialogue::addResponse(%this, %text, %nextDialogue)
 {
-	if (%this.responseCount >= $DialogueResponseMax)
+	if (%this.responseCount <= $DialogueResponseMax)
 	{
 		%this.responseCount++;
 		%i = %this.responseCount;
@@ -58,7 +76,7 @@ function Dialogue::addResponse(%this, %text, %nextDialogue)
 function Dialogue::removeResponse(%this, %input)
 {
 	//	For Dialogue
-	if (%input.class == Dialogue)
+	if (%input.class $= "Dialogue")
 	{
 		for (%i = 1; %i <= %this.responseCount; %i++)
 			if (%responseDialogue[%i] == %input)
@@ -81,15 +99,19 @@ function Dialogue::removeResponse(%this, %input)
 		error("Wrong input type given to removeResponse for" SPC %this.dialogue);
 }
 
-//	
-function ResponseArray::addResponse(%this, %i)
+//	Display the response on the GUI
+function ResponseArray::displayResponse(%this, %owner, %dialogue, %i)
 {
-	//	Response 1 at the top, response 0 at the bottom
+	//	Button positioning. Response 1 at the top, response 0 at the bottom
 	if (%i == 0)
-		%i = %this.responseCount + 1;
+		%vertOrder = %this.responseCount + 1;
+	else
+		%vertOrder = %i;
 	
-	%extent = %this.extent;
+	//	Size of button
+	%extent = %this.getExtent();
 	
+	//	Add resposne as a GUI button
     %button = new GuiButtonCtrl()
     {
         canSaveDynamicFields = "0";
@@ -97,19 +119,25 @@ function ResponseArray::addResponse(%this, %i)
         VertSizing = "top";
         isContainer = "0";
         Profile = "DialogueResponseProfile";
-        Position = "0" SPC ($GUIResponseHeight * (%i - 1));
-        Extent = %extent.x SPC "30";
-		MinExtent = "80 30";
+        Position = "0" SPC ($GUIResponseHeight * (%vertOrder - 1));
+        Extent = %extent.x SPC $GUIResponseHeight;
+		MinExtent = "80 15";
         Visible = "1";
         isContainer = "0";
         Active = "1";
-        text = %i @ "." TAB %responseText[%i];
+        text = %i @ "." TAB %dialogue.responseText[%i];
         groupNum = "-1";
         buttonType = "PushButton";
         useMouseEvents = "1";
     };
-     
-    %button.command = "";
+	
+	//	Assign command to response button
+	if (%i == 0)
+		%command = %owner @ ".dialogueTree.closeDialogue();";
+	else
+		%command = %owner @ ".dialogueTree.nextDialogue(" @ %i @ ");";
+	
+    %button.command = %command;
     
     %this.add(%button);
 }

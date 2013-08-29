@@ -40,7 +40,7 @@ function resetCustomControls()
 {
     Main.lastControlBottom = "0";
     Main.customControlCount = 0;
-    
+   
     %customControlExtent = ToyCustomControls.Extent;
     %newExtent = getWord(ToyCustomControls.Extent, 0) SPC 705;
     ToyCustomControls.Extent = %newExtent;

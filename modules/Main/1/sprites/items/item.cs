@@ -12,9 +12,14 @@ function Item::onAdd(%this)
    //%this.setFixedAngle(true);
 }
 
-function Item::use(%this, %user)
+function Item::Use(%this, %user)
 {
    echo("Item made contact with user");
    Inventory.AddItem(%this);
    %this.removeFromScene();
+}
+
+function Item::DisplayUse()
+{
+	return "Pick up" SPC %this @ ".";
 }

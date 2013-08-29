@@ -53,15 +53,14 @@ function PlayerControlsBehaviour::updateMovement(%this)
 	// Set animation group
 	if (%this.up > 0 || %this.down > 0 || %this.left > 0 || %this.right > 0)
 	{
-		//%this.owner.state = $SpriteStateWalk;
+		%this.owner.state = $SpriteStateWalk;
 		%this.owner.setLinearDamping(0);	//	So character will continue moving without slowing down
 	}
 	else
 	{
-		//%this.owner.state = $SpriteStateIdle;
+		%this.owner.state = $SpriteStateIdle;
 		%this.owner.setLinearDamping(%this.owner.damping);	//	Slows down
 	}
-   %this.owner.state = $SpriteStateWalk;
    
    // Set direction
    if (%this.up > 0)

@@ -1,4 +1,4 @@
-//-------------------------- 8/24/2013 -- 18:53:10 -----
+//-------------------------- 8/30/2013 -- 10:00:43 -----
 Console trace is off.
 --------------------------------------------------------------------------------
 Video Initialization:
@@ -17,8 +17,8 @@ Creating a new rendering context...
 Making the new rendering context current...
 OpenGL driver information:
   Vendor: ATI Technologies Inc.
-  Renderer: Radeon (TM) HD 6470M    
-  Version: 4.1.10600 Compatibility Profile Context
+  Renderer: ATI Radeon HD 2400 XT
+  Version: 3.3.11554 Compatibility Profile Context
 OpenGL Init: Enabled Extensions
   ARB_multitexture (Max Texture Units: 8)
   EXT_blend_color
@@ -37,23 +37,27 @@ OpenGL Init: Disabled Extensions
   NV_vertex_array_range
   3DFX_texture_compression_FXT1
 
-Max Texture Size reported as: 16384
+Max Texture Size reported as: 8192
 OpenAL Driver Init
 OpenAL Driver Init Success
-Asset Manager: Encountered asset Id 'Assets:HeadMaleMaoriWest' in asset file 'C:/Users/Adam/Dropbox/SRG/AlphaRestructured/modules/Assets/animations/characters/HeadMalePakehaEast.asset.taml' but it conflicts with existing asset Id in asset file 'C:/Users/Adam/Dropbox/SRG/AlphaRestructured/modules/Assets/animations/characters/HeadMaleMaoriWest.asset.taml'.
-Asset Manager: Encountered asset Id 'Assets:HeadMaleMaoriNorth' in asset file 'C:/Users/Adam/Dropbox/SRG/AlphaRestructured/modules/Assets/animations/characters/HeadMalePakehaNorth.asset.taml' but it conflicts with existing asset Id in asset file 'C:/Users/Adam/Dropbox/SRG/AlphaRestructured/modules/Assets/animations/characters/HeadMaleMaoriNorth.asset.taml'.
-TamlXmlParser: Could not load Taml XML file from stream.
-Asset Manager: Failed to parse file containing asset declaration: 'C:/Users/Adam/Dropbox/SRG/AlphaRestructured/modules/Assets//animations/characters/LegDressWalkingEast.asset.taml'.
-TamlXmlParser: Could not load Taml XML file from stream.
-Asset Manager: Failed to parse file containing asset declaration: 'C:/Users/Adam/Dropbox/SRG/AlphaRestructured/modules/Assets//animations/characters/LegDressWalkingNorth.asset.taml'.
-TamlXmlParser: Could not load Taml XML file from stream.
-Asset Manager: Failed to parse file containing asset declaration: 'C:/Users/Adam/Dropbox/SRG/AlphaRestructured/modules/Assets//animations/characters/LegDressWalkingSouth.asset.taml'.
-TamlXmlParser: Could not load Taml XML file from stream.
-Asset Manager: Failed to parse file containing asset declaration: 'C:/Users/Adam/Dropbox/SRG/AlphaRestructured/modules/Assets//animations/characters/LegDressWalkingWest.asset.taml'.
-Asset Manager: Encountered asset Id 'Assets:FairyIdleEast' in asset file 'C:/Users/Adam/Dropbox/SRG/AlphaRestructured/modules/Assets/animations/guide/FairyIdleSouth.asset.taml' but it conflicts with existing asset Id in asset file 'C:/Users/Adam/Dropbox/SRG/AlphaRestructured/modules/Assets/animations/guide/FairyIdleEast.asset.taml'.
-Asset Manager: Encountered asset Id 'Assets:KeaIdleEast' in asset file 'C:/Users/Adam/Dropbox/SRG/AlphaRestructured/modules/Assets/animations/guide/KeaIdleSouth.asset.taml' but it conflicts with existing asset Id in asset file 'C:/Users/Adam/Dropbox/SRG/AlphaRestructured/modules/Assets/animations/guide/KeaIdleEast.asset.taml'.
-Asset Manager: Encountered asset Id 'Assets:OwlIdleEast' in asset file 'C:/Users/Adam/Dropbox/SRG/AlphaRestructured/modules/Assets/animations/guide/OwlIdleSouth.asset.taml' but it conflicts with existing asset Id in asset file 'C:/Users/Adam/Dropbox/SRG/AlphaRestructured/modules/Assets/animations/guide/OwlIdleEast.asset.taml'.
-Asset Manager: Failed to acquire asset Id 'Assets:LegsblueSouth' as it does not exist.
+Asset Manager: Encountered asset Id 'Assets:HeadFemaleAsianCheerEast' in asset file 'C:/Users/herdad1/Dropbox/SRG/AlphaRestructured/modules/Assets/Emotion/HeadFemaleAsianCheerEast.asset.taml' but it conflicts with existing asset Id in asset file 'C:/Users/herdad1/Dropbox/SRG/AlphaRestructured/modules/Assets/animations/characters/HeadFemaleAsianCheerEast.asset.taml'.
+Asset Manager: Encountered asset Id 'Assets:HeadFemaleAsianCheerNorth' in asset file 'C:/Users/herdad1/Dropbox/SRG/AlphaRestructured/modules/Assets/Emotion/HeadFemaleAsianCheerNorth.asset.taml' but it conflicts with existing asset Id in asset file 'C:/Users/herdad1/Dropbox/SRG/AlphaRestructured/modules/Assets/animations/characters/HeadFemaleAsianCheerNorth.asset.taml'.
+Asset Manager: Encountered asset Id 'Assets:HeadFemaleAsianCheerSouth' in asset file 'C:/Users/herdad1/Dropbox/SRG/AlphaRestructured/modules/Assets/Emotion/HeadFemaleAsianCheerSouth.asset.taml' but it conflicts with existing asset Id in asset file 'C:/Users/herdad1/Dropbox/SRG/AlphaRestructured/modules/Assets/animations/characters/HeadFemaleAsianCheerSouth.asset.taml'.
+Asset Manager: Encountered asset Id 'Assets:HeadFemaleAsianCheerWest' in asset file 'C:/Users/herdad1/Dropbox/SRG/AlphaRestructured/modules/Assets/Emotion/HeadFemaleAsianCheerWest.asset.taml' but it conflicts with existing asset Id in asset file 'C:/Users/herdad1/Dropbox/SRG/AlphaRestructured/modules/Assets/animations/characters/HeadFemaleAsianCheerWest.asset.taml'.
+Asset Manager: Encountered asset Id 'Assets:HeadMalePakehaCheerEast' in asset file 'C:/Users/herdad1/Dropbox/SRG/AlphaRestructured/modules/Assets/Emotion/HeadMalePakehaCheerEast.asset.taml' but it conflicts with existing asset Id in asset file 'C:/Users/herdad1/Dropbox/SRG/AlphaRestructured/modules/Assets/animations/characters/HeadMalePakehaCheerEast.asset.taml'.
+Asset Manager: Encountered asset Id 'Assets:HeadMalePakehaCheerNorth' in asset file 'C:/Users/herdad1/Dropbox/SRG/AlphaRestructured/modules/Assets/Emotion/HeadMalePakehaCheerNorth.asset.taml' but it conflicts with existing asset Id in asset file 'C:/Users/herdad1/Dropbox/SRG/AlphaRestructured/modules/Assets/animations/characters/HeadMalePakehaCheerNorth.asset.taml'.
+Asset Manager: Encountered asset Id 'Assets:HeadMalePakehaCheerSouth' in asset file 'C:/Users/herdad1/Dropbox/SRG/AlphaRestructured/modules/Assets/Emotion/HeadMalePakehaCheerSouth.asset.taml' but it conflicts with existing asset Id in asset file 'C:/Users/herdad1/Dropbox/SRG/AlphaRestructured/modules/Assets/animations/characters/HeadMalePakehaCheerSouth.asset.taml'.
+Asset Manager: Encountered asset Id 'Assets:HeadMalePakehaCheerWest' in asset file 'C:/Users/herdad1/Dropbox/SRG/AlphaRestructured/modules/Assets/Emotion/HeadMalePakehaCheerWest.asset.taml' but it conflicts with existing asset Id in asset file 'C:/Users/herdad1/Dropbox/SRG/AlphaRestructured/modules/Assets/animations/characters/HeadMalePakehaCheerWest.asset.taml'.
+Character Setup
+Dialogue Setup Response 0
+End of Dialogue Setup Response 0
+Gender: female
+Ethnicity: pakeha
+State: 
+Torso: plaid
+Legs: dress
+HeadfemalepakehaSouth
+End of Character Setup
 modules/Main/1/activity/scene.cs (35): Unable to find object: 'testart' attempting to call function 'getName'
 Data/Test.Lesson1..taml
 Scene object added to scene but the object is not registered with the simulation.  No 'onAddToScene' can be performed!  Use Target scene.
@@ -70,33 +74,298 @@ Scene object added to scene but the object is not registered with the simulation
 Scene object added to scene but the object is not registered with the simulation.  No 'onAddToScene' can be performed!  Use Target scene.
 Getting character from profile
 Setup in player setup
-Asset Manager: Failed to acquire asset Id 'Assets:LegsblueSouth' as it does not exist.
-modules/Main/1/sprites/characters/player.cs (46): Unknown command clearBehaviours.
-  Object Player(1174) Player -> Character -> CompositeSprite -> SceneObject -> BehaviorComponent -> DynamicConsoleMethodComponent -> SimComponent -> SimObject
+Character Setup
+Dialogue Setup Response 0
+End of Dialogue Setup Response 0
+Gender: female
+Ethnicity: pakeha
+State: 
+Torso: plaid
+Legs: dress
+HeadfemalepakehaSouth
+End of Character Setup
+Setting General Behaviour
+General Behaviour Set
+Character Setup
+Dialogue Setup Response 0
+End of Dialogue Setup Response 0
+Gender: Male
+Ethnicity: Maori
+State: 
+Torso: 
+Legs: Dress
+HeadMaleMaoriSouth
+Asset Manager: Failed to acquire asset Id 'Assets:TorsoSouth' as it does not exist.
+End of Character Setup
+Character Setup
+Dialogue Setup Response 0
+End of Dialogue Setup Response 0
+Gender: Male
+Ethnicity: Maori
+State: 
+Torso: 
+Legs: Dress
+HeadMaleMaoriSouth
+Asset Manager: Failed to acquire asset Id 'Assets:TorsoSouth' as it does not exist.
+End of Character Setup
+Character Setup
+Dialogue Setup Response 0
+End of Dialogue Setup Response 0
+Gender: Female
+Ethnicity: Pakeha
+State: 
+Torso: 
+Legs: Dress
+HeadFemalePakehaSouth
+Asset Manager: Failed to acquire asset Id 'Assets:TorsoSouth' as it does not exist.
+End of Character Setup
+Character Setup
+Dialogue Setup Response 0
+End of Dialogue Setup Response 0
+Gender: Female
+Ethnicity: Pakeha
+State: 
+Torso: 
+Legs: Dress
+HeadFemalePakehaSouth
+Asset Manager: Failed to acquire asset Id 'Assets:TorsoSouth' as it does not exist.
+End of Character Setup
+Character Setup
+Dialogue Setup Response 0
+End of Dialogue Setup Response 0
+Gender: Female
+Ethnicity: PI
+State: 
+Torso: 
+Legs: Dress
+HeadFemalePISouth
+Asset Manager: Failed to acquire asset Id 'Assets:TorsoSouth' as it does not exist.
+End of Character Setup
+Character Setup
+Dialogue Setup Response 0
+End of Dialogue Setup Response 0
+Gender: Female
+Ethnicity: PI
+State: 
+Torso: 
+Legs: Dress
+HeadFemalePISouth
+Asset Manager: Failed to acquire asset Id 'Assets:TorsoSouth' as it does not exist.
+End of Character Setup
+Character Setup
+Dialogue Setup Response 0
+End of Dialogue Setup Response 0
+Gender: Male
+Ethnicity: Asian
+State: 
+Torso: Plaid
+Legs: Dress
+HeadMaleAsianSouth
+End of Character Setup
+Character Setup
+Dialogue Setup Response 0
+End of Dialogue Setup Response 0
+Gender: Male
+Ethnicity: Asian
+State: 
+Torso: Plaid
+Legs: Dress
+HeadMaleAsianSouth
+End of Character Setup
+Dialogue Setup Response 0
+End of Dialogue Setup Response 0
+Dialogue Setup Response 0
+End of Dialogue Setup Response 0
+Dialogue Setup Response 0
+End of Dialogue Setup Response 0
+Dialogue Setup Response 0
+End of Dialogue Setup Response 0
+Setup Dialogue
+Dialogue Setup Response 0
+End of Dialogue Setup Response 0
+Dialogue Setup Response 0
+End of Dialogue Setup Response 0
+Dialogue Setup Response 0
+End of Dialogue Setup Response 0
+Dialogue Setup Response 0
+End of Dialogue Setup Response 0
+Dialogue Setup Response 0
+End of Dialogue Setup Response 0
 Setup Triggers
-Asset Manager: Failed to acquire asset Id 'Assets:LegsblueSouth' as it does not exist.
-Asset Manager: Failed to acquire asset Id 'Assets:LegsblueWest' as it does not exist.
-Asset Manager: Failed to acquire asset Id 'Assets:LegsblueSouth' as it does not exist.
-Asset Manager: Failed to acquire asset Id 'Assets:LegsblueWest' as it does not exist.
-Asset Manager: Failed to acquire asset Id 'Assets:LegsblueWest' as it does not exist.
-Asset Manager: Failed to acquire asset Id 'Assets:LegsblueWest' as it does not exist.
-Running Use
-Val is 1
+Gender: female
+Ethnicity: pakeha
+State: 
+Torso: plaid
+Legs: dress
+HeadfemalepakehaSouth
+Gender: female
+Ethnicity: pakeha
+State: 
+Torso: plaid
+Legs: dress
+HeadfemalepakehaSouth
+Gender: female
+Ethnicity: pakeha
+State: 
+Torso: plaid
+Legs: dress
+HeadfemalepakehaWest
+Gender: female
+Ethnicity: pakeha
+State: 
+Torso: plaid
+Legs: dress
+HeadfemalepakehaWest
+Gender: female
+Ethnicity: pakeha
+State: 
+Torso: plaid
+Legs: dress
+HeadfemalepakehaSouth
+Gender: female
+Ethnicity: pakeha
+State: 
+Torso: plaid
+Legs: dress
+HeadfemalepakehaSouth
+Gender: female
+Ethnicity: pakeha
+State: 
+Torso: plaid
+Legs: dress
+HeadfemalepakehaWest
+Gender: female
+Ethnicity: pakeha
+State: 
+Torso: plaid
+Legs: dress
+HeadfemalepakehaWest
+Gender: female
+Ethnicity: pakeha
+State: 
+Torso: plaid
+Legs: dress
+HeadfemalepakehaWest
+Gender: female
+Ethnicity: pakeha
+State: 
+Torso: plaid
+Legs: dress
+HeadfemalepakehaWest
+Gender: female
+Ethnicity: pakeha
+State: 
+Torso: plaid
+Legs: dress
+HeadfemalepakehaSouth
+Gender: female
+Ethnicity: pakeha
+State: 
+Torso: plaid
+Legs: dress
+HeadfemalepakehaSouth
+Gender: female
+Ethnicity: pakeha
+State: 
+Torso: plaid
+Legs: dress
+HeadfemalepakehaWest
+Gender: female
+Ethnicity: pakeha
+State: 
+Torso: plaid
+Legs: dress
+HeadfemalepakehaWest
 Val is greater than 0
-Picked object:
-1566
-Dragon
-Owner:
-Player
-Player
-User:
-1564
-
-modules/Main/1/sprites/characters/guide.cs (46): Unable to find object: '' attempting to call function 'openDialogue'
-End of Use
-Running Use
-Val is 0
-End of Use
+Opening Dialogue
+Displaying Dialogue
+After: 122
+Next Dialogue
+Displaying Dialogue
+After: 46
+Next Dialogue
+Displaying Dialogue
+After: 46
+Closing Dialogue
+Setting General Behaviour
+General Behaviour Set
+Gender: female
+Ethnicity: pakeha
+State: 
+Torso: plaid
+Legs: dress
+HeadfemalepakehaSouth
+Gender: female
+Ethnicity: pakeha
+State: 
+Torso: plaid
+Legs: dress
+HeadfemalepakehaWest
+Gender: female
+Ethnicity: pakeha
+State: 
+Torso: plaid
+Legs: dress
+HeadfemalepakehaWest
+Gender: female
+Ethnicity: pakeha
+State: 
+Torso: plaid
+Legs: dress
+HeadfemalepakehaWest
+Gender: female
+Ethnicity: pakeha
+State: 
+Torso: plaid
+Legs: dress
+HeadfemalepakehaSouth
+Gender: female
+Ethnicity: pakeha
+State: 
+Torso: plaid
+Legs: dress
+HeadfemalepakehaWest
+Gender: female
+Ethnicity: pakeha
+State: 
+Torso: plaid
+Legs: dress
+HeadfemalepakehaSouth
+Gender: female
+Ethnicity: pakeha
+State: 
+Torso: plaid
+Legs: dress
+HeadfemalepakehaEast
+Gender: female
+Ethnicity: pakeha
+State: 
+Torso: plaid
+Legs: dress
+HeadfemalepakehaSouth
+Gender: female
+Ethnicity: pakeha
+State: 
+Torso: plaid
+Legs: dress
+HeadfemalepakehaSouth
+Gender: female
+Ethnicity: pakeha
+State: 
+Torso: plaid
+Legs: dress
+HeadfemalepakehaEast
+Gender: female
+Ethnicity: pakeha
+State: 
+Torso: plaid
+Legs: dress
+HeadfemalepakehaEast
+Val is greater than 0
+Item made contact with user
+New Item 1642
+Item 0 : GreenGem
+Inventory Count 1
 Con::execute - 0 has no namespace: onRemoveFromScene
 Con::execute - 0 has no namespace: onRemoveFromScene
 Con::execute - 0 has no namespace: onRemoveFromScene
